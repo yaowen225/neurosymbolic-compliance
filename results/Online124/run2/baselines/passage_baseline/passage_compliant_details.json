@@ -1,0 +1,624 @@
+[
+  {
+    "clause_id": "main_1.1",
+    "paragraph_id": "main_1",
+    "sentence": "This agreement re processing of personal data (the ”Data Processor Agreement”) regulates Processor, Company registration no. 25163258 (the ”Data Processor”) processing of personal data on behalf of the customer (the ”Data Controller”) and is attached as appendix A to the Processor subscription agreement (the ”Main Agreement”), in which the parties have agreed the terms for the Data Processor’s delivery of services to the Data Controller (the ”Main Services”). 2. Legislation",
+    "prediction_raw": "R1",
+    "parsed_rules": [
+      "R1"
+    ]
+  },
+  {
+    "clause_id": "main_2.1_main",
+    "paragraph_id": "main_2",
+    "sentence": "The Data Processor Agreement shall ensure that the Data Processor complies with the applicable data protection and privacy legislation (the ”Applicable Law”), including in particular:",
+    "prediction_raw": "0",
+    "parsed_rules": []
+  },
+  {
+    "clause_id": "main_2.1_i",
+    "paragraph_id": "main_2",
+    "sentence": "The European Parliament and the Council’s Directive 95/46/EF of 24 October 1995 on the protection of individuals with regard to the processing of personal data and on the free movement of such data as implemented in Danish law with, among others, the Act on Processing of Personal Data (Act No. 429 of 31 May 2000).",
+    "prediction_raw": "0",
+    "parsed_rules": []
+  },
+  {
+    "clause_id": "main_2.1_ii",
+    "paragraph_id": "main_2",
+    "sentence": "The European Parliament and the Council’s Regulation 2016/679 of 27 April 2016 on the protection of natural persons with regard to the processing of personal data and on the free movement of such data that entered into force on 24 May 2016 and will be applicable on 25 May 2018 (“GDPR”). Irrespective of the general use and reference to GDPR in this Data Processor Agreement, the parties are not obliged to comply with GDPR before 25 May 2018. 3. Processing of personal data",
+    "prediction_raw": "0",
+    "parsed_rules": []
+  },
+  {
+    "clause_id": "main_3.1",
+    "paragraph_id": "main_3",
+    "sentence": "In connection with the Data Processor’s delivery of the Main Services to the Data Controller, the Data Processor will process certain categories and types of the Data Controller’s personal data on behalf of the Data Controller.",
+    "prediction_raw": "R5",
+    "parsed_rules": [
+      "R5"
+    ]
+  },
+  {
+    "clause_id": "main_3.2_main",
+    "paragraph_id": "main_3",
+    "sentence": "”Personal data” include “any information relating to an identified or identifiable natural person” as defined in GDPR, article 4",
+    "prediction_raw": "R5",
+    "parsed_rules": [
+      "R5"
+    ]
+  },
+  {
+    "clause_id": "main_3.2_1",
+    "paragraph_id": "main_3",
+    "sentence": "(the ”Personal Data”). The categories and types of Personal Data processed by the Data Processor on behalf of the Data Controller are listed in sub-appendix A. The Data Processor only performs processing activities that are necessary and relevant to perform the Main Services. The parties shall update sub-appendix A whenever changes occur that necessitates an update.",
+    "prediction_raw": "R5",
+    "parsed_rules": [
+      "R5"
+    ]
+  },
+  {
+    "clause_id": "main_3.3",
+    "paragraph_id": "main_3",
+    "sentence": "The Data Processor shall have and maintain a register of processing activities in accordance with GDPR, article 32 (2).",
+    "prediction_raw": "0",
+    "parsed_rules": []
+  },
+  {
+    "clause_id": "main_3.4",
+    "paragraph_id": "main_3",
+    "sentence": "The Data Processor processes personal data about the Data Controller and the Data Controller’s employees in connection with the Data Processor’s sale, marketing and product development. These personal data are not comprised by this Data Processor Agreement, because the Data Processor is data controller for said personal data, and reference is made to the Data Processor’s data protection and privacy policy available at the Data Processor’s website. 4. Instruction",
+    "prediction_raw": "0",
+    "parsed_rules": []
+  },
+  {
+    "clause_id": "main_4.1",
+    "paragraph_id": "main_4",
+    "sentence": "The Data Processor may only act and process the Personal Data in accordance with the documented instruction from the Data Controller (the ”Instruction”). The Instruction at the time of entering into this Data Processor Agreement is that the Data Processor may only process the Personal Data with the purpose of delivering the Main Services as described in the Main Agreement.",
+    "prediction_raw": "R12",
+    "parsed_rules": [
+      "R12"
+    ]
+  },
+  {
+    "clause_id": "main_4.2",
+    "paragraph_id": "main_4",
+    "sentence": "The Data Controller guarantees that the Personal Data transferred to the Data Processor is processed by the Data Controller in accordance with the Applicable Law, including the legislative requirements re lawfulness of processing.",
+    "prediction_raw": "0",
+    "parsed_rules": []
+  },
+  {
+    "clause_id": "main_4.3",
+    "paragraph_id": "main_4",
+    "sentence": "The Data Processor shall give notice without undue delay if the Data Processor considers the at the time being Instruction to be in conflict with the Applicable Law. 5. The data Processor’s obligations",
+    "prediction_raw": "R24",
+    "parsed_rules": [
+      "R24"
+    ]
+  },
+  {
+    "clause_id": "main_5.1",
+    "paragraph_id": "main_5",
+    "sentence": "Confidentiality",
+    "prediction_raw": "R15",
+    "parsed_rules": [
+      "R15"
+    ]
+  },
+  {
+    "clause_id": "main_5.1.1",
+    "paragraph_id": "main_5",
+    "sentence": "The Data Processor shall treat all the Personal Data as strictly confidential information. The Personal Data may not be copied, transferred or otherwise processed in conflict with the Instruction, unless the Data Controller in writing has agreed hereto.",
+    "prediction_raw": "R15",
+    "parsed_rules": [
+      "R15"
+    ]
+  },
+  {
+    "clause_id": "main_5.1.2",
+    "paragraph_id": "main_5",
+    "sentence": "The Data Processor’s employees shall be subject to an obligation of confidentiality that ensures that the employees shall treat all the Personal Data under this Data Processor Agreement with strict confidentiality.",
+    "prediction_raw": "R15",
+    "parsed_rules": [
+      "R15"
+    ]
+  },
+  {
+    "clause_id": "main_5.2",
+    "paragraph_id": "main_5",
+    "sentence": "Security",
+    "prediction_raw": "R32",
+    "parsed_rules": [
+      "R32"
+    ]
+  },
+  {
+    "clause_id": "main_5.2.1",
+    "paragraph_id": "main_5",
+    "sentence": "The Data Processor shall implement the appropriate technical and organizational measures as set out in this Agreement and in the Applicable Law, including in accordance with GDPR, article 32.",
+    "prediction_raw": "R32",
+    "parsed_rules": [
+      "R32"
+    ]
+  },
+  {
+    "clause_id": "main_5.3",
+    "paragraph_id": "main_5",
+    "sentence": "The Data Processor shall ensure that access to the Personal Data is restricted to only the employees to whom it is necessary and relevant to process the Personal Data in order for the Data Processor to perform its obligations under the Main Agreement and this Data Processor Agreement.",
+    "prediction_raw": "R15",
+    "parsed_rules": [
+      "R15"
+    ]
+  },
+  {
+    "clause_id": "main_5.4",
+    "paragraph_id": "main_5",
+    "sentence": "The Data Processor shall also ensure that the Data Processor’s employees working processing the Personal Data only processes the Personal Data in accordance with the Instruction.",
+    "prediction_raw": "R33",
+    "parsed_rules": [
+      "R33"
+    ]
+  },
+  {
+    "clause_id": "main_5.4.1",
+    "paragraph_id": "main_5",
+    "sentence": "The Data Processor shall provide documentation for the Data Processor’s security measures if requested by the Data Controller in writing.",
+    "prediction_raw": "R25",
+    "parsed_rules": [
+      "R25"
+    ]
+  },
+  {
+    "clause_id": "main_5.5",
+    "paragraph_id": "main_5",
+    "sentence": "Data protection impact assessments and prior consultation",
+    "prediction_raw": "R19",
+    "parsed_rules": [
+      "R19"
+    ]
+  },
+  {
+    "clause_id": "main_5.5.1",
+    "paragraph_id": "main_5",
+    "sentence": "If the Data Processor’s assistance is necessary and relevant, the Data Processor shall assist the Data Controller in preparing data protection impact assessments in accordance with GDPR, article 35, along with any prior consultation in accordance with GDPR, article 36.",
+    "prediction_raw": "R22",
+    "parsed_rules": [
+      "R22"
+    ]
+  },
+  {
+    "clause_id": "main_5.6",
+    "paragraph_id": "main_5",
+    "sentence": "Rights of the data subjects",
+    "prediction_raw": "R17",
+    "parsed_rules": [
+      "R17"
+    ]
+  },
+  {
+    "clause_id": "main_5.6.1",
+    "paragraph_id": "main_5",
+    "sentence": "If the Data Controller receives a request from a data subject for the exercise of the data subject’s rights under the Applicable Law and the correct and legitimate reply to such a request necessitates the Data Processor’s assistance, the Data Processor shall assist the Data Controller by providing the necessary information and documentation. The Data Processor shall be given reasonable time to assist the Data Controller with such requests in accordance with the Applicable Law.",
+    "prediction_raw": "R17",
+    "parsed_rules": [
+      "R17"
+    ]
+  },
+  {
+    "clause_id": "main_5.6.2",
+    "paragraph_id": "main_5",
+    "sentence": "If the Data Processor receives a request from a data subject for the exercise of the data subject’s rights under the Applicable Law and such request is related to the Personal Data of the Data Controller, the Data Processor must immediately forward the request to the Data Controller and must refrain from responding to the person directly.",
+    "prediction_raw": "R17",
+    "parsed_rules": [
+      "R17"
+    ]
+  },
+  {
+    "clause_id": "main_5.7",
+    "paragraph_id": "main_5",
+    "sentence": "Personal Data Breaches",
+    "prediction_raw": "R34",
+    "parsed_rules": [
+      "R34"
+    ]
+  },
+  {
+    "clause_id": "main_5.7.1",
+    "paragraph_id": "main_5",
+    "sentence": "The Data Processor shall give immediate notice to the Data Controller if a breach of the data security occurs, that can lead to the accidental or unlawful destruction, loss, alteration, unauthorized disclosure of or access to, personal data transmitted, stored or otherwise processed re the Personal Data processed on behalf of the Data Controller (a “Personal Data Breach”).",
+    "prediction_raw": "R34",
+    "parsed_rules": [
+      "R34"
+    ]
+  },
+  {
+    "clause_id": "main_5.7.2_main",
+    "paragraph_id": "main_5",
+    "sentence": "The Data Processor shall have and maintain a register of all Personal Data Breaches. The register shall at a minimum include the following:",
+    "prediction_raw": "R8",
+    "parsed_rules": [
+      "R8"
+    ]
+  },
+  {
+    "clause_id": "main_5.7.2_i",
+    "paragraph_id": "main_5",
+    "sentence": "A description of the nature of the Personal Data Breach, including, if possible, the categories and the approximate number of affected Data Subjects and the categories and the approximate number of affected registrations of personal data.",
+    "prediction_raw": "R8",
+    "parsed_rules": [
+      "R8"
+    ]
+  },
+  {
+    "clause_id": "main_5.7.2_ii",
+    "paragraph_id": "main_5",
+    "sentence": "A description of the likely as well as actually occurred consequences of the Personal Data Breach.",
+    "prediction_raw": "R8",
+    "parsed_rules": [
+      "R8"
+    ]
+  },
+  {
+    "clause_id": "main_5.7.2_iii",
+    "paragraph_id": "main_5",
+    "sentence": "A description of the measures that the Data Processor has taken or proposes to take to address the Personal Data Breach, including, where appropriate, measures taken to mitigate its adverse effects.",
+    "prediction_raw": "R8",
+    "parsed_rules": [
+      "R8"
+    ]
+  },
+  {
+    "clause_id": "main_5.7.3",
+    "paragraph_id": "main_5",
+    "sentence": "The register of Personal Data Breaches shall be provided to the Data Controller in copy if so requested in writing by the Data Controller or the relevant Data Protection Agency.",
+    "prediction_raw": "0",
+    "parsed_rules": []
+  },
+  {
+    "clause_id": "main_5.8",
+    "paragraph_id": "main_5",
+    "sentence": "Documentation of compliance",
+    "prediction_raw": "R25",
+    "parsed_rules": [
+      "R25"
+    ]
+  },
+  {
+    "clause_id": "main_5.8.1_main",
+    "paragraph_id": "main_5",
+    "sentence": "The Data Processor shall after the Data Controller’s written request hereof provide documentation substantiating that:",
+    "prediction_raw": "R25",
+    "parsed_rules": [
+      "R25"
+    ]
+  },
+  {
+    "clause_id": "main_5.8.1_i",
+    "paragraph_id": "main_5",
+    "sentence": "the Data Processor complies with its obligations under this Data Processor Agreement and the Instruction; and",
+    "prediction_raw": "R25",
+    "parsed_rules": [
+      "R25"
+    ]
+  },
+  {
+    "clause_id": "main_5.8.1_ii",
+    "paragraph_id": "main_5",
+    "sentence": "the Data Processor complies with the Applicable Law in respect of the processing of the Data Controller’s Personal Data.",
+    "prediction_raw": "0",
+    "parsed_rules": []
+  },
+  {
+    "clause_id": "main_5.8.2",
+    "paragraph_id": "main_5",
+    "sentence": "The Data Processor’s documentation of compliance shall be provided within reasonable time.",
+    "prediction_raw": "R25",
+    "parsed_rules": [
+      "R25"
+    ]
+  },
+  {
+    "clause_id": "main_5.9",
+    "paragraph_id": "main_5",
+    "sentence": "Location of the Personal Data",
+    "prediction_raw": "0",
+    "parsed_rules": []
+  },
+  {
+    "clause_id": "main_5.9.1",
+    "paragraph_id": "main_5",
+    "sentence": "The Personal Data is only processed by the Data Processor at the Data Processor’s address. The Data Processor does not transfer the Personal Data to third countries or international organizations.",
+    "prediction_raw": "0",
+    "parsed_rules": []
+  },
+  {
+    "clause_id": "main_5.9.2",
+    "paragraph_id": "main_5",
+    "sentence": "Any transfer of the Personal Data to any third countries or international organizations in the future shall only be done to the extent such transfer is permitted and done in accordance with the Applicable Law. 6. Sub-Processors",
+    "prediction_raw": "0",
+    "parsed_rules": []
+  },
+  {
+    "clause_id": "main_6.1_main",
+    "paragraph_id": "main_6",
+    "sentence": "The Data Processor is given general authorization to engage third-parties to process the Personal Data (“Sub-Processors”) without obtaining any further written, specific authorization from the Data Controller, provided that the Data Processor notifies the Data Controller in writing about the identity of a potential Sub-Processor (and its processors, if any) before any agreements are made with the relevant Sub-Processors and before the relevant Sub-Processor processes any of the Personal Data. If the Data Controller wish to object to the relevant Sub- Processor, the Data Controller shall give notice hereof in writing within seven",
+    "prediction_raw": "R11",
+    "parsed_rules": [
+      "R11"
+    ]
+  },
+  {
+    "clause_id": "main_6.1_7",
+    "paragraph_id": "main_6",
+    "sentence": "calendar days from receiving the notification from the Data Processor. Absence of any objections from the Data Controller shall be deemed a consent to the relevant Sub-Processor.",
+    "prediction_raw": "R36",
+    "parsed_rules": [
+      "R36"
+    ]
+  },
+  {
+    "clause_id": "main_6.2",
+    "paragraph_id": "main_6",
+    "sentence": "The Data Processor shall conclude a written sub-processor agreement with any Sub-Processors. Such an agreement shall at minimum provide the same data protection obligations as the ones applicable to the Data Processor, including the obligations under this Data Processor Agreement. The Data Processor shall on an ongoing basis monitor and control its Sub- Processors’ compliance with the Applicable Law. Documentation of such monitoring and control shall be provided to the Data Controller if so requested in writing.",
+    "prediction_raw": "R27",
+    "parsed_rules": [
+      "R27"
+    ]
+  },
+  {
+    "clause_id": "main_6.3",
+    "paragraph_id": "main_6",
+    "sentence": "The Data Processor is accountable to the Data Controller for any Sub-Processor in the same way as for its own actions and omissions.",
+    "prediction_raw": "R28",
+    "parsed_rules": [
+      "R28"
+    ]
+  },
+  {
+    "clause_id": "main_6.4",
+    "paragraph_id": "main_6",
+    "sentence": "The Data Processor is at the time of entering into this Data Processor Agreement using the Sub- Processors listed in sub-appendix B. If the Data Processor initiates sub-processing with a new Sub-Processor, such new Sub-Processor shall be added to the list in sub-appendix B under paragraph 2. 7. Remuneration and costs",
+    "prediction_raw": "R11",
+    "parsed_rules": [
+      "R11"
+    ]
+  },
+  {
+    "clause_id": "main_7.1",
+    "paragraph_id": "main_7",
+    "sentence": "The Data Controller shall remunerate the Data Processor based on time spent to perform the obligations under section 5.5, 5.6, 5.7 and 5.8 of this Data Processor Agreement based on the Data Processor’s hourly rates.",
+    "prediction_raw": "0",
+    "parsed_rules": []
+  },
+  {
+    "clause_id": "main_7.2_main",
+    "paragraph_id": "main_7",
+    "sentence": "The Data Processor is also entitled to remuneration for any time and material used to adapt and change the processing activities in order to comply with any changes to the Data Controller’s Instruction, including implementation costs and additional costs required to deliver the Main Services due to the change in the Instruction. The Data Processor is exempted from liability for non-performance with the Main Agreement if the performance of the obligations under the Main Agreement would be in conflict with any changed Instruction or if contractual delivery in accordance with the changed Instruction is impossible. This could for instance be the case;",
+    "prediction_raw": "0",
+    "parsed_rules": []
+  },
+  {
+    "clause_id": "main_7.2_i",
+    "paragraph_id": "main_7",
+    "sentence": "if the changes to the Instruction cannot technically, practically or legally be implemented;",
+    "prediction_raw": "0",
+    "parsed_rules": []
+  },
+  {
+    "clause_id": "main_7.2_ii",
+    "paragraph_id": "main_7",
+    "sentence": "where the Data Controller explicitly requires that the changes to the Instruction shall be applicable before the changes can be implemented; and",
+    "prediction_raw": "0",
+    "parsed_rules": []
+  },
+  {
+    "clause_id": "main_7.2_iii",
+    "paragraph_id": "main_7",
+    "sentence": "in the period of time until the Main Agreements is changed to reflect the new Instruction and commercial terms hereof.",
+    "prediction_raw": "0",
+    "parsed_rules": []
+  },
+  {
+    "clause_id": "main_7.3",
+    "paragraph_id": "main_7",
+    "sentence": "If changes to the Applicable Law, including new guidance or courts practice, result in additional costs to the Data Processor, the Data Controller shall indemnify the Data Processor of such documented costs. 8. Breach and liability",
+    "prediction_raw": "0",
+    "parsed_rules": []
+  },
+  {
+    "clause_id": "main_8.1",
+    "paragraph_id": "main_8",
+    "sentence": "The Main Agreement’s regulation of breach of contract and the consequences hereof shall apply equally to this Data Processor Agreement as if this Data Processor Agreement is an integrated part hereof.",
+    "prediction_raw": "0",
+    "parsed_rules": []
+  },
+  {
+    "clause_id": "main_8.2",
+    "paragraph_id": "main_8",
+    "sentence": "Each party’s cumulated liability under this Data Processor Agreement is limited to the payments made under the Main Agreement in the 12 months before the occurrence of the circumstances leading to a breach of contract. If the Data Processor Agreement has not been in force for 12 months before the occurrence of the circumstances leading to a breach of contract, the limited liability amount shall be calculated proportionately based on the actual performed payments.",
+    "prediction_raw": "0",
+    "parsed_rules": []
+  },
+  {
+    "clause_id": "main_8.3_main",
+    "paragraph_id": "main_8",
+    "sentence": "The limitation of liability does not apply to the following:",
+    "prediction_raw": "0",
+    "parsed_rules": []
+  },
+  {
+    "clause_id": "main_8.3_i",
+    "paragraph_id": "main_8",
+    "sentence": "Losses as a consequence of the other party’s gross negligence or willful misconduct.",
+    "prediction_raw": "0",
+    "parsed_rules": []
+  },
+  {
+    "clause_id": "main_8.3_ii",
+    "paragraph_id": "main_8",
+    "sentence": "A party’s expenses and resources used to perform the other party’s obligations, including payment obligations, towards a relevant data protection agency or any other authority. 9. Duration",
+    "prediction_raw": "0",
+    "parsed_rules": []
+  },
+  {
+    "clause_id": "main_9.1",
+    "paragraph_id": "main_9",
+    "sentence": "The Data processor Agreement shall remain in force until the Main Agreement is terminated. 10. Termination",
+    "prediction_raw": "R3",
+    "parsed_rules": [
+      "R3"
+    ]
+  },
+  {
+    "clause_id": "main_10.1",
+    "paragraph_id": "main_10",
+    "sentence": "The Data Processor’s authorization to process Personal Data on behalf of the Data Controller shall be annulled at the termination of this Data Processor Agreement.",
+    "prediction_raw": "R23",
+    "parsed_rules": [
+      "R23"
+    ]
+  },
+  {
+    "clause_id": "main_10.2",
+    "paragraph_id": "main_10",
+    "sentence": "The Data Processor shall continue to process the Personal Data for up to three months after the termination of the Data Processor Agreement to the extent it is necessary and required under the Applicable Law. In the same period, the Data Processor is entitled to include the Personal Data in the Data Processor’s backup. The Data Processor’s processing of the Data Controller’s Personal Data in the three months after the termination of this Data Processor Agreement shall be considered as being in accordance with the Instruction.",
+    "prediction_raw": "R3",
+    "parsed_rules": [
+      "R3"
+    ]
+  },
+  {
+    "clause_id": "main_10.3",
+    "paragraph_id": "main_10",
+    "sentence": "At the termination of this Data Processor Agreement, the Data Processor and its Sub- Processors shall return the Personal Data processed under this Data Processor Agreement to the Data Controller, provided that the Data Controller is not already in possession of the Personal Data. The Data Processor is hereafter obliged to delete all the Personal Data and provide documentation for such deletion to the Data Controller. 11. Contact",
+    "prediction_raw": "R23",
+    "parsed_rules": [
+      "R23"
+    ]
+  },
+  {
+    "clause_id": "main_11.1",
+    "paragraph_id": "main_11",
+    "sentence": "The contact information for the Data Processor and the Data Controller is provided in the Main Agreement..",
+    "prediction_raw": "R1",
+    "parsed_rules": [
+      "R1"
+    ]
+  },
+  {
+    "clause_id": "sub_a_1.1_main",
+    "paragraph_id": "sub_a",
+    "sentence": "The Data Processor processes the following types of Personal Data in connection with its delivery of the Main Services:",
+    "prediction_raw": "R5",
+    "parsed_rules": [
+      "R5"
+    ]
+  },
+  {
+    "clause_id": "sub_a_1.1_i",
+    "paragraph_id": "sub_a",
+    "sentence": "Ordinary contact information on relevant employees from the Data Controller.",
+    "prediction_raw": "R5",
+    "parsed_rules": [
+      "R5"
+    ]
+  },
+  {
+    "clause_id": "sub_a_1.1_ii",
+    "paragraph_id": "sub_a",
+    "sentence": "Users of the Main Services: names, telephone numbers, e-mails and user type.",
+    "prediction_raw": "R5",
+    "parsed_rules": [
+      "R5"
+    ]
+  },
+  {
+    "clause_id": "sub_a_1.1_iii",
+    "paragraph_id": "sub_a",
+    "sentence": "Personal data provided by the users in connection with their use of the Main Services (these personal data are not seen or accessed by the Data Processor unless the Data Processor after the request hereof from the Data Controller assists with support and bug fixing). 2. Categories of data subjects",
+    "prediction_raw": "R5",
+    "parsed_rules": [
+      "R5"
+    ]
+  },
+  {
+    "clause_id": "sub_a_2.1_main",
+    "paragraph_id": "sub_a",
+    "sentence": "The Data Processor processes Personal Data about the following categories of data subjects on behalf of the Data Controller:",
+    "prediction_raw": "R6",
+    "parsed_rules": [
+      "R6"
+    ]
+  },
+  {
+    "clause_id": "sub_a_2.1_i",
+    "paragraph_id": "sub_a",
+    "sentence": "Customers",
+    "prediction_raw": "R6",
+    "parsed_rules": [
+      "R6"
+    ]
+  },
+  {
+    "clause_id": "sub_a_2.1_ii",
+    "paragraph_id": "sub_a",
+    "sentence": "End-users",
+    "prediction_raw": "R6",
+    "parsed_rules": [
+      "R6"
+    ]
+  },
+  {
+    "clause_id": "sub_b_1.1_main",
+    "paragraph_id": "sub_b",
+    "sentence": "The following Sub-Processors shall be considered approved by the data Controller at the time of entering into this Data Processor Agreement:",
+    "prediction_raw": "R10",
+    "parsed_rules": [
+      "R10"
+    ]
+  },
+  {
+    "clause_id": "sub_b_1.1_i",
+    "paragraph_id": "sub_b",
+    "sentence": "Hosting supplier: Hosters A/S, Lyskær 3, 2730 Herlev",
+    "prediction_raw": "R2",
+    "parsed_rules": [
+      "R2"
+    ]
+  },
+  {
+    "clause_id": "sub_b_1.1_ii",
+    "paragraph_id": "sub_b",
+    "sentence": "Supplier of data in case of add-on agreement: Bisnode A/S, Gyngemose Parkvej 50, 8. sal, 2860 Søborg",
+    "prediction_raw": "R2",
+    "parsed_rules": [
+      "R2"
+    ]
+  },
+  {
+    "clause_id": "sub_b_1.1_iii",
+    "paragraph_id": "sub_b",
+    "sentence": "MailJet, 13-13 bis Rue de l’Aubrac - 75012 Paris, France 2. New Sub-Processors",
+    "prediction_raw": "R2",
+    "parsed_rules": [
+      "R2"
+    ]
+  },
+  {
+    "clause_id": "sub_b_2.1_main",
+    "paragraph_id": "sub_b",
+    "sentence": "The following Sub-Processors have been added and communicated to the Data Controller prior to the relevant sub-processing:",
+    "prediction_raw": "R11",
+    "parsed_rules": [
+      "R11"
+    ]
+  },
+  {
+    "clause_id": "sub_b_2.1_i",
+    "paragraph_id": "sub_b",
+    "sentence": "[insert when relevant]",
+    "prediction_raw": "R11",
+    "parsed_rules": [
+      "R11"
+    ]
+  }
+]

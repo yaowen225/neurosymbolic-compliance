@@ -1,0 +1,36 @@
+# 複製成 config.yaml 後填入自己的值。
+# Neo4j 連線設定
+neo4j:
+  uri: "neo4j://127.0.0.1:7687"     # Neo4j 連線 URI
+  username: "neo4j"
+  password: "YOUR_NEO4J_PASSWORD"
+  database: "exp1"                  # 實驗資料庫名稱;run_pipeline.py --db 會自動覆寫此行
+
+# OpenAI 成本單價 (USD per 1,000,000 tokens)。run_evaluation.py 用來換算 $。
+# 數字請以執行當下 OpenAI 官方 pricing 為準。
+pricing:
+  gpt-5.4-mini:
+    input: 0.75
+    cached_input: 0.075
+    output: 4.50
+  gpt-5.4-nano:
+    input: 0.20
+    cached_input: 0.02
+    output: 1.25
+  text-embedding-3-small:
+    input: 0.02
+  text-embedding-3-large:
+    input: 0.13
+
+# 生成 LLM 後端。runner 會用 env(GEN_BACKEND / GEN_MODEL)覆寫;不設 env 時用這裡的預設。
+generation:
+  backend: openai            # openai | ollama
+  model: gpt-5.4-mini
+
+# 只有 backend=ollama(local LLM)時才需要。OpenAI 相容端點 = base_url + /v1,需 HTTP Basic Auth。
+# 注意:即使生成走 ollama,embedding 仍固定用 OpenAI text-embedding-3-large(需要 OPENAI_API_KEY)。
+ollama:
+  base_url: "http://YOUR_OLLAMA_HOST:11434"
+  account: "YOUR_BASIC_AUTH_ACCOUNT"
+  password: "YOUR_BASIC_AUTH_PASSWORD"
+  timeout: 1800              # local 模型很慢,單次請求 timeout(秒);太小會 APITimeoutError

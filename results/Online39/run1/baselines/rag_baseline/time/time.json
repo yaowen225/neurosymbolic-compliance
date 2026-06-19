@@ -1,0 +1,13 @@
+{
+  "steps": [
+    {
+      "label": "bl_rag_pred",
+      "seconds": 53.407
+    },
+    {
+      "label": "bl_rag_eval",
+      "seconds": 0.101
+    }
+  ],
+  "total_s": 53.508
+}

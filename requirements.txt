@@ -1,0 +1,16 @@
+# OpenAI API(生成 + embedding;ollama 也走 openai 相容 client)
+openai>=1.0.0
+
+# Neo4j Python Driver
+neo4j>=5.0.0
+
+# 設定 / 環境
+python-dotenv>=1.0.0
+PyYAML>=6.0.0
+
+# 重試
+tenacity>=8.0.0
+
+# 數值運算(embedding cosine / 診斷)
+numpy>=1.24.0
+scikit-learn>=1.3.0

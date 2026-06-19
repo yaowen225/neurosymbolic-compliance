@@ -1,0 +1,20 @@
+# canonical_mini.yaml — mini 版設定(gpt-5.4-mini / OpenAI)。
+# 用法(從 /release 根目錄):python run_canonical.py --config canonical_mini.yaml
+# 所有值都可改;這份是「這次要跑」的設定。
+
+gen_backend: openai
+gen_model: gpt-5.4-mini
+embedding_model: text-embedding-3-large   # 固定(只在 run_meta 記錄;embedding 一律 OpenAI)
+temperature: 0                            # 記錄用;抽取/6c 腳本內已固定 temp 0
+threshold: "0.40"                         # 系統 6b 與 RAG/dense baseline 一律 0.40
+stage_c_workers: 8                        # 6c 並行度(逐對獨立,結果與序列等價;只加速)
+
+contracts: [Online124, Online39]
+n_runs: 3
+
+# 每個 (contract × run) 配一個「全新且唯一」的 KG database(依序取用,不重複)。
+# 需要 contracts×n_runs = 6 個;多備幾個當保險。Neo4j 端這些 db 需先存在(空的即可,會 --clear)。
+kg_dbs: [exp30, exp31, exp32, exp33, exp34, exp35, exp36, exp37, exp38, exp39, exp40]
+
+results_dir: results
+config_yaml: config.yaml                  # Neo4j 連線設定(database 欄會被每個 run 動態改成其 kg_db)

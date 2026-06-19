@@ -1,0 +1,54 @@
+{
+  "updated": "2026-06-18T05:26:22.810843",
+  "current": "全部完成",
+  "runs": [
+    {
+      "contract": "Online124",
+      "run": 1,
+      "kg_db": "exp30",
+      "done": 20,
+      "total": 20,
+      "todo": []
+    },
+    {
+      "contract": "Online124",
+      "run": 2,
+      "kg_db": "exp31",
+      "done": 20,
+      "total": 20,
+      "todo": []
+    },
+    {
+      "contract": "Online124",
+      "run": 3,
+      "kg_db": "exp32",
+      "done": 20,
+      "total": 20,
+      "todo": []
+    },
+    {
+      "contract": "Online39",
+      "run": 1,
+      "kg_db": "exp33",
+      "done": 20,
+      "total": 20,
+      "todo": []
+    },
+    {
+      "contract": "Online39",
+      "run": 2,
+      "kg_db": "exp34",
+      "done": 20,
+      "total": 20,
+      "todo": []
+    },
+    {
+      "contract": "Online39",
+      "run": 3,
+      "kg_db": "exp35",
+      "done": 20,
+      "total": 20,
+      "todo": []
+    }
+  ]
+}

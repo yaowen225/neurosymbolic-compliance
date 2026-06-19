@@ -1,0 +1,224 @@
+{
+  "document": "GDPR_DPA_Requirements",
+  "classified_at": "2026-06-17 04:38:54",
+  "model": "gpt-5.4-mini",
+  "stats": {
+    "n_categories": 16,
+    "n_clauses_assigned": 46,
+    "n_clauses_total": 46,
+    "avg_categories_per_clause": 1.1521739130434783
+  },
+  "categories": [
+    {
+      "name": "DPA Parties And Processing Scope",
+      "definition": "Obligations to identify the contracting parties and describe the basic processing arrangement in the data processing agreement. This includes party identity and contact details, duration, nature and purpose, data types, and categories of data subjects."
+    },
+    {
+      "name": "Security Of Processing",
+      "definition": "Obligations concerning technical and organisational safeguards, security risk assessment, confidentiality controls, and measures to protect personal data against accidental or unlawful loss, destruction, disclosure, alteration, or access. This category also covers security-related assistance obligations."
+    },
+    {
+      "name": "Personal Data Breach Management",
+      "definition": "Obligations relating to breach detection, notification, documentation, content of breach notices, and communication of breaches to supervisory authorities or data subjects. This category also includes assistance with breach notification and communication."
+    },
+    {
+      "name": "Data Protection Impact Assessment",
+      "definition": "Obligations to conduct, support, document, review, or consult on a data protection impact assessment, including its required contents and related stakeholder input. This category covers DPIA preparation, advice, and follow-up review."
+    },
+    {
+      "name": "Sub-Processor Authorization And Oversight",
+      "definition": "Obligations governing the engagement, change, objection, and contractual flow-down of sub-processors. This category also includes liability and authorization rules tied specifically to sub-processor use."
+    },
+    {
+      "name": "Processing Instructions And Legal Basis",
+      "definition": "Obligations requiring the processor to act only on documented controller instructions, to handle situations where law requires processing without instructions, and to notify the controller of unlawful instructions or legal constraints. This category also covers instruction compliance by persons acting under the processor's authority."
+    },
+    {
+      "name": "Confidentiality Of Personnel",
+      "definition": "Obligations to ensure that persons authorized to process personal data are bound by confidentiality commitments or statutory confidentiality duties. This category is limited to personnel confidentiality requirements."
+    },
+    {
+      "name": "Assistance With Data Subject And Regulatory Rights",
+      "definition": "Obligations requiring the processor to assist the controller with data subject rights requests, supervisory authority consultation, and other regulatory interactions that are not themselves breach or security measures. This category covers support functions tied to compliance administration."
+    },
+    {
+      "name": "Data Return Deletion And Post-Termination Handling",
+      "definition": "Obligations governing what happens to personal data when processing services end, including return, deletion, and related post-service handling. This category is limited to end-of-service data disposition."
+    },
+    {
+      "name": "Compliance Evidence Audit And Accountability",
+      "definition": "Obligations to provide compliance information, permit audits or inspections, and demonstrate adherence to GDPR processor obligations. This category covers accountability evidence and audit cooperation."
+    },
+    {
+      "name": "International Transfer Restrictions",
+      "definition": "Obligations restricting transfers of personal data to third countries or international organizations unless authorized by the controller. This category is limited to cross-border transfer authorization."
+    },
+    {
+      "name": "Codes Of Conduct And Certification",
+      "definition": "Obligations or permissions relating to demonstrating compliance through approved codes of conduct or certification mechanisms. This category covers conformity mechanisms used as evidence of guarantees."
+    },
+    {
+      "name": "Controller Oversight And Remedial Rights",
+      "definition": "Obligations or rights reserved to the controller to object to sub-processor changes, suspend processing, or terminate the DPA in specified cases. This category captures controller-side remedial or supervisory powers."
+    },
+    {
+      "name": "Controller Breach Notification And Documentation",
+      "definition": "Obligations on the controller to notify supervisory authorities of breaches, document breaches, and communicate high-risk breaches to data subjects. This category is limited to controller breach duties."
+    },
+    {
+      "name": "Controller DPIA And Consultation Duties",
+      "definition": "Obligations on the controller to carry out a DPIA, seek advice from the DPO, seek views of data subjects, and review processing against the DPIA when risks change. This category is limited to controller-side DPIA duties."
+    },
+    {
+      "name": "Liability For Processing Damage",
+      "definition": "Obligations or rules allocating liability for damage caused by processing, including liability tied to processor non-compliance and controller liability for GDPR-infringing processing. This category is limited to damage liability rules."
+    }
+  ],
+  "assignments": {
+    "R1": [
+      "DPA Parties And Processing Scope"
+    ],
+    "R2": [
+      "DPA Parties And Processing Scope"
+    ],
+    "R3": [
+      "DPA Parties And Processing Scope"
+    ],
+    "R4": [
+      "DPA Parties And Processing Scope"
+    ],
+    "R5": [
+      "DPA Parties And Processing Scope"
+    ],
+    "R6": [
+      "DPA Parties And Processing Scope"
+    ],
+    "R7": [
+      "Security Of Processing"
+    ],
+    "R8": [
+      "Personal Data Breach Management"
+    ],
+    "R9": [
+      "Data Protection Impact Assessment"
+    ],
+    "R10": [
+      "Sub-Processor Authorization And Oversight"
+    ],
+    "R11": [
+      "Sub-Processor Authorization And Oversight"
+    ],
+    "R12": [
+      "Processing Instructions And Legal Basis"
+    ],
+    "R13": [
+      "Processing Instructions And Legal Basis"
+    ],
+    "R14": [
+      "Processing Instructions And Legal Basis"
+    ],
+    "R15": [
+      "Confidentiality Of Personnel"
+    ],
+    "R16": [
+      "Security Of Processing"
+    ],
+    "R17": [
+      "Assistance With Data Subject And Regulatory Rights"
+    ],
+    "R18": [
+      "Security Of Processing",
+      "Assistance With Data Subject And Regulatory Rights"
+    ],
+    "R19": [
+      "Assistance With Data Subject And Regulatory Rights",
+      "Data Protection Impact Assessment"
+    ],
+    "R20": [
+      "Personal Data Breach Management",
+      "Assistance With Data Subject And Regulatory Rights"
+    ],
+    "R21": [
+      "Personal Data Breach Management",
+      "Assistance With Data Subject And Regulatory Rights"
+    ],
+    "R22": [
+      "Data Protection Impact Assessment",
+      "Assistance With Data Subject And Regulatory Rights"
+    ],
+    "R23": [
+      "Data Return Deletion And Post-Termination Handling"
+    ],
+    "R24": [
+      "Processing Instructions And Legal Basis"
+    ],
+    "R25": [
+      "Compliance Evidence Audit And Accountability"
+    ],
+    "R26": [
+      "Compliance Evidence Audit And Accountability"
+    ],
+    "R27": [
+      "Sub-Processor Authorization And Oversight"
+    ],
+    "R28": [
+      "Sub-Processor Authorization And Oversight",
+      "Liability For Processing Damage"
+    ],
+    "R29": [
+      "Security Of Processing"
+    ],
+    "R30": [
+      "International Transfer Restrictions"
+    ],
+    "R31": [
+      "Codes Of Conduct And Certification"
+    ],
+    "R32": [
+      "Security Of Processing"
+    ],
+    "R33": [
+      "Processing Instructions And Legal Basis"
+    ],
+    "R34": [
+      "Personal Data Breach Management"
+    ],
+    "R35": [
+      "Liability For Processing Damage"
+    ],
+    "R36": [
+      "Sub-Processor Authorization And Oversight",
+      "Controller Oversight And Remedial Rights"
+    ],
+    "R37": [
+      "Controller Oversight And Remedial Rights"
+    ],
+    "R38": [
+      "Controller Oversight And Remedial Rights"
+    ],
+    "R39": [
+      "Controller Breach Notification And Documentation"
+    ],
+    "R40": [
+      "Controller Breach Notification And Documentation"
+    ],
+    "R41": [
+      "Controller Breach Notification And Documentation"
+    ],
+    "R42": [
+      "Controller DPIA And Consultation Duties"
+    ],
+    "R43": [
+      "Controller DPIA And Consultation Duties"
+    ],
+    "R44": [
+      "Controller DPIA And Consultation Duties"
+    ],
+    "R45": [
+      "Controller DPIA And Consultation Duties"
+    ],
+    "R46": [
+      "Liability For Processing Damage"
+    ]
+  }
+}

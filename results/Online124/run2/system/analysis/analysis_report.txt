@@ -1,0 +1,97 @@
+==============================================================================
+[1] THRESHOLD SENSITIVITY (逐句, 只看 6a+6b)
+==============================================================================
+GT Full 句數: 28
+
+threshold  sentences_kept  newly_lost_here
+--------------------------------------------------
+0.30       28/28           0
+0.35       28/28           0
+0.40       28/28           0
+0.45       28/28           0
+0.50       27/28           1
+0.55       25/28           2
+0.60       21/28           4
+0.65       15/28           6
+--------------------------------------------------
+6a 能活下來的上界 = 28/28  (no_containment=0, lost_at_6a=0)
+
+================================================================================================
+[2] SENTENCE-LEVEL FUNNEL DIAGNOSIS (RECOVERED 以 compliant.csv 為準)
+================================================================================================
+
+rule  stage           detail                     sentence
+------------------------------------------------------------------------------------------------
+R3    lost_at_6c      6c=Gap (未進 compliant.csv   the data processor agreement shall remain in f
+R5    RECOVERED       in compliant.csv           ordinary contact information on relevant emplo
+R5    RECOVERED       in compliant.csv           users of the main services: names, telephone n
+R5    RECOVERED       in compliant.csv           personal data provided by the users in connect
+R6    RECOVERED       in compliant.csv           the data processor processes personal data abo
+R6    RECOVERED       in compliant.csv           customers
+R6    RECOVERED       in compliant.csv           end-users
+R8    RECOVERED       in compliant.csv           a description of the nature of the personal da
+R8    RECOVERED       in compliant.csv           a description of the likely as well as actuall
+R8    RECOVERED       in compliant.csv           a description of the measures that the data pr
+R8    lost_at_6c      6c=Gap (未進 compliant.csv   the register of personal data breaches shall b
+R12   RECOVERED       in compliant.csv           the data processor may only act and process th
+R12   RECOVERED       in compliant.csv           the personal data may not be copied, transferr
+R15   RECOVERED       in compliant.csv           the data processor shall treat all the persona
+R15   RECOVERED       in compliant.csv           the data processor's employees shall be subjec
+R16   RECOVERED       in compliant.csv           the data processor shall implement the appropr
+R17   RECOVERED       in compliant.csv           if the data controller receives a request from
+R22   RECOVERED       in compliant.csv           if the data processor's assistance is necessar
+R23   RECOVERED       in compliant.csv           at the termination of this data processor agre
+R23   RECOVERED       in compliant.csv           the data processor is hereafter obliged to del
+R24   RECOVERED       in compliant.csv           the data processor shall give notice without u
+R25   RECOVERED       in compliant.csv           the data processor complies with its obligatio
+R25   RECOVERED       in compliant.csv           the data processor complies with the applicabl
+R27   RECOVERED       in compliant.csv           such an agreement shall at minimum provide the
+R28   RECOVERED       in compliant.csv           the data processor is accountable to the data 
+R30   RECOVERED       in compliant.csv           the data processor does not transfer the perso
+R33   RECOVERED       in compliant.csv           the data processor shall also ensure that the 
+R34   RECOVERED       in compliant.csv           the data processor shall give immediate notice
+
+------------------------------------------------------------------------------------------------
+   lost_at_6c      :   2  (7.1%)
+   RECOVERED       :  26  (92.9%)
+   sentence-level recall (= compliant.csv 命中) = 26/28 (92.9%)
+
+======================================================================
+[3] PIPELINE DIAGNOSTICS (FUNNEL + FN + FP)
+======================================================================
+
+[FUNNEL]
+6a group filter : 全配對 5800 (reg 58 x con 100) -> 交集非空 734
+6b semantic     : 輸入 734 -> cosine >= 0.4 通過 527
+6c reasoning    : 輸入 527 -> Compliant 65 / Violation 7 / Gap 455
+Step7 aggregate : compliant.csv 去重後 48 列,涵蓋 24 條 rule
+
+[FN] 未被 compliant.csv 命中的 GT Full 句子(2 句):
+   [R3] the data processor agreement shall remain in force until the main agreement is t
+   [R8] the register of personal data breaches shall be provided to the data controller 
+
+[FP] 不對應任何 GT Full 句子的 compliant.csv 配對(23 筆):
+   [R10] main_6.1_7           (rule NOT in GT (no Full annotation))
+   [R10] main_6.1_main        (rule NOT in GT (no Full annotation))
+   [R11] main_6.1_7           (rule NOT in GT (no Full annotation))
+   [R11] sub_b_2.1_main       (rule NOT in GT (no Full annotation))
+   [R12] main_10.2            (rule in GT but clause not a GT sentence)
+   [R12] main_5.4             (rule in GT but clause not a GT sentence)
+   [R13] main_10.2            (rule NOT in GT (no Full annotation))
+   [R17] main_5.6.2           (rule in GT but clause not a GT sentence)
+   [R19] main_5.5.1           (rule NOT in GT (no Full annotation))
+   [R2] main_11.1            (rule NOT in GT (no Full annotation))
+   [R22] main_5.6.1           (rule in GT but clause not a GT sentence)
+   [R25] main_5.8.1_main      (rule in GT but clause not a GT sentence)
+   [R25] main_5.8.2           (rule in GT but clause not a GT sentence)
+   [R30] main_5.1.1           (rule in GT but clause not a GT sentence)
+   [R30] main_5.9.2           (rule in GT but clause not a GT sentence)
+   [R32] main_5.2.1           (rule NOT in GT (no Full annotation))
+   [R33] main_4.1             (rule in GT but clause not a GT sentence)
+   [R33] main_5.1.1           (rule in GT but clause not a GT sentence)
+   [R36] main_6.1_main        (rule NOT in GT (no Full annotation))
+   [R5] sub_a_1.1_main       (rule in GT but clause not a GT sentence)
+   [R6] sub_a_1.1_ii         (rule in GT but clause not a GT sentence)
+   [R7] main_5.2.1           (rule NOT in GT (no Full annotation))
+   [R8] main_5.7.2_main      (rule in GT but clause not a GT sentence)
+======================================================================

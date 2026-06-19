@@ -1,0 +1,13 @@
+{
+  "steps": [
+    {
+      "label": "bl_naive_pred",
+      "seconds": 15.07
+    },
+    {
+      "label": "bl_naive_eval",
+      "seconds": 0.087
+    }
+  ],
+  "total_s": 15.157
+}

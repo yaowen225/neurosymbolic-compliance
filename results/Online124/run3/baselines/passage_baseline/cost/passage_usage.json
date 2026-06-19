@@ -1,0 +1,17 @@
+{
+  "passage_clf": {
+    "chat": {
+      "uncached_input": 29027,
+      "cached_input": 161280,
+      "output": 348,
+      "n_calls": 74
+    },
+    "embedding": {
+      "input": 0,
+      "n_calls": 0
+    },
+    "elapsed_s": 55.891,
+    "model": "gpt-5.4-mini",
+    "backend": "openai"
+  }
+}

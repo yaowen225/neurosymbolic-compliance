@@ -1,0 +1,13 @@
+{
+  "steps": [
+    {
+      "label": "bl_passage_pred",
+      "seconds": 106.413
+    },
+    {
+      "label": "bl_passage_eval",
+      "seconds": 0.087
+    }
+  ],
+  "total_s": 106.5
+}

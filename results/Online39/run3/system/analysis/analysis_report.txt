@@ -1,0 +1,160 @@
+==============================================================================
+[1] THRESHOLD SENSITIVITY (逐句, 只看 6a+6b)
+==============================================================================
+GT Full 句數: 58
+
+threshold  sentences_kept  newly_lost_here
+--------------------------------------------------
+0.30       47/58           0
+0.35       47/58           0
+0.40       46/58           1
+0.45       43/58           3
+0.50       36/58           7
+0.55       27/58           9
+0.60       22/58           5
+0.65       21/58           1
+--------------------------------------------------
+6a 能活下來的上界 = 47/58  (no_containment=10, lost_at_6a=1)
+
+================================================================================================
+[2] SENTENCE-LEVEL FUNNEL DIAGNOSIS (RECOVERED 以 compliant.csv 為準)
+================================================================================================
+
+rule  stage           detail                     sentence
+------------------------------------------------------------------------------------------------
+R2    no_containment  GT 句子不在任何合約 source_text    between:
+R2    no_containment  GT 句子不在任何合約 source_text    customer hereinafter referred to as "controlle
+R2    RECOVERED       in compliant.csv           and
+R2    no_containment  GT 句子不在任何合約 source_text    processor, having its registered address at re
+R2    no_containment  GT 句子不在任何合約 source_text    collectively referred to as "parties" and indi
+R3    RECOVERED       in compliant.csv           notwithstanding termination of this agreement 
+R4    no_containment  GT 句子不在任何合約 source_text    the purpose of the agreement is to ensure the 
+R5    lost_at_6c      6c=Gap (未進 compliant.csv   the personal data processed may fall within an
+R5    RECOVERED       in compliant.csv           non-sensitive data (cf. gdpr article 6) of any
+R5    lost_at_6b      passed 6a, cosine < thre   national identification number.
+R5    RECOVERED       in compliant.csv           sensitive data (cf. gdpr article 9)*.
+R5    lost_at_6c      6c=Gap (未進 compliant.csv   data relating to criminal convictions and offe
+R5    lost_at_6c      6c=Gap (未進 compliant.csv   *sensitive data includes: data revealing racia
+R6    lost_at_6c      6c=Gap (未進 compliant.csv   the controller will import personal data to th
+R6    RECOVERED       in compliant.csv           controller's employees, board members and offi
+R6    RECOVERED       in compliant.csv           controller's customers, clients and other busi
+R6    RECOVERED       in compliant.csv           citizens of controller
+R6    RECOVERED       in compliant.csv           students, pupils and other users of public and
+R6    RECOVERED       in compliant.csv           children
+R6    RECOVERED       in compliant.csv           patients and relatives
+R6    RECOVERED       in compliant.csv           private users
+R6    RECOVERED       in compliant.csv           business users
+R6    RECOVERED       in compliant.csv           members of foundations, unions, associations a
+R7    RECOVERED       in compliant.csv           the processor agrees to implement appropriate 
+R8    no_containment  GT 句子不在任何合約 source_text    the aforementioned notification shall describe
+R10   no_containment  GT 句子不在任何合約 source_text    the processor shall not engage a sub-processor
+R10   RECOVERED       in compliant.csv           the controller hereby gives the processor its 
+R10   lost_at_6c      6c=Violation (未進 complia   if the controller and the processor has entere
+R11   RECOVERED       in compliant.csv           in the case of general written authorisation, 
+R11   no_containment  GT 句子不在任何合約 source_text    in the event that (i) the changes cannot be ma
+R12   RECOVERED       in compliant.csv           the processor shall process the personal data 
+R12   RECOVERED       in compliant.csv           to process personal data only in accordance wi
+R13   RECOVERED       in compliant.csv           clause 2 of this agreement, including with reg
+R14   RECOVERED       in compliant.csv           clause 2 of this agreement, including with reg
+R15   RECOVERED       in compliant.csv           processor ensures that persons authorised to p
+R16   RECOVERED       in compliant.csv           the processor agrees to implement appropriate 
+R17   RECOVERED       in compliant.csv           where necessary and taking into account the na
+R23   RECOVERED       in compliant.csv           upon expiry of the agreement the processor wil
+R23   no_containment  GT 句子不在任何合約 source_text    hereafter controller's data will be automatica
+R25   lost_at_6c      6c=Gap (未進 compliant.csv   to provide controller upon request and within 
+R25   RECOVERED       in compliant.csv           the processor shall make the records available
+R26   RECOVERED       in compliant.csv           to allow for and contribute during normal busi
+R26   lost_at_6c      6c=Gap (未進 compliant.csv   if the controller requests the processor to do
+R26   lost_at_6c      6c=Gap (未進 compliant.csv   isae 3000 or 3402, iso 27001 or similar standa
+R27   RECOVERED       in compliant.csv           in the event that processor engages sub-proces
+R28   RECOVERED       in compliant.csv           processor shall remain liable to the controlle
+R29   RECOVERED       in compliant.csv           in assessing the appropriate level of security
+R30   RECOVERED       in compliant.csv           clause 2 of this agreement, including with reg
+R32   RECOVERED       in compliant.csv           the processor agrees to implement appropriate 
+R32   RECOVERED       in compliant.csv           taking into account the state of the art, the 
+R33   RECOVERED       in compliant.csv           the processor must ensure that the persons per
+R34   no_containment  GT 句子不在任何合約 source_text    to notify controller in the event of a persona
+R34   RECOVERED       in compliant.csv           processor will notify the controller without u
+R36   RECOVERED       in compliant.csv           in the case of general written authorisation, 
+R38   lost_at_6c      6c=Gap (未進 compliant.csv   a party may terminate the main agreement in th
+R38   lost_at_6c      6c=Gap (未進 compliant.csv   where such breach is capable of being remedied
+R42   lost_at_6a      no group intersection      where necessary and taking into account the na
+R46   lost_at_6c      6c=Gap (未進 compliant.csv   the processor shall not be liable for loss or 
+
+------------------------------------------------------------------------------------------------
+   no_containment  :  10  (17.2%)
+   lost_at_6a      :   1  (1.7%)
+   lost_at_6b      :   1  (1.7%)
+   lost_at_6c      :  11  (19.0%)
+   RECOVERED       :  35  (60.3%)
+   sentence-level recall (= compliant.csv 命中) = 35/58 (60.3%)
+
+======================================================================
+[3] PIPELINE DIAGNOSTICS (FUNNEL + FN + FP)
+======================================================================
+
+[FUNNEL]
+6a group filter : 全配對 10266 (reg 58 x con 177) -> 交集非空 1533
+6b semantic     : 輸入 1533 -> cosine >= 0.4 通過 851
+6c reasoning    : 輸入 851 -> Compliant 101 / Violation 17 / Gap 733
+Step7 aggregate : compliant.csv 去重後 67 列,涵蓋 31 條 rule
+
+[FN] 未被 compliant.csv 命中的 GT Full 句子(23 句):
+   [R10] if the controller and the processor has entered into a consultancy agreement as 
+   [R10] the processor shall not engage a sub-processor, unless this is approved by the c
+   [R11] in the event that (i) the changes cannot be made due to technical, practical or 
+   [R2] between:
+   [R2] collectively referred to as "parties" and individually referred to as "party".
+   [R2] customer hereinafter referred to as "controller"
+   [R2] processor, having its registered address at refshalevej 14, 1423 havana, cuba, h
+   [R23] hereafter controller's data will be automatically deleted after ninety (90) days
+   [R25] to provide controller upon request and within reasonable time the information ne
+   [R26] if the controller requests the processor to document its sub-processor's complia
+   [R26] isae 3000 or 3402, iso 27001 or similar standards.
+   [R34] to notify controller in the event of a personal data breach as set out in clause
+   [R38] a party may terminate the main agreement in the event of the other party's mater
+   [R38] where such breach is capable of being remedied, a party may only terminate the m
+   [R4] the purpose of the agreement is to ensure the parties' compliance with article 2
+   [R42] where necessary and taking into account the nature of the processing, to assist 
+   [R46] the processor shall not be liable for loss or damages if caused by the controlle
+   [R5] *sensitive data includes: data revealing racial or ethnic origin, political opin
+   [R5] data relating to criminal convictions and offences (cf. gdpr art. 10).
+   [R5] national identification number.
+   [R5] the personal data processed may fall within any of the following categories of d
+   [R6] the controller will import personal data to the services for processing by proce
+   [R8] the aforementioned notification shall describe the nature of the personal data b
+
+[FP] 不對應任何 GT Full 句子的 compliant.csv 配對(32 筆):
+   [R1] 7.1_ii               (rule NOT in GT (no Full annotation))
+   [R10] 10.1_i               (rule in GT but clause not a GT sentence)
+   [R10] 10.1_ii              (rule in GT but clause not a GT sentence)
+   [R10] 10.1_main            (rule in GT but clause not a GT sentence)
+   [R11] 3.2__3               (rule in GT but clause not a GT sentence)
+   [R12] 12.4                 (rule in GT but clause not a GT sentence)
+   [R16] 3.5_c                (rule in GT but clause not a GT sentence)
+   [R16] 3.5_d                (rule in GT but clause not a GT sentence)
+   [R16] 3.5_main             (rule in GT but clause not a GT sentence)
+   [R17] 3.5_d                (rule in GT but clause not a GT sentence)
+   [R18] 3.5_d                (rule NOT in GT (no Full annotation))
+   [R18] 3.5_main             (rule NOT in GT (no Full annotation))
+   [R19] 5.4                  (rule NOT in GT (no Full annotation))
+   [R22] 5.4                  (rule NOT in GT (no Full annotation))
+   [R23] 1.2__3_5             (rule in GT but clause not a GT sentence)
+   [R24] 5.2                  (rule NOT in GT (no Full annotation))
+   [R26] 7.2                  (rule in GT but clause not a GT sentence)
+   [R32] 3.5_c                (rule in GT but clause not a GT sentence)
+   [R32] 3.5_d                (rule in GT but clause not a GT sentence)
+   [R33] 2.1__1               (rule in GT but clause not a GT sentence)
+   [R33] 5.2                  (rule in GT but clause not a GT sentence)
+   [R4] 2.3                  (rule in GT but clause not a GT sentence)
+   [R4] 7.1_iii              (rule in GT but clause not a GT sentence)
+   [R5] 2.3                  (rule in GT but clause not a GT sentence)
+   [R6] 2.3                  (rule in GT but clause not a GT sentence)
+   [R7] 3.5_c                (rule in GT but clause not a GT sentence)
+   [R7] 3.5_d                (rule in GT but clause not a GT sentence)
+   [R7] 3.5_main             (rule in GT but clause not a GT sentence)
+   [R7] 7.1_v                (rule in GT but clause not a GT sentence)
+   [R8] 6.2_ii               (rule in GT but clause not a GT sentence)
+   [R8] 6.2_iii              (rule in GT but clause not a GT sentence)
+   [R8] 6.2_main             (rule in GT but clause not a GT sentence)
+======================================================================

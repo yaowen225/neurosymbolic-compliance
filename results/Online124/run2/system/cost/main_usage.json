@@ -1,0 +1,92 @@
+{
+  "step2_obligation_classifier": {
+    "chat": {
+      "uncached_input": 588,
+      "cached_input": 1792,
+      "output": 1329,
+      "n_calls": 1
+    },
+    "embedding": {
+      "input": 0,
+      "n_calls": 0
+    },
+    "elapsed_s": 7.632,
+    "model": "gpt-5.4-mini",
+    "backend": "openai"
+  },
+  "step3_extract_regulatory": {
+    "chat": {
+      "uncached_input": 14920,
+      "cached_input": 56320,
+      "output": 6837,
+      "n_calls": 46
+    },
+    "embedding": {
+      "input": 0,
+      "n_calls": 0
+    },
+    "elapsed_s": 59.285,
+    "model": "gpt-5.4-mini",
+    "backend": "openai"
+  },
+  "step3_extract_contract": {
+    "chat": {
+      "uncached_input": 152039,
+      "cached_input": 43008,
+      "output": 14607,
+      "n_calls": 74
+    },
+    "embedding": {
+      "input": 0,
+      "n_calls": 0
+    },
+    "elapsed_s": 115.817,
+    "model": "gpt-5.4-mini",
+    "backend": "openai"
+  },
+  "step4_embed_GDPR_DPA_Requirements": {
+    "chat": {
+      "uncached_input": 0,
+      "cached_input": 0,
+      "output": 0,
+      "n_calls": 0
+    },
+    "embedding": {
+      "input": 1065,
+      "n_calls": 1
+    },
+    "elapsed_s": 0.0,
+    "model": null,
+    "backend": null
+  },
+  "step4_embed_Online124": {
+    "chat": {
+      "uncached_input": 0,
+      "cached_input": 0,
+      "output": 0,
+      "n_calls": 0
+    },
+    "embedding": {
+      "input": 2265,
+      "n_calls": 1
+    },
+    "elapsed_s": 0.0,
+    "model": null,
+    "backend": null
+  },
+  "step6c_reasoning": {
+    "chat": {
+      "uncached_input": 271914,
+      "cached_input": 1747200,
+      "output": 78539,
+      "n_calls": 527
+    },
+    "embedding": {
+      "input": 0,
+      "n_calls": 0
+    },
+    "elapsed_s": 902.051,
+    "model": "gpt-5.4-mini",
+    "backend": "openai"
+  }
+}

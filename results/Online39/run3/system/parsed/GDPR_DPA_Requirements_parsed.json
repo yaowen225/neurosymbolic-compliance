@@ -1,0 +1,186 @@
+[
+  {
+    "clause_id": "R1",
+    "text": "- The DPA shall contain at least one controller's identity and contact details. (LL)"
+  },
+  {
+    "clause_id": "R2",
+    "text": "- The DPA shall contain at least one processor's identity and contact details. (LL)"
+  },
+  {
+    "clause_id": "R3",
+    "text": "- The DPA shall contain the duration of the processing. (Art. 28(3))"
+  },
+  {
+    "clause_id": "R4",
+    "text": "- The DPA shall contain the nature and purpose of the processing. (Art. 28(3))"
+  },
+  {
+    "clause_id": "R5",
+    "text": "- The DPA shall contain the types of personal data. (Art. 28(3))"
+  },
+  {
+    "clause_id": "R6",
+    "text": "- The DPA shall contain the categories of data subjects. (Art. 28(3))"
+  },
+  {
+    "clause_id": "R7",
+    "text": "- The organizational and technical measures to ensure a level of security can include: (a) pseudonymisation and encryption of personal data, (b) ensure confidentiality, integrity, availability and resilience of processing systems and services, (c) restore the availability and access to personal data in a timely manner in the event of a physical or technical incident, and (d) regularly testing, assessing and evaluating the effectiveness of technical and organisational measures for ensuring the security of the processing. (Art. 32(1))"
+  },
+  {
+    "clause_id": "R8",
+    "text": "- The notification of personal data breach shall at least include (a) the nature of personal data breach; (b) the name and contact details of the data protection officer; (c) the consequences of the breach; (d) the measures taken or proposed to mitigate its effects. (Art. 33(3))"
+  },
+  {
+    "clause_id": "R9",
+    "text": "- The DPIA shall at least include (a) a systematic description of the envisaged processing operations and the purposes of the processing, (b) an assessment of the necessity and proportionality of the processing operations in relation to the purposes, (c) an assessment of the risks to the rights and freedoms of data subjects, and (d) the measures envisaged to address the risks. (Art. 35(7))"
+  },
+  {
+    "clause_id": "R10",
+    "text": "- The processor shall not engage a sub-processor without a prior specific or general written authorization of the controller. (Art. 28(2))"
+  },
+  {
+    "clause_id": "R11",
+    "text": "- In case of general written authorization, the processor shall inform the controller of any intended changes concerning the addition or replacement of sub-processors. (Art. 28(2))"
+  },
+  {
+    "clause_id": "R12",
+    "text": "- The processor shall process personal data on documented instructions from the controller. (Art. 28(3a))"
+  },
+  {
+    "clause_id": "R13",
+    "text": "- The processor can process personal data without documented instructions, if required by Union or Member State law. (Art. 28(3a))"
+  },
+  {
+    "clause_id": "R14",
+    "text": "- The processor shall inform the controller of that legal requirement before processing, if law does not prohibit informing the controller on grounds of public interest. (Art. 28(3a))"
+  },
+  {
+    "clause_id": "R15",
+    "text": "- The processor shall ensure that persons authorized to process personal data have committed themselves to confidentiality or are under an appropriate statutory obligation of confidentiality. (Art. 28(3b))"
+  },
+  {
+    "clause_id": "R16",
+    "text": "- The processor shall take all measures required pursuant to Article 32 or to ensure the security of processing. (Art. 28(3c))"
+  },
+  {
+    "clause_id": "R17",
+    "text": "- The processor shall assist the controller in fulfilling its obligation to respond to requests for exercising the data subject's rights. (Art. 28(3e))"
+  },
+  {
+    "clause_id": "R18",
+    "text": "- The processor shall assist the controller in ensuring the security of processing. (Art. 28(3f), Art. 32)"
+  },
+  {
+    "clause_id": "R19",
+    "text": "- The processor shall assist the controller in consulting the supervisory authorities prior to processing where the processing would result in a high risk in the absence of measures taken by the controller to mitigate the risk. (Art. 28(3f), Art.36)"
+  },
+  {
+    "clause_id": "R20",
+    "text": "- The processor shall assist the controller in notifying a personal data breach to the supervisory authority. (Art. 28(3f), Art.33)"
+  },
+  {
+    "clause_id": "R21",
+    "text": "- The processor shall assist the controller in communicating a personal data breach to the data subject. (Art. 28(3f), Art.34)"
+  },
+  {
+    "clause_id": "R22",
+    "text": "- The processor shall assist the controller in ensuring compliance with the obligations pursuant to data protection impact assessment (DPIA). (Art. 28(3f), Art.35)"
+  },
+  {
+    "clause_id": "R23",
+    "text": "- The processor shall return or delete all personal data to the controller after the end of the provision of services relating to processing. (Art. 28(3g))"
+  },
+  {
+    "clause_id": "R24",
+    "text": "- The processor shall immediately inform the controller if an instruction infringes the GDPR or other data protection provisions. (Art. 28(3h))"
+  },
+  {
+    "clause_id": "R25",
+    "text": "- The processor shall make available to the controller information necessary to demonstrate compliance with the obligations Article 28 in GDPR. (Art. 28(3h))"
+  },
+  {
+    "clause_id": "R26",
+    "text": "- The processor shall allow for and contribute to audits, including inspections, conducted by the controller or another auditor mandated by the controller. (Art. 28(3h))"
+  },
+  {
+    "clause_id": "R27",
+    "text": "- The processor shall impose the same obligations referred to in Article 28(3) in GDPR on the engaged sub-processors by way of contract or other legal act under Union or Member State law. (Art. 28(4))"
+  },
+  {
+    "clause_id": "R28",
+    "text": "- The processor shall remain fully liable to the controller for the performance of sub-processor's obligations. (Art. 28(4))"
+  },
+  {
+    "clause_id": "R29",
+    "text": "- When assessing the level of security, the processor shall take into account the risk of accidental or unlawful destruction, loss, alternation, unauthorized disclosure of or access to the personal data transmitted, stored or processed. (Art. 32(2))"
+  },
+  {
+    "clause_id": "R30",
+    "text": "- The processor shall not transfer personal data to a third country or international organization without a prior specific or general authorization of the controller. (Art. 28(3a))"
+  },
+  {
+    "clause_id": "R31",
+    "text": "- The processor can demonstrate guarantees to Article 28 (1--4) through adherence to an approved codes of conduct or an approved certification mechanism. (Art. 28(5))"
+  },
+  {
+    "clause_id": "R32",
+    "text": "- The processor shall implement appropriate technical and organisational measures to ensure a level of security appropriate to the risk of varying likelihood and severity for the rights and freedoms of natural persons. (Art. 32(1))"
+  },
+  {
+    "clause_id": "R33",
+    "text": "- The processor shall ensure that any natural person acting under its authority who has access to personal data only process them on instructions from the controller. (Art. 32(4))"
+  },
+  {
+    "clause_id": "R34",
+    "text": "- The processor shall notify the controller without undue delay after becoming aware of a personal data breach. (Art. 33(2))"
+  },
+  {
+    "clause_id": "R35",
+    "text": "- A processor shall be liable for the damage caused by processing only where it has not complied with obligations of the GDPR specifically directed to processors or where it has acted outside or contrary to lawful instructions of the controller. (Art. 82(2))"
+  },
+  {
+    "clause_id": "R36",
+    "text": "- In case of general written authorization, the controller shall have the right to object to changes concerning the addition or replacement of sub-processors, after having been informed of such intended changes by the processor. (Art. 28(2))"
+  },
+  {
+    "clause_id": "R37",
+    "text": "- The controller shall have the right to suspend the processing in certain cases. (LL)"
+  },
+  {
+    "clause_id": "R38",
+    "text": "- The controller shall have the right to terminate the DPA in certain cases. (LL)"
+  },
+  {
+    "clause_id": "R39",
+    "text": "- The controller shall, no later than 72 hours after having become aware of it, notify the personal data breach to the supervisory authority. (Art. 33(1))"
+  },
+  {
+    "clause_id": "R40",
+    "text": "- The controller shall document the personal breaches. (Art. 33(5))"
+  },
+  {
+    "clause_id": "R41",
+    "text": "- In case of high risks, the controller shall communicate the data breach to the data subject without undue delay. (Art. 34(1))"
+  },
+  {
+    "clause_id": "R42",
+    "text": "- The controller shall carry out DPIA. (Art. 35(1))"
+  },
+  {
+    "clause_id": "R43",
+    "text": "- The controller shall seek advice of the DPO when carrying DPIA. (Art. 35(2))"
+  },
+  {
+    "clause_id": "R44",
+    "text": "- The controller shall seek the views of data subjects or their representatives on the intended processing. (Art. 35(9))"
+  },
+  {
+    "clause_id": "R45",
+    "text": "- The controller shall carry out a review to assess if processing is performed in accordance with the data protection impact assessment at least when there is a change of the risk represented by processing operations. (Art. 35(11)"
+  },
+  {
+    "clause_id": "R46",
+    "text": "- Any controller involved in processing shall be liable for the damage caused by processing which infringes the GDPR. (Art. 82(2))"
+  }
+]

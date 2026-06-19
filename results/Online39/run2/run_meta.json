@@ -1,0 +1,12 @@
+{
+  "contract": "Online39",
+  "run": 2,
+  "gen_backend": "openai",
+  "gen_model": "gpt-5.4-mini",
+  "embedding_model": "text-embedding-3-large",
+  "temperature": 0,
+  "threshold": "0.40",
+  "kg_db": "exp34",
+  "stage_c_workers": 8,
+  "timestamp": "2026-06-17T05:11:31.598253"
+}

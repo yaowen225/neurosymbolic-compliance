@@ -1,0 +1,351 @@
+{
+  "mode": "OFF",
+  "n_rules_recalled": 30,
+  "n_rules_emitted": 30,
+  "summary": {
+    "R11": {
+      "status": "recalled",
+      "n_compliant_pairs": 5,
+      "satisfied_norms": [
+        "R11"
+      ],
+      "contract_matches": [
+        "10.3",
+        "3.2__3"
+      ]
+    },
+    "R28": {
+      "status": "recalled",
+      "n_compliant_pairs": 1,
+      "satisfied_norms": [
+        "R28"
+      ],
+      "contract_matches": [
+        "10.4"
+      ]
+    },
+    "R15": {
+      "status": "recalled",
+      "n_compliant_pairs": 1,
+      "satisfied_norms": [
+        "R15"
+      ],
+      "contract_matches": [
+        "12.3"
+      ]
+    },
+    "R14": {
+      "status": "recalled",
+      "n_compliant_pairs": 4,
+      "satisfied_norms": [
+        "R14"
+      ],
+      "contract_matches": [
+        "5.2"
+      ]
+    },
+    "R7": {
+      "status": "recalled",
+      "n_compliant_pairs": 48,
+      "satisfied_norms": [
+        "R7",
+        "R7_a",
+        "R7_b",
+        "R7_c",
+        "R7_d"
+      ],
+      "contract_matches": [
+        "3.1__1",
+        "3.5_c",
+        "3.5_d",
+        "3.5_main"
+      ]
+    },
+    "R32": {
+      "status": "recalled",
+      "n_compliant_pairs": 13,
+      "satisfied_norms": [
+        "R32"
+      ],
+      "contract_matches": [
+        "3.1__1",
+        "3.5_c",
+        "3.5_d",
+        "3.5_main"
+      ]
+    },
+    "R26": {
+      "status": "recalled",
+      "n_compliant_pairs": 2,
+      "satisfied_norms": [
+        "R26"
+      ],
+      "contract_matches": [
+        "5.7",
+        "7.2"
+      ]
+    },
+    "R22": {
+      "status": "recalled",
+      "n_compliant_pairs": 1,
+      "satisfied_norms": [
+        "R22"
+      ],
+      "contract_matches": [
+        "5.4"
+      ]
+    },
+    "R34": {
+      "status": "recalled",
+      "n_compliant_pairs": 2,
+      "satisfied_norms": [
+        "R34"
+      ],
+      "contract_matches": [
+        "5.9",
+        "6.1"
+      ]
+    },
+    "R33": {
+      "status": "recalled",
+      "n_compliant_pairs": 9,
+      "satisfied_norms": [
+        "R33"
+      ],
+      "contract_matches": [
+        "12.4",
+        "2.1__1",
+        "5.2"
+      ]
+    },
+    "R19": {
+      "status": "recalled",
+      "n_compliant_pairs": 1,
+      "satisfied_norms": [
+        "R19"
+      ],
+      "contract_matches": [
+        "5.4"
+      ]
+    },
+    "R12": {
+      "status": "recalled",
+      "n_compliant_pairs": 9,
+      "satisfied_norms": [
+        "R12"
+      ],
+      "contract_matches": [
+        "12.4",
+        "2.1__1",
+        "5.2"
+      ]
+    },
+    "R30": {
+      "status": "recalled",
+      "n_compliant_pairs": 4,
+      "satisfied_norms": [
+        "R30"
+      ],
+      "contract_matches": [
+        "5.2"
+      ]
+    },
+    "R8": {
+      "status": "recalled",
+      "n_compliant_pairs": 5,
+      "satisfied_norms": [
+        "R8",
+        "R8_a",
+        "R8_b",
+        "R8_c",
+        "R8_d"
+      ],
+      "contract_matches": [
+        "6.2_ii"
+      ]
+    },
+    "R27": {
+      "status": "recalled",
+      "n_compliant_pairs": 1,
+      "satisfied_norms": [
+        "R27"
+      ],
+      "contract_matches": [
+        "10.2"
+      ]
+    },
+    "R25": {
+      "status": "recalled",
+      "n_compliant_pairs": 2,
+      "satisfied_norms": [
+        "R25"
+      ],
+      "contract_matches": [
+        "5.5",
+        "7.2"
+      ]
+    },
+    "R16": {
+      "status": "recalled",
+      "n_compliant_pairs": 13,
+      "satisfied_norms": [
+        "R16"
+      ],
+      "contract_matches": [
+        "3.1__1",
+        "3.5_c",
+        "3.5_d",
+        "3.5_main"
+      ]
+    },
+    "R36": {
+      "status": "recalled",
+      "n_compliant_pairs": 4,
+      "satisfied_norms": [
+        "R36"
+      ],
+      "contract_matches": [
+        "10.1_main",
+        "10.3"
+      ]
+    },
+    "R13": {
+      "status": "recalled",
+      "n_compliant_pairs": 5,
+      "satisfied_norms": [
+        "R13"
+      ],
+      "contract_matches": [
+        "12.4",
+        "5.2"
+      ]
+    },
+    "R23": {
+      "status": "recalled",
+      "n_compliant_pairs": 3,
+      "satisfied_norms": [
+        "R23"
+      ],
+      "contract_matches": [
+        "1.2__3_5",
+        "9.1"
+      ]
+    },
+    "R18": {
+      "status": "recalled",
+      "n_compliant_pairs": 5,
+      "satisfied_norms": [
+        "R18"
+      ],
+      "contract_matches": [
+        "3.5_d",
+        "3.5_main"
+      ]
+    },
+    "R29": {
+      "status": "recalled",
+      "n_compliant_pairs": 10,
+      "satisfied_norms": [
+        "R29"
+      ],
+      "contract_matches": [
+        "3.5_d",
+        "3.5_main"
+      ]
+    },
+    "R17": {
+      "status": "recalled",
+      "n_compliant_pairs": 1,
+      "satisfied_norms": [
+        "R17"
+      ],
+      "contract_matches": [
+        "5.3"
+      ]
+    },
+    "R38": {
+      "status": "recalled",
+      "n_compliant_pairs": 2,
+      "satisfied_norms": [
+        "R38"
+      ],
+      "contract_matches": [
+        "11.2"
+      ]
+    },
+    "R6": {
+      "status": "recalled",
+      "n_compliant_pairs": 10,
+      "satisfied_norms": [
+        "R6"
+      ],
+      "contract_matches": [
+        "2.1.1",
+        "2.1.2",
+        "2.1.3",
+        "2.1.4",
+        "2.1.5",
+        "2.1.6",
+        "2.1.7",
+        "2.1.8",
+        "2.1.9",
+        "2.3"
+      ]
+    },
+    "R10": {
+      "status": "recalled",
+      "n_compliant_pairs": 5,
+      "satisfied_norms": [
+        "R10"
+      ],
+      "contract_matches": [
+        "1.2__3_30__3",
+        "10.1_i",
+        "10.1_ii",
+        "10.3"
+      ]
+    },
+    "R4": {
+      "status": "recalled",
+      "n_compliant_pairs": 1,
+      "satisfied_norms": [
+        "R4"
+      ],
+      "contract_matches": [
+        "2.3"
+      ]
+    },
+    "R5": {
+      "status": "recalled",
+      "n_compliant_pairs": 3,
+      "satisfied_norms": [
+        "R5"
+      ],
+      "contract_matches": [
+        "2.3",
+        "3.2__2",
+        "3.4__2"
+      ]
+    },
+    "R2": {
+      "status": "recalled",
+      "n_compliant_pairs": 1,
+      "satisfied_norms": [
+        "R2"
+      ],
+      "contract_matches": [
+        "7.1_i"
+      ]
+    },
+    "R1": {
+      "status": "recalled",
+      "n_compliant_pairs": 1,
+      "satisfied_norms": [
+        "R1"
+      ],
+      "contract_matches": [
+        "7.1_ii"
+      ]
+    }
+  }
+}

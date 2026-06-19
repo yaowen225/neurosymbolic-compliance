@@ -1,0 +1,7 @@
+﻿Metric,Score
+True Positives (TP),38
+False Positives (FP),51
+False Negatives (FN),20
+Precision,0.427
+Recall,0.6552
+F1-Score,0.517

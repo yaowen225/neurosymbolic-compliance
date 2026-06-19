@@ -1,0 +1,9 @@
+﻿threshold,sentences_kept,sentences_total,newly_lost_at_threshold
+0.30,47,58,0
+0.35,47,58,0
+0.40,46,58,1
+0.45,43,58,3
+0.50,36,58,7
+0.55,28,58,8
+0.60,23,58,5
+0.65,21,58,2

@@ -1,0 +1,32 @@
+{
+  "rag_embed": {
+    "chat": {
+      "uncached_input": 0,
+      "cached_input": 0,
+      "output": 0,
+      "n_calls": 0
+    },
+    "embedding": {
+      "input": 4323,
+      "n_calls": 2
+    },
+    "elapsed_s": 0.0,
+    "model": null,
+    "backend": null
+  },
+  "rag_judge": {
+    "chat": {
+      "uncached_input": 19440,
+      "cached_input": 0,
+      "output": 1133,
+      "n_calls": 46
+    },
+    "embedding": {
+      "input": 0,
+      "n_calls": 0
+    },
+    "elapsed_s": 35.388,
+    "model": "gpt-5.4-mini",
+    "backend": "openai"
+  }
+}

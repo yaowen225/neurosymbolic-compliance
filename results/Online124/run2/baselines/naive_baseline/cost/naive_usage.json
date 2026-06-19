@@ -1,0 +1,17 @@
+{
+  "naive": {
+    "chat": {
+      "uncached_input": 388,
+      "cached_input": 4864,
+      "output": 3026,
+      "n_calls": 1
+    },
+    "embedding": {
+      "input": 0,
+      "n_calls": 0
+    },
+    "elapsed_s": 13.225,
+    "model": "gpt-5.4-mini",
+    "backend": "openai"
+  }
+}

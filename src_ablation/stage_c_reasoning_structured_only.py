@@ -1,0 +1,296 @@
+"""
+Step 6c: Reasoning (LLM 方向性 entailment 判斷)
+
+對通過 6b 的配對,用 LLM 做方向性判斷:合約是否「達到或超過」法規要求的門檻。
+
+判斷依據:只使用雙方的結構化欄位(actor/action/object/recipient/modality/
+condition/timing/manner/target/location/cause)。
+**不把 source_text 或任何原文放進 LLM 輸入** —— 這是本系統的核心主張:
+驗證光靠結構化欄位能否判斷合規。
+
+note:stage_c 的「輸出」會一併記下 contract source_text 與 reg belongs_to,
+供 Step 7/8 對回原文與收斂回 R 層級(這些不是 LLM 的輸入)。
+
+輸入:stage_b_pairs.json + Neo4j(結構化欄位節點)。
+輸出:stage_c_results.json。
+
+使用方式:
+    python stage_c_reasoning.py
+"""
+
+import os
+import json
+import argparse
+import yaml
+import sys
+from pathlib import Path
+from typing import Dict, List
+from neo4j import GraphDatabase
+from neo4j.exceptions import ServiceUnavailable, AuthError
+from openai import OpenAI
+from tenacity import retry, stop_after_attempt, wait_exponential
+from dotenv import load_dotenv
+
+if sys.platform == "win32":
+    import io
+    sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', line_buffering=True)
+    sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8')
+
+load_dotenv()
+
+# 成本計算:累計實際 token 用量
+sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "lib"))
+import cost_meter
+
+
+# ==================== 實驗參數 (Experimental Parameters) ====================
+LLM_MODEL = "gpt-5.4-mini"
+TEMPERATURE = 0.0
+REASONING_EFFORT = None   # None = 繼承 lib/gen_runtime.py 的 DEFAULT_REASONING_EFFORT(目前 "none");要單獨覆寫本步才設成非 None 值(none/low/medium/high)
+MAX_RETRIES = 3
+
+INPUT_PATH = "../output/compliance_results/stage_b_pairs.json"
+OUTPUT_DIR = "../output/compliance_results/variant_structured_only"
+FAILURE_DIR = "../output/failures"
+CONFIG_PATH = "../config.yaml"
+REGULATORY_DOC = "GDPR_DPA_Requirements"
+CONTRACT_DOC = "Online124"
+# ==============================================================================
+
+
+# ==================== 預設參數 ====================
+API_TIMEOUT = 60
+RETRY_WAIT_EXPONENTIAL_MULTIPLIER = 1
+RETRY_WAIT_EXPONENTIAL_MAX = 10
+STRUCT_FIELDS = ["actor", "action", "object", "recipient", "modality",
+                 "condition", "timing", "manner", "target", "location", "cause"]
+# ====================================================
+
+
+# Prompt 3.4 —— 用 .replace 注入佔位符(prompt 含字面 JSON 大括號)。
+# 共用判準段已對齊現行 main 6c —— 直接取用同資料夾 ablation_prompts.py(單一對齊來源,
+# main 之後更新時這裡自動跟著對齊;本變體只保留自己的輸入差異)。
+import importlib.util as _u
+from pathlib import Path as _P
+_apspec = _u.spec_from_file_location('ablation_prompts', _P(__file__).resolve().parent / 'ablation_prompts.py')
+_ap = _u.module_from_spec(_apspec); _apspec.loader.exec_module(_ap)
+REASONING_PROMPT = _ap.STRUCTURED_ONLY_PROMPT
+
+
+def load_config(config_path: str) -> Dict:
+    with open(config_path, "r", encoding="utf-8") as f:
+        return yaml.safe_load(f)["neo4j"]
+
+
+def fetch_structured(driver, database: str, document_id: str) -> Dict[str, Dict]:
+    """
+    從 KG 重建每條 norm 的結構化欄位(由展開的值節點還原)。
+    回傳 {clause_id: {actor, action, ..., cause, modality, belongs_to, source_text}}
+    """
+    query = """
+    MATCH (d:Document {document_id: $doc})-[:CONTAINS]->(n:Norm)
+    OPTIONAL MATCH (n)-[:HAS_ACTOR]->(a)
+    OPTIONAL MATCH (n)-[:HAS_ACTION]->(ac)
+    OPTIONAL MATCH (n)-[:HAS_OBJECT]->(o)
+    OPTIONAL MATCH (n)-[:HAS_RECIPIENT]->(rec)
+    OPTIONAL MATCH (n)-[:HAS_QUALIFIER]->(:Qualifier)-[:HAS_CONDITION]->(cond)
+    OPTIONAL MATCH (n)-[:HAS_QUALIFIER]->(:Qualifier)-[:HAS_TIMING]->(tim)
+    OPTIONAL MATCH (n)-[:HAS_QUALIFIER]->(:Qualifier)-[:HAS_MANNER]->(man)
+    OPTIONAL MATCH (n)-[:HAS_QUALIFIER]->(:Qualifier)-[:HAS_TARGET]->(tar)
+    OPTIONAL MATCH (n)-[:HAS_QUALIFIER]->(:Qualifier)-[:HAS_LOCATION]->(loc)
+    OPTIONAL MATCH (n)-[:HAS_QUALIFIER]->(:Qualifier)-[:HAS_CAUSE]->(cau)
+    RETURN n.clause_id AS clause_id, n.modality AS modality,
+           n.belongs_to AS belongs_to, n.parent AS parent,
+           n.origin_clause AS origin_clause, n.source_text AS source_text,
+           a.value AS actor, ac.value AS action, o.value AS object, rec.value AS recipient,
+           cond.value AS condition, tim.value AS timing, man.value AS manner,
+           tar.value AS target, loc.value AS location, cau.value AS cause
+    """
+    out = {}
+    with driver.session(database=database) as session:
+        for r in session.run(query, doc=document_id):
+            out[r["clause_id"]] = {k: r[k] for k in r.keys()}
+    return out
+
+
+def _fmt(v) -> str:
+    return "null" if v is None or (isinstance(v, str) and not v.strip()) else str(v)
+
+
+# 父脈絡只給「結構化欄位」(不含 source_text / core_sentence,避免原文洩漏進判斷)
+PARENT_CONTEXT_FIELDS = ["actor", "action", "object", "recipient", "condition", "timing", "manner"]
+
+
+def build_parent_context(con_parent: Dict) -> str:
+    """
+    子條款判斷時附上父條款的結構化欄位當脈絡。獨立 norm(無父)回空字串。
+    """
+    if not con_parent:
+        return ""
+    lines = [
+        "",
+        "## Parent clause context (structured fields only)",
+        "The contract obligation above is a SUB-ITEM of a larger parent clause. Treat the "
+        "sub-item TOGETHER WITH this parent context as the contract's fulfillment of the "
+        "requirement (the parent-level duty also counts as performed by the contract).",
+    ]
+    for f in PARENT_CONTEXT_FIELDS:
+        lines.append(f"{f}: {_fmt(con_parent.get(f))}")
+    return "\n".join(lines)
+
+
+class Reasoner:
+    def __init__(self, api_key: str):
+        self.client = OpenAI(api_key=api_key, timeout=API_TIMEOUT)
+        self.failures = []
+
+    @retry(
+        stop=stop_after_attempt(MAX_RETRIES),
+        wait=wait_exponential(
+            multiplier=RETRY_WAIT_EXPONENTIAL_MULTIPLIER,
+            max=RETRY_WAIT_EXPONENTIAL_MAX
+        )
+    )
+    def judge(self, reg: Dict, con: Dict, con_parent: Dict = None) -> Dict:
+        prompt = REASONING_PROMPT
+        for f in STRUCT_FIELDS:
+            prompt = prompt.replace("{reg_" + f + "}", _fmt(reg.get(f)))
+            prompt = prompt.replace("{contract_" + f + "}", _fmt(con.get(f)))
+
+        # 子條款:附上父條款的「結構化欄位」當脈絡(不放原文/core_sentence)
+        prompt = prompt.replace("{parent_context}", build_parent_context(con_parent))
+
+        response = self.client.chat.completions.create(
+            model=LLM_MODEL,
+            reasoning_effort=REASONING_EFFORT,
+            messages=[
+                {"role": "system", "content": "You are a compliance entailment reviewer."},
+                {"role": "user", "content": prompt},
+            ],
+            temperature=TEMPERATURE,
+            response_format={"type": "json_object"},
+        )
+        cost_meter.add_chat(response)
+        return json.loads(response.choices[0].message.content)
+
+
+def main():
+    parser = argparse.ArgumentParser(description="Step 6c: LLM directional entailment reasoning")
+    parser.add_argument("--input", type=str, default=INPUT_PATH)
+    parser.add_argument("--output-dir", type=str, default=OUTPUT_DIR)
+    parser.add_argument("--failure-dir", type=str, default=FAILURE_DIR)
+    parser.add_argument("--config", type=str, default=CONFIG_PATH)
+    parser.add_argument("--regulatory-doc", type=str, default=REGULATORY_DOC)
+    parser.add_argument("--contract-doc", type=str, default=CONTRACT_DOC)
+    args = parser.parse_args()
+
+    print("=" * 70)
+    print("Step 6c: Reasoning (LLM 方向性 entailment,只用結構化欄位)")
+    print("=" * 70)
+
+    input_path = Path(args.input)
+    if not input_path.exists():
+        raise FileNotFoundError(f"找不到 6b 輸出: {input_path}。請先執行 stage_b_semantic.py")
+    with open(input_path, "r", encoding="utf-8") as f:
+        stage_b = json.load(f)
+    pairs = stage_b["pairs"]
+    print(f"讀取 6b 配對: {len(pairs)}")
+
+    api_key = os.getenv("OPENAI_API_KEY")
+    if not api_key:
+        raise ValueError("未找到 OPENAI_API_KEY")
+
+    config = load_config(args.config)
+    try:
+        driver = GraphDatabase.driver(config["uri"], auth=(config["username"], config["password"]))
+        driver.verify_connectivity()
+        print("Neo4j 連線成功")
+    except (ServiceUnavailable, AuthError) as e:
+        raise ConnectionError(f"Neo4j 連線失敗: {e}")
+
+    database = config.get("database", "neo4j")
+    cost_meter.configure(system="variant_structured_only", step="step6c_reasoning")
+    reasoner = Reasoner(api_key)
+    results = []
+
+    try:
+        reg_fields = fetch_structured(driver, database, args.regulatory_doc)
+        con_fields = fetch_structured(driver, database, args.contract_doc)
+        print(f"   法規結構化 norms: {len(reg_fields)} | 合約: {len(con_fields)}")
+
+        total = len(pairs)
+        for i, p in enumerate(pairs, 1):
+            r_id, c_id = p["reg_clause_id"], p["contract_clause_id"]
+            reg = reg_fields.get(r_id)
+            con = con_fields.get(c_id)
+            if not reg or not con:
+                print(f" 缺結構化欄位,跳過: {r_id} ↔ {c_id}")
+                continue
+
+            if i % 10 == 0 or i == total:
+                print(f"   進度 {i}/{total}")
+
+            # 子條款:取合約 norm 的有效父(belongs_to 或 parser parent)的結構化欄位當脈絡
+            parent_id = con.get("belongs_to") or con.get("parent")
+            con_parent = con_fields.get(parent_id) if parent_id else None
+
+            try:
+                verdict = reasoner.judge(reg, con, con_parent)
+            except Exception as e:
+                reasoner.failures.append({
+                    "reg_clause_id": r_id, "contract_clause_id": c_id, "error": str(e)
+                })
+                print(f"判斷失敗: {r_id} ↔ {c_id} - {e}")
+                continue
+
+            results.append({
+                "reg_clause_id": r_id,
+                "contract_clause_id": c_id,
+                # 收斂回 R 層級用:belongs_to 非空則用之,否則用 clause_id
+                "reg_belongs_to": reg.get("belongs_to"),
+                "rule_id": reg.get("belongs_to") or r_id,
+                # 合約端去重單位(同一原始 clause 的多個子 norm 配同一法規只算一次)
+                "contract_origin_clause": con.get("origin_clause") or c_id,
+                "parent_context_used": bool(con_parent),
+                "similarity": p.get("similarity"),
+                "shared_groups": p.get("shared_groups", []),
+                "verdict": verdict.get("verdict"),
+                "core_alignment_check": verdict.get("core_alignment_check"),
+                "condition_check": verdict.get("condition_check"),
+                "modality_check": verdict.get("modality_check"),
+                "other_constraints_check": verdict.get("other_constraints_check"),
+                # 供 Step 7/8 對回原文(非 LLM 輸入)
+                "contract_source_text": con.get("source_text"),
+            })
+
+        cost_meter.flush()
+
+        from collections import Counter
+        vc = Counter(r["verdict"] for r in results)
+        print(f"\n6c 判定分佈: {dict(vc)}")
+
+        output_dir = Path(args.output_dir)
+        output_dir.mkdir(parents=True, exist_ok=True)
+        output_path = output_dir / "stage_c_results.json"
+        with open(output_path, "w", encoding="utf-8") as f:
+            json.dump({
+                "n_input": len(pairs),
+                "n_judged": len(results),
+                "verdict_counts": dict(vc),
+                "results": results,
+            }, f, indent=2, ensure_ascii=False)
+        print(f"\n結果已儲存: {output_path}")
+
+        if reasoner.failures:
+            failure_dir = Path(args.failure_dir)
+            failure_dir.mkdir(parents=True, exist_ok=True)
+            fp = failure_dir / "stage_c_failures.json"
+            with open(fp, "w", encoding="utf-8") as f:
+                json.dump(reasoner.failures, f, indent=2, ensure_ascii=False)
+            print(f"失敗記錄: {fp}")
+    finally:
+        driver.close()
+
+
+if __name__ == "__main__":
+    main()

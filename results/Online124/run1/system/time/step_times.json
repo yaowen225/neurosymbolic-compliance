@@ -1,0 +1,65 @@
+{
+  "steps": [
+    {
+      "label": "parse_reg",
+      "seconds": 0.083
+    },
+    {
+      "label": "parse_con",
+      "seconds": 0.117
+    },
+    {
+      "label": "classifier",
+      "seconds": 10.214
+    },
+    {
+      "label": "extract_reg",
+      "seconds": 64.878
+    },
+    {
+      "label": "extract_con",
+      "seconds": 126.887
+    },
+    {
+      "label": "embed_reg",
+      "seconds": 5.727
+    },
+    {
+      "label": "embed_con",
+      "seconds": 3.301
+    },
+    {
+      "label": "kg__reg",
+      "seconds": 4.248
+    },
+    {
+      "label": "kg__con",
+      "seconds": 3.92
+    },
+    {
+      "label": "stage_a",
+      "seconds": 0.812
+    },
+    {
+      "label": "stage_b",
+      "seconds": 1.3
+    },
+    {
+      "label": "stage_c",
+      "seconds": 118.525
+    },
+    {
+      "label": "aggregate",
+      "seconds": 0.119
+    },
+    {
+      "label": "sys_eval",
+      "seconds": 0.111
+    },
+    {
+      "label": "sys_analysis",
+      "seconds": 0.354
+    }
+  ],
+  "total_s": 340.596
+}

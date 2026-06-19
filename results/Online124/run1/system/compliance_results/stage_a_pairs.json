@@ -1,0 +1,6178 @@
+{
+  "regulatory_doc": "GDPR_DPA_Requirements",
+  "contract_doc": "Online124",
+  "n_reg_norms": 58,
+  "n_contract_norms": 95,
+  "n_pairs": 770,
+  "pairs": [
+    {
+      "reg_clause_id": "R1",
+      "contract_clause_id": "main_1.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R1",
+      "contract_clause_id": "main_2.1_i",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R1",
+      "contract_clause_id": "main_2.1_ii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R1",
+      "contract_clause_id": "main_3.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R1",
+      "contract_clause_id": "main_3.2_main",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R1",
+      "contract_clause_id": "main_3.2_1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R1",
+      "contract_clause_id": "main_3.2_1_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R1",
+      "contract_clause_id": "main_3.3",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R1",
+      "contract_clause_id": "main_3.4",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R1",
+      "contract_clause_id": "main_4.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R1",
+      "contract_clause_id": "main_4.1_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R1",
+      "contract_clause_id": "main_4.2",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R1",
+      "contract_clause_id": "main_5.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R1",
+      "contract_clause_id": "main_5.1.2",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R1",
+      "contract_clause_id": "main_5.2",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R1",
+      "contract_clause_id": "main_5.6",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R1",
+      "contract_clause_id": "main_5.8.1_ii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R1",
+      "contract_clause_id": "main_5.9",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R1",
+      "contract_clause_id": "main_5.9.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R1",
+      "contract_clause_id": "main_6.1_main",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R1",
+      "contract_clause_id": "main_6.1_main_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R1",
+      "contract_clause_id": "main_6.1_main_ob_b",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R1",
+      "contract_clause_id": "main_6.1_7",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R1",
+      "contract_clause_id": "main_6.4",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R1",
+      "contract_clause_id": "main_6.4_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R1",
+      "contract_clause_id": "main_7.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R1",
+      "contract_clause_id": "main_7.2_iii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R1",
+      "contract_clause_id": "main_8.2",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R1",
+      "contract_clause_id": "main_8.2_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R1",
+      "contract_clause_id": "main_8.3_ii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R1",
+      "contract_clause_id": "main_9.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R1",
+      "contract_clause_id": "main_10.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R1",
+      "contract_clause_id": "main_10.2",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R1",
+      "contract_clause_id": "main_10.2_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R1",
+      "contract_clause_id": "main_10.2_ob_b",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R1",
+      "contract_clause_id": "main_10.2_ob_c",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R1",
+      "contract_clause_id": "main_11.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R1",
+      "contract_clause_id": "sub_a_1.1_main",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R1",
+      "contract_clause_id": "sub_a_1.1_i",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R1",
+      "contract_clause_id": "sub_a_1.1_ii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R1",
+      "contract_clause_id": "sub_a_1.1_iii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R1",
+      "contract_clause_id": "sub_a_2.1_main",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R1",
+      "contract_clause_id": "sub_a_2.1_i",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R1",
+      "contract_clause_id": "sub_a_2.1_ii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R1",
+      "contract_clause_id": "sub_b_1.1_i",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R1",
+      "contract_clause_id": "sub_b_1.1_ii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R1",
+      "contract_clause_id": "sub_b_1.1_iii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R1",
+      "contract_clause_id": "sub_b_2.1_i",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R2",
+      "contract_clause_id": "main_1.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R2",
+      "contract_clause_id": "main_2.1_i",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R2",
+      "contract_clause_id": "main_2.1_ii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R2",
+      "contract_clause_id": "main_3.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R2",
+      "contract_clause_id": "main_3.2_main",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R2",
+      "contract_clause_id": "main_3.2_1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R2",
+      "contract_clause_id": "main_3.2_1_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R2",
+      "contract_clause_id": "main_3.3",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R2",
+      "contract_clause_id": "main_3.4",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R2",
+      "contract_clause_id": "main_4.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R2",
+      "contract_clause_id": "main_4.1_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R2",
+      "contract_clause_id": "main_4.2",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R2",
+      "contract_clause_id": "main_5.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R2",
+      "contract_clause_id": "main_5.1.2",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R2",
+      "contract_clause_id": "main_5.2",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R2",
+      "contract_clause_id": "main_5.6",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R2",
+      "contract_clause_id": "main_5.8.1_ii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R2",
+      "contract_clause_id": "main_5.9",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R2",
+      "contract_clause_id": "main_5.9.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R2",
+      "contract_clause_id": "main_6.1_main",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R2",
+      "contract_clause_id": "main_6.1_main_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R2",
+      "contract_clause_id": "main_6.1_main_ob_b",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R2",
+      "contract_clause_id": "main_6.1_7",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R2",
+      "contract_clause_id": "main_6.4",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R2",
+      "contract_clause_id": "main_6.4_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R2",
+      "contract_clause_id": "main_7.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R2",
+      "contract_clause_id": "main_7.2_iii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R2",
+      "contract_clause_id": "main_8.2",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R2",
+      "contract_clause_id": "main_8.2_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R2",
+      "contract_clause_id": "main_8.3_ii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R2",
+      "contract_clause_id": "main_9.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R2",
+      "contract_clause_id": "main_10.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R2",
+      "contract_clause_id": "main_10.2",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R2",
+      "contract_clause_id": "main_10.2_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R2",
+      "contract_clause_id": "main_10.2_ob_b",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R2",
+      "contract_clause_id": "main_10.2_ob_c",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R2",
+      "contract_clause_id": "main_11.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R2",
+      "contract_clause_id": "sub_a_1.1_main",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R2",
+      "contract_clause_id": "sub_a_1.1_i",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R2",
+      "contract_clause_id": "sub_a_1.1_ii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R2",
+      "contract_clause_id": "sub_a_1.1_iii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R2",
+      "contract_clause_id": "sub_a_2.1_main",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R2",
+      "contract_clause_id": "sub_a_2.1_i",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R2",
+      "contract_clause_id": "sub_a_2.1_ii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R2",
+      "contract_clause_id": "sub_b_1.1_i",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R2",
+      "contract_clause_id": "sub_b_1.1_ii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R2",
+      "contract_clause_id": "sub_b_1.1_iii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R2",
+      "contract_clause_id": "sub_b_2.1_i",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R3",
+      "contract_clause_id": "main_1.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R3",
+      "contract_clause_id": "main_2.1_i",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R3",
+      "contract_clause_id": "main_2.1_ii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R3",
+      "contract_clause_id": "main_3.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R3",
+      "contract_clause_id": "main_3.2_main",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R3",
+      "contract_clause_id": "main_3.2_1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R3",
+      "contract_clause_id": "main_3.2_1_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R3",
+      "contract_clause_id": "main_3.3",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R3",
+      "contract_clause_id": "main_3.4",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R3",
+      "contract_clause_id": "main_4.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R3",
+      "contract_clause_id": "main_4.1_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R3",
+      "contract_clause_id": "main_4.2",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R3",
+      "contract_clause_id": "main_5.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R3",
+      "contract_clause_id": "main_5.1.2",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R3",
+      "contract_clause_id": "main_5.2",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R3",
+      "contract_clause_id": "main_5.6",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R3",
+      "contract_clause_id": "main_5.8.1_ii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R3",
+      "contract_clause_id": "main_5.9",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R3",
+      "contract_clause_id": "main_5.9.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R3",
+      "contract_clause_id": "main_6.1_main",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R3",
+      "contract_clause_id": "main_6.1_main_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R3",
+      "contract_clause_id": "main_6.1_main_ob_b",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R3",
+      "contract_clause_id": "main_6.1_7",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R3",
+      "contract_clause_id": "main_6.4",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R3",
+      "contract_clause_id": "main_6.4_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R3",
+      "contract_clause_id": "main_7.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R3",
+      "contract_clause_id": "main_7.2_iii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R3",
+      "contract_clause_id": "main_8.2",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R3",
+      "contract_clause_id": "main_8.2_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R3",
+      "contract_clause_id": "main_8.3_ii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R3",
+      "contract_clause_id": "main_9.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R3",
+      "contract_clause_id": "main_10.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R3",
+      "contract_clause_id": "main_10.2",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R3",
+      "contract_clause_id": "main_10.2_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R3",
+      "contract_clause_id": "main_10.2_ob_b",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R3",
+      "contract_clause_id": "main_10.2_ob_c",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R3",
+      "contract_clause_id": "main_11.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R3",
+      "contract_clause_id": "sub_a_1.1_main",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R3",
+      "contract_clause_id": "sub_a_1.1_i",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R3",
+      "contract_clause_id": "sub_a_1.1_ii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R3",
+      "contract_clause_id": "sub_a_1.1_iii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R3",
+      "contract_clause_id": "sub_a_2.1_main",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R3",
+      "contract_clause_id": "sub_a_2.1_i",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R3",
+      "contract_clause_id": "sub_a_2.1_ii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R3",
+      "contract_clause_id": "sub_b_1.1_i",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R3",
+      "contract_clause_id": "sub_b_1.1_ii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R3",
+      "contract_clause_id": "sub_b_1.1_iii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R3",
+      "contract_clause_id": "sub_b_2.1_i",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R4",
+      "contract_clause_id": "main_1.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R4",
+      "contract_clause_id": "main_2.1_i",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R4",
+      "contract_clause_id": "main_2.1_ii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R4",
+      "contract_clause_id": "main_3.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R4",
+      "contract_clause_id": "main_3.2_main",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R4",
+      "contract_clause_id": "main_3.2_1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R4",
+      "contract_clause_id": "main_3.2_1_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R4",
+      "contract_clause_id": "main_3.3",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R4",
+      "contract_clause_id": "main_3.4",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R4",
+      "contract_clause_id": "main_4.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R4",
+      "contract_clause_id": "main_4.1_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R4",
+      "contract_clause_id": "main_4.2",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R4",
+      "contract_clause_id": "main_5.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R4",
+      "contract_clause_id": "main_5.1.2",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R4",
+      "contract_clause_id": "main_5.2",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R4",
+      "contract_clause_id": "main_5.6",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R4",
+      "contract_clause_id": "main_5.8.1_ii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R4",
+      "contract_clause_id": "main_5.9",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R4",
+      "contract_clause_id": "main_5.9.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R4",
+      "contract_clause_id": "main_6.1_main",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R4",
+      "contract_clause_id": "main_6.1_main_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R4",
+      "contract_clause_id": "main_6.1_main_ob_b",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R4",
+      "contract_clause_id": "main_6.1_7",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R4",
+      "contract_clause_id": "main_6.4",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R4",
+      "contract_clause_id": "main_6.4_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R4",
+      "contract_clause_id": "main_7.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R4",
+      "contract_clause_id": "main_7.2_iii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R4",
+      "contract_clause_id": "main_8.2",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R4",
+      "contract_clause_id": "main_8.2_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R4",
+      "contract_clause_id": "main_8.3_ii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R4",
+      "contract_clause_id": "main_9.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R4",
+      "contract_clause_id": "main_10.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R4",
+      "contract_clause_id": "main_10.2",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R4",
+      "contract_clause_id": "main_10.2_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R4",
+      "contract_clause_id": "main_10.2_ob_b",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R4",
+      "contract_clause_id": "main_10.2_ob_c",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R4",
+      "contract_clause_id": "main_11.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R4",
+      "contract_clause_id": "sub_a_1.1_main",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R4",
+      "contract_clause_id": "sub_a_1.1_i",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R4",
+      "contract_clause_id": "sub_a_1.1_ii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R4",
+      "contract_clause_id": "sub_a_1.1_iii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R4",
+      "contract_clause_id": "sub_a_2.1_main",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R4",
+      "contract_clause_id": "sub_a_2.1_i",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R4",
+      "contract_clause_id": "sub_a_2.1_ii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R4",
+      "contract_clause_id": "sub_b_1.1_i",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R4",
+      "contract_clause_id": "sub_b_1.1_ii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R4",
+      "contract_clause_id": "sub_b_1.1_iii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R4",
+      "contract_clause_id": "sub_b_2.1_i",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R5",
+      "contract_clause_id": "main_1.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R5",
+      "contract_clause_id": "main_2.1_i",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R5",
+      "contract_clause_id": "main_2.1_ii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R5",
+      "contract_clause_id": "main_3.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R5",
+      "contract_clause_id": "main_3.2_main",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R5",
+      "contract_clause_id": "main_3.2_1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R5",
+      "contract_clause_id": "main_3.2_1_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R5",
+      "contract_clause_id": "main_3.3",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R5",
+      "contract_clause_id": "main_3.4",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R5",
+      "contract_clause_id": "main_4.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R5",
+      "contract_clause_id": "main_4.1_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R5",
+      "contract_clause_id": "main_4.2",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R5",
+      "contract_clause_id": "main_5.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R5",
+      "contract_clause_id": "main_5.1.2",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R5",
+      "contract_clause_id": "main_5.2",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R5",
+      "contract_clause_id": "main_5.6",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R5",
+      "contract_clause_id": "main_5.8.1_ii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R5",
+      "contract_clause_id": "main_5.9",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R5",
+      "contract_clause_id": "main_5.9.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R5",
+      "contract_clause_id": "main_6.1_main",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R5",
+      "contract_clause_id": "main_6.1_main_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R5",
+      "contract_clause_id": "main_6.1_main_ob_b",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R5",
+      "contract_clause_id": "main_6.1_7",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R5",
+      "contract_clause_id": "main_6.4",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R5",
+      "contract_clause_id": "main_6.4_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R5",
+      "contract_clause_id": "main_7.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R5",
+      "contract_clause_id": "main_7.2_iii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R5",
+      "contract_clause_id": "main_8.2",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R5",
+      "contract_clause_id": "main_8.2_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R5",
+      "contract_clause_id": "main_8.3_ii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R5",
+      "contract_clause_id": "main_9.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R5",
+      "contract_clause_id": "main_10.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R5",
+      "contract_clause_id": "main_10.2",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R5",
+      "contract_clause_id": "main_10.2_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R5",
+      "contract_clause_id": "main_10.2_ob_b",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R5",
+      "contract_clause_id": "main_10.2_ob_c",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R5",
+      "contract_clause_id": "main_11.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R5",
+      "contract_clause_id": "sub_a_1.1_main",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R5",
+      "contract_clause_id": "sub_a_1.1_i",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R5",
+      "contract_clause_id": "sub_a_1.1_ii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R5",
+      "contract_clause_id": "sub_a_1.1_iii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R5",
+      "contract_clause_id": "sub_a_2.1_main",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R5",
+      "contract_clause_id": "sub_a_2.1_i",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R5",
+      "contract_clause_id": "sub_a_2.1_ii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R5",
+      "contract_clause_id": "sub_b_1.1_i",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R5",
+      "contract_clause_id": "sub_b_1.1_ii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R5",
+      "contract_clause_id": "sub_b_1.1_iii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R5",
+      "contract_clause_id": "sub_b_2.1_i",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R6",
+      "contract_clause_id": "main_1.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R6",
+      "contract_clause_id": "main_2.1_i",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R6",
+      "contract_clause_id": "main_2.1_ii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R6",
+      "contract_clause_id": "main_3.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R6",
+      "contract_clause_id": "main_3.2_main",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R6",
+      "contract_clause_id": "main_3.2_1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R6",
+      "contract_clause_id": "main_3.2_1_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R6",
+      "contract_clause_id": "main_3.3",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R6",
+      "contract_clause_id": "main_3.4",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R6",
+      "contract_clause_id": "main_4.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R6",
+      "contract_clause_id": "main_4.1_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R6",
+      "contract_clause_id": "main_4.2",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R6",
+      "contract_clause_id": "main_5.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R6",
+      "contract_clause_id": "main_5.1.2",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R6",
+      "contract_clause_id": "main_5.2",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R6",
+      "contract_clause_id": "main_5.6",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R6",
+      "contract_clause_id": "main_5.8.1_ii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R6",
+      "contract_clause_id": "main_5.9",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R6",
+      "contract_clause_id": "main_5.9.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R6",
+      "contract_clause_id": "main_6.1_main",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R6",
+      "contract_clause_id": "main_6.1_main_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R6",
+      "contract_clause_id": "main_6.1_main_ob_b",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R6",
+      "contract_clause_id": "main_6.1_7",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R6",
+      "contract_clause_id": "main_6.4",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R6",
+      "contract_clause_id": "main_6.4_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R6",
+      "contract_clause_id": "main_7.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R6",
+      "contract_clause_id": "main_7.2_iii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R6",
+      "contract_clause_id": "main_8.2",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R6",
+      "contract_clause_id": "main_8.2_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R6",
+      "contract_clause_id": "main_8.3_ii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R6",
+      "contract_clause_id": "main_9.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R6",
+      "contract_clause_id": "main_10.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R6",
+      "contract_clause_id": "main_10.2",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R6",
+      "contract_clause_id": "main_10.2_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R6",
+      "contract_clause_id": "main_10.2_ob_b",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R6",
+      "contract_clause_id": "main_10.2_ob_c",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R6",
+      "contract_clause_id": "main_11.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R6",
+      "contract_clause_id": "sub_a_1.1_main",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R6",
+      "contract_clause_id": "sub_a_1.1_i",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R6",
+      "contract_clause_id": "sub_a_1.1_ii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R6",
+      "contract_clause_id": "sub_a_1.1_iii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R6",
+      "contract_clause_id": "sub_a_2.1_main",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R6",
+      "contract_clause_id": "sub_a_2.1_i",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R6",
+      "contract_clause_id": "sub_a_2.1_ii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R6",
+      "contract_clause_id": "sub_b_1.1_i",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R6",
+      "contract_clause_id": "sub_b_1.1_ii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R6",
+      "contract_clause_id": "sub_b_1.1_iii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R6",
+      "contract_clause_id": "sub_b_2.1_i",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "DPA Parties And Processing Scope"
+      ]
+    },
+    {
+      "reg_clause_id": "R7",
+      "contract_clause_id": "main_5.1.1_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Security Of Processing"
+      ]
+    },
+    {
+      "reg_clause_id": "R7",
+      "contract_clause_id": "main_5.1.1_ob_b",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Security Of Processing"
+      ]
+    },
+    {
+      "reg_clause_id": "R7",
+      "contract_clause_id": "main_5.1.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Security Of Processing"
+      ]
+    },
+    {
+      "reg_clause_id": "R7",
+      "contract_clause_id": "main_5.1.2",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Security Of Processing"
+      ]
+    },
+    {
+      "reg_clause_id": "R7",
+      "contract_clause_id": "main_5.2.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Security Of Processing"
+      ]
+    },
+    {
+      "reg_clause_id": "R7",
+      "contract_clause_id": "main_5.3",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Security Of Processing"
+      ]
+    },
+    {
+      "reg_clause_id": "R7",
+      "contract_clause_id": "main_5.4.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Security Of Processing"
+      ]
+    },
+    {
+      "reg_clause_id": "R7",
+      "contract_clause_id": "main_5.7.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Security Of Processing"
+      ]
+    },
+    {
+      "reg_clause_id": "R7_a",
+      "contract_clause_id": "main_5.1.1_ob_a",
+      "reg_belongs_to": "R7",
+      "shared_groups": [
+        "Security Of Processing"
+      ]
+    },
+    {
+      "reg_clause_id": "R7_a",
+      "contract_clause_id": "main_5.1.1_ob_b",
+      "reg_belongs_to": "R7",
+      "shared_groups": [
+        "Security Of Processing"
+      ]
+    },
+    {
+      "reg_clause_id": "R7_a",
+      "contract_clause_id": "main_5.1.1",
+      "reg_belongs_to": "R7",
+      "shared_groups": [
+        "Security Of Processing"
+      ]
+    },
+    {
+      "reg_clause_id": "R7_a",
+      "contract_clause_id": "main_5.1.2",
+      "reg_belongs_to": "R7",
+      "shared_groups": [
+        "Security Of Processing"
+      ]
+    },
+    {
+      "reg_clause_id": "R7_a",
+      "contract_clause_id": "main_5.2.1",
+      "reg_belongs_to": "R7",
+      "shared_groups": [
+        "Security Of Processing"
+      ]
+    },
+    {
+      "reg_clause_id": "R7_a",
+      "contract_clause_id": "main_5.3",
+      "reg_belongs_to": "R7",
+      "shared_groups": [
+        "Security Of Processing"
+      ]
+    },
+    {
+      "reg_clause_id": "R7_a",
+      "contract_clause_id": "main_5.4.1",
+      "reg_belongs_to": "R7",
+      "shared_groups": [
+        "Security Of Processing"
+      ]
+    },
+    {
+      "reg_clause_id": "R7_a",
+      "contract_clause_id": "main_5.7.1",
+      "reg_belongs_to": "R7",
+      "shared_groups": [
+        "Security Of Processing"
+      ]
+    },
+    {
+      "reg_clause_id": "R7_b",
+      "contract_clause_id": "main_5.1.1_ob_a",
+      "reg_belongs_to": "R7",
+      "shared_groups": [
+        "Security Of Processing"
+      ]
+    },
+    {
+      "reg_clause_id": "R7_b",
+      "contract_clause_id": "main_5.1.1_ob_b",
+      "reg_belongs_to": "R7",
+      "shared_groups": [
+        "Security Of Processing"
+      ]
+    },
+    {
+      "reg_clause_id": "R7_b",
+      "contract_clause_id": "main_5.1.1",
+      "reg_belongs_to": "R7",
+      "shared_groups": [
+        "Security Of Processing"
+      ]
+    },
+    {
+      "reg_clause_id": "R7_b",
+      "contract_clause_id": "main_5.1.2",
+      "reg_belongs_to": "R7",
+      "shared_groups": [
+        "Security Of Processing"
+      ]
+    },
+    {
+      "reg_clause_id": "R7_b",
+      "contract_clause_id": "main_5.2.1",
+      "reg_belongs_to": "R7",
+      "shared_groups": [
+        "Security Of Processing"
+      ]
+    },
+    {
+      "reg_clause_id": "R7_b",
+      "contract_clause_id": "main_5.3",
+      "reg_belongs_to": "R7",
+      "shared_groups": [
+        "Security Of Processing"
+      ]
+    },
+    {
+      "reg_clause_id": "R7_b",
+      "contract_clause_id": "main_5.4.1",
+      "reg_belongs_to": "R7",
+      "shared_groups": [
+        "Security Of Processing"
+      ]
+    },
+    {
+      "reg_clause_id": "R7_b",
+      "contract_clause_id": "main_5.7.1",
+      "reg_belongs_to": "R7",
+      "shared_groups": [
+        "Security Of Processing"
+      ]
+    },
+    {
+      "reg_clause_id": "R7_c",
+      "contract_clause_id": "main_5.1.1_ob_a",
+      "reg_belongs_to": "R7",
+      "shared_groups": [
+        "Security Of Processing"
+      ]
+    },
+    {
+      "reg_clause_id": "R7_c",
+      "contract_clause_id": "main_5.1.1_ob_b",
+      "reg_belongs_to": "R7",
+      "shared_groups": [
+        "Security Of Processing"
+      ]
+    },
+    {
+      "reg_clause_id": "R7_c",
+      "contract_clause_id": "main_5.1.1",
+      "reg_belongs_to": "R7",
+      "shared_groups": [
+        "Security Of Processing"
+      ]
+    },
+    {
+      "reg_clause_id": "R7_c",
+      "contract_clause_id": "main_5.1.2",
+      "reg_belongs_to": "R7",
+      "shared_groups": [
+        "Security Of Processing"
+      ]
+    },
+    {
+      "reg_clause_id": "R7_c",
+      "contract_clause_id": "main_5.2.1",
+      "reg_belongs_to": "R7",
+      "shared_groups": [
+        "Security Of Processing"
+      ]
+    },
+    {
+      "reg_clause_id": "R7_c",
+      "contract_clause_id": "main_5.3",
+      "reg_belongs_to": "R7",
+      "shared_groups": [
+        "Security Of Processing"
+      ]
+    },
+    {
+      "reg_clause_id": "R7_c",
+      "contract_clause_id": "main_5.4.1",
+      "reg_belongs_to": "R7",
+      "shared_groups": [
+        "Security Of Processing"
+      ]
+    },
+    {
+      "reg_clause_id": "R7_c",
+      "contract_clause_id": "main_5.7.1",
+      "reg_belongs_to": "R7",
+      "shared_groups": [
+        "Security Of Processing"
+      ]
+    },
+    {
+      "reg_clause_id": "R7_d",
+      "contract_clause_id": "main_5.1.1_ob_a",
+      "reg_belongs_to": "R7",
+      "shared_groups": [
+        "Security Of Processing"
+      ]
+    },
+    {
+      "reg_clause_id": "R7_d",
+      "contract_clause_id": "main_5.1.1_ob_b",
+      "reg_belongs_to": "R7",
+      "shared_groups": [
+        "Security Of Processing"
+      ]
+    },
+    {
+      "reg_clause_id": "R7_d",
+      "contract_clause_id": "main_5.1.1",
+      "reg_belongs_to": "R7",
+      "shared_groups": [
+        "Security Of Processing"
+      ]
+    },
+    {
+      "reg_clause_id": "R7_d",
+      "contract_clause_id": "main_5.1.2",
+      "reg_belongs_to": "R7",
+      "shared_groups": [
+        "Security Of Processing"
+      ]
+    },
+    {
+      "reg_clause_id": "R7_d",
+      "contract_clause_id": "main_5.2.1",
+      "reg_belongs_to": "R7",
+      "shared_groups": [
+        "Security Of Processing"
+      ]
+    },
+    {
+      "reg_clause_id": "R7_d",
+      "contract_clause_id": "main_5.3",
+      "reg_belongs_to": "R7",
+      "shared_groups": [
+        "Security Of Processing"
+      ]
+    },
+    {
+      "reg_clause_id": "R7_d",
+      "contract_clause_id": "main_5.4.1",
+      "reg_belongs_to": "R7",
+      "shared_groups": [
+        "Security Of Processing"
+      ]
+    },
+    {
+      "reg_clause_id": "R7_d",
+      "contract_clause_id": "main_5.7.1",
+      "reg_belongs_to": "R7",
+      "shared_groups": [
+        "Security Of Processing"
+      ]
+    },
+    {
+      "reg_clause_id": "R8",
+      "contract_clause_id": "main_5.7",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Personal Data Breach Management"
+      ]
+    },
+    {
+      "reg_clause_id": "R8",
+      "contract_clause_id": "main_5.7.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Personal Data Breach Management"
+      ]
+    },
+    {
+      "reg_clause_id": "R8",
+      "contract_clause_id": "main_5.7.2_main",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Personal Data Breach Management"
+      ]
+    },
+    {
+      "reg_clause_id": "R8",
+      "contract_clause_id": "main_5.7.2_main_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Personal Data Breach Management"
+      ]
+    },
+    {
+      "reg_clause_id": "R8",
+      "contract_clause_id": "main_5.7.2_i",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Personal Data Breach Management"
+      ]
+    },
+    {
+      "reg_clause_id": "R8",
+      "contract_clause_id": "main_5.7.2_ii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Personal Data Breach Management"
+      ]
+    },
+    {
+      "reg_clause_id": "R8",
+      "contract_clause_id": "main_5.7.2_iii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Personal Data Breach Management"
+      ]
+    },
+    {
+      "reg_clause_id": "R8",
+      "contract_clause_id": "main_5.7.3",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Personal Data Breach Management"
+      ]
+    },
+    {
+      "reg_clause_id": "R8_a",
+      "contract_clause_id": "main_5.7",
+      "reg_belongs_to": "R8",
+      "shared_groups": [
+        "Personal Data Breach Management"
+      ]
+    },
+    {
+      "reg_clause_id": "R8_a",
+      "contract_clause_id": "main_5.7.1",
+      "reg_belongs_to": "R8",
+      "shared_groups": [
+        "Personal Data Breach Management"
+      ]
+    },
+    {
+      "reg_clause_id": "R8_a",
+      "contract_clause_id": "main_5.7.2_main",
+      "reg_belongs_to": "R8",
+      "shared_groups": [
+        "Personal Data Breach Management"
+      ]
+    },
+    {
+      "reg_clause_id": "R8_a",
+      "contract_clause_id": "main_5.7.2_main_ob_a",
+      "reg_belongs_to": "R8",
+      "shared_groups": [
+        "Personal Data Breach Management"
+      ]
+    },
+    {
+      "reg_clause_id": "R8_a",
+      "contract_clause_id": "main_5.7.2_i",
+      "reg_belongs_to": "R8",
+      "shared_groups": [
+        "Personal Data Breach Management"
+      ]
+    },
+    {
+      "reg_clause_id": "R8_a",
+      "contract_clause_id": "main_5.7.2_ii",
+      "reg_belongs_to": "R8",
+      "shared_groups": [
+        "Personal Data Breach Management"
+      ]
+    },
+    {
+      "reg_clause_id": "R8_a",
+      "contract_clause_id": "main_5.7.2_iii",
+      "reg_belongs_to": "R8",
+      "shared_groups": [
+        "Personal Data Breach Management"
+      ]
+    },
+    {
+      "reg_clause_id": "R8_a",
+      "contract_clause_id": "main_5.7.3",
+      "reg_belongs_to": "R8",
+      "shared_groups": [
+        "Personal Data Breach Management"
+      ]
+    },
+    {
+      "reg_clause_id": "R8_b",
+      "contract_clause_id": "main_5.7",
+      "reg_belongs_to": "R8",
+      "shared_groups": [
+        "Personal Data Breach Management"
+      ]
+    },
+    {
+      "reg_clause_id": "R8_b",
+      "contract_clause_id": "main_5.7.1",
+      "reg_belongs_to": "R8",
+      "shared_groups": [
+        "Personal Data Breach Management"
+      ]
+    },
+    {
+      "reg_clause_id": "R8_b",
+      "contract_clause_id": "main_5.7.2_main",
+      "reg_belongs_to": "R8",
+      "shared_groups": [
+        "Personal Data Breach Management"
+      ]
+    },
+    {
+      "reg_clause_id": "R8_b",
+      "contract_clause_id": "main_5.7.2_main_ob_a",
+      "reg_belongs_to": "R8",
+      "shared_groups": [
+        "Personal Data Breach Management"
+      ]
+    },
+    {
+      "reg_clause_id": "R8_b",
+      "contract_clause_id": "main_5.7.2_i",
+      "reg_belongs_to": "R8",
+      "shared_groups": [
+        "Personal Data Breach Management"
+      ]
+    },
+    {
+      "reg_clause_id": "R8_b",
+      "contract_clause_id": "main_5.7.2_ii",
+      "reg_belongs_to": "R8",
+      "shared_groups": [
+        "Personal Data Breach Management"
+      ]
+    },
+    {
+      "reg_clause_id": "R8_b",
+      "contract_clause_id": "main_5.7.2_iii",
+      "reg_belongs_to": "R8",
+      "shared_groups": [
+        "Personal Data Breach Management"
+      ]
+    },
+    {
+      "reg_clause_id": "R8_b",
+      "contract_clause_id": "main_5.7.3",
+      "reg_belongs_to": "R8",
+      "shared_groups": [
+        "Personal Data Breach Management"
+      ]
+    },
+    {
+      "reg_clause_id": "R8_c",
+      "contract_clause_id": "main_5.7",
+      "reg_belongs_to": "R8",
+      "shared_groups": [
+        "Personal Data Breach Management"
+      ]
+    },
+    {
+      "reg_clause_id": "R8_c",
+      "contract_clause_id": "main_5.7.1",
+      "reg_belongs_to": "R8",
+      "shared_groups": [
+        "Personal Data Breach Management"
+      ]
+    },
+    {
+      "reg_clause_id": "R8_c",
+      "contract_clause_id": "main_5.7.2_main",
+      "reg_belongs_to": "R8",
+      "shared_groups": [
+        "Personal Data Breach Management"
+      ]
+    },
+    {
+      "reg_clause_id": "R8_c",
+      "contract_clause_id": "main_5.7.2_main_ob_a",
+      "reg_belongs_to": "R8",
+      "shared_groups": [
+        "Personal Data Breach Management"
+      ]
+    },
+    {
+      "reg_clause_id": "R8_c",
+      "contract_clause_id": "main_5.7.2_i",
+      "reg_belongs_to": "R8",
+      "shared_groups": [
+        "Personal Data Breach Management"
+      ]
+    },
+    {
+      "reg_clause_id": "R8_c",
+      "contract_clause_id": "main_5.7.2_ii",
+      "reg_belongs_to": "R8",
+      "shared_groups": [
+        "Personal Data Breach Management"
+      ]
+    },
+    {
+      "reg_clause_id": "R8_c",
+      "contract_clause_id": "main_5.7.2_iii",
+      "reg_belongs_to": "R8",
+      "shared_groups": [
+        "Personal Data Breach Management"
+      ]
+    },
+    {
+      "reg_clause_id": "R8_c",
+      "contract_clause_id": "main_5.7.3",
+      "reg_belongs_to": "R8",
+      "shared_groups": [
+        "Personal Data Breach Management"
+      ]
+    },
+    {
+      "reg_clause_id": "R8_d",
+      "contract_clause_id": "main_5.7",
+      "reg_belongs_to": "R8",
+      "shared_groups": [
+        "Personal Data Breach Management"
+      ]
+    },
+    {
+      "reg_clause_id": "R8_d",
+      "contract_clause_id": "main_5.7.1",
+      "reg_belongs_to": "R8",
+      "shared_groups": [
+        "Personal Data Breach Management"
+      ]
+    },
+    {
+      "reg_clause_id": "R8_d",
+      "contract_clause_id": "main_5.7.2_main",
+      "reg_belongs_to": "R8",
+      "shared_groups": [
+        "Personal Data Breach Management"
+      ]
+    },
+    {
+      "reg_clause_id": "R8_d",
+      "contract_clause_id": "main_5.7.2_main_ob_a",
+      "reg_belongs_to": "R8",
+      "shared_groups": [
+        "Personal Data Breach Management"
+      ]
+    },
+    {
+      "reg_clause_id": "R8_d",
+      "contract_clause_id": "main_5.7.2_i",
+      "reg_belongs_to": "R8",
+      "shared_groups": [
+        "Personal Data Breach Management"
+      ]
+    },
+    {
+      "reg_clause_id": "R8_d",
+      "contract_clause_id": "main_5.7.2_ii",
+      "reg_belongs_to": "R8",
+      "shared_groups": [
+        "Personal Data Breach Management"
+      ]
+    },
+    {
+      "reg_clause_id": "R8_d",
+      "contract_clause_id": "main_5.7.2_iii",
+      "reg_belongs_to": "R8",
+      "shared_groups": [
+        "Personal Data Breach Management"
+      ]
+    },
+    {
+      "reg_clause_id": "R8_d",
+      "contract_clause_id": "main_5.7.3",
+      "reg_belongs_to": "R8",
+      "shared_groups": [
+        "Personal Data Breach Management"
+      ]
+    },
+    {
+      "reg_clause_id": "R9",
+      "contract_clause_id": "main_5.5",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Data Protection Impact Assessment"
+      ]
+    },
+    {
+      "reg_clause_id": "R9",
+      "contract_clause_id": "main_5.5.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Data Protection Impact Assessment"
+      ]
+    },
+    {
+      "reg_clause_id": "R9_a",
+      "contract_clause_id": "main_5.5",
+      "reg_belongs_to": "R9",
+      "shared_groups": [
+        "Data Protection Impact Assessment"
+      ]
+    },
+    {
+      "reg_clause_id": "R9_a",
+      "contract_clause_id": "main_5.5.1",
+      "reg_belongs_to": "R9",
+      "shared_groups": [
+        "Data Protection Impact Assessment"
+      ]
+    },
+    {
+      "reg_clause_id": "R9_b",
+      "contract_clause_id": "main_5.5",
+      "reg_belongs_to": "R9",
+      "shared_groups": [
+        "Data Protection Impact Assessment"
+      ]
+    },
+    {
+      "reg_clause_id": "R9_b",
+      "contract_clause_id": "main_5.5.1",
+      "reg_belongs_to": "R9",
+      "shared_groups": [
+        "Data Protection Impact Assessment"
+      ]
+    },
+    {
+      "reg_clause_id": "R9_c",
+      "contract_clause_id": "main_5.5",
+      "reg_belongs_to": "R9",
+      "shared_groups": [
+        "Data Protection Impact Assessment"
+      ]
+    },
+    {
+      "reg_clause_id": "R9_c",
+      "contract_clause_id": "main_5.5.1",
+      "reg_belongs_to": "R9",
+      "shared_groups": [
+        "Data Protection Impact Assessment"
+      ]
+    },
+    {
+      "reg_clause_id": "R9_d",
+      "contract_clause_id": "main_5.5",
+      "reg_belongs_to": "R9",
+      "shared_groups": [
+        "Data Protection Impact Assessment"
+      ]
+    },
+    {
+      "reg_clause_id": "R9_d",
+      "contract_clause_id": "main_5.5.1",
+      "reg_belongs_to": "R9",
+      "shared_groups": [
+        "Data Protection Impact Assessment"
+      ]
+    },
+    {
+      "reg_clause_id": "R10",
+      "contract_clause_id": "main_6.1_main",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Sub-Processor Authorization And Oversight"
+      ]
+    },
+    {
+      "reg_clause_id": "R10",
+      "contract_clause_id": "main_6.1_main_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Sub-Processor Authorization And Oversight"
+      ]
+    },
+    {
+      "reg_clause_id": "R10",
+      "contract_clause_id": "main_6.1_main_ob_b",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Sub-Processor Authorization And Oversight"
+      ]
+    },
+    {
+      "reg_clause_id": "R10",
+      "contract_clause_id": "main_6.1_7",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Sub-Processor Authorization And Oversight"
+      ]
+    },
+    {
+      "reg_clause_id": "R10",
+      "contract_clause_id": "main_6.2",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Sub-Processor Authorization And Oversight"
+      ]
+    },
+    {
+      "reg_clause_id": "R10",
+      "contract_clause_id": "main_6.2_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Sub-Processor Authorization And Oversight"
+      ]
+    },
+    {
+      "reg_clause_id": "R10",
+      "contract_clause_id": "main_6.2_ob_b",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Sub-Processor Authorization And Oversight"
+      ]
+    },
+    {
+      "reg_clause_id": "R10",
+      "contract_clause_id": "main_6.2_ob_c",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Sub-Processor Authorization And Oversight"
+      ]
+    },
+    {
+      "reg_clause_id": "R10",
+      "contract_clause_id": "main_6.3",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Sub-Processor Authorization And Oversight"
+      ]
+    },
+    {
+      "reg_clause_id": "R10",
+      "contract_clause_id": "main_6.4",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Sub-Processor Authorization And Oversight"
+      ]
+    },
+    {
+      "reg_clause_id": "R10",
+      "contract_clause_id": "main_6.4_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Sub-Processor Authorization And Oversight"
+      ]
+    },
+    {
+      "reg_clause_id": "R10",
+      "contract_clause_id": "sub_b_1.1_main",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Sub-Processor Authorization And Oversight"
+      ]
+    },
+    {
+      "reg_clause_id": "R10",
+      "contract_clause_id": "sub_b_1.1_i",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Sub-Processor Authorization And Oversight"
+      ]
+    },
+    {
+      "reg_clause_id": "R10",
+      "contract_clause_id": "sub_b_1.1_ii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Sub-Processor Authorization And Oversight"
+      ]
+    },
+    {
+      "reg_clause_id": "R10",
+      "contract_clause_id": "sub_b_1.1_iii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Sub-Processor Authorization And Oversight"
+      ]
+    },
+    {
+      "reg_clause_id": "R10",
+      "contract_clause_id": "sub_b_2.1_main",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Sub-Processor Authorization And Oversight"
+      ]
+    },
+    {
+      "reg_clause_id": "R10",
+      "contract_clause_id": "sub_b_2.1_i",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Sub-Processor Authorization And Oversight"
+      ]
+    },
+    {
+      "reg_clause_id": "R11",
+      "contract_clause_id": "main_6.1_main",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Sub-Processor Authorization And Oversight"
+      ]
+    },
+    {
+      "reg_clause_id": "R11",
+      "contract_clause_id": "main_6.1_main_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Sub-Processor Authorization And Oversight"
+      ]
+    },
+    {
+      "reg_clause_id": "R11",
+      "contract_clause_id": "main_6.1_main_ob_b",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Sub-Processor Authorization And Oversight"
+      ]
+    },
+    {
+      "reg_clause_id": "R11",
+      "contract_clause_id": "main_6.1_7",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Sub-Processor Authorization And Oversight"
+      ]
+    },
+    {
+      "reg_clause_id": "R11",
+      "contract_clause_id": "main_6.2",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Sub-Processor Authorization And Oversight"
+      ]
+    },
+    {
+      "reg_clause_id": "R11",
+      "contract_clause_id": "main_6.2_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Sub-Processor Authorization And Oversight"
+      ]
+    },
+    {
+      "reg_clause_id": "R11",
+      "contract_clause_id": "main_6.2_ob_b",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Sub-Processor Authorization And Oversight"
+      ]
+    },
+    {
+      "reg_clause_id": "R11",
+      "contract_clause_id": "main_6.2_ob_c",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Sub-Processor Authorization And Oversight"
+      ]
+    },
+    {
+      "reg_clause_id": "R11",
+      "contract_clause_id": "main_6.3",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Sub-Processor Authorization And Oversight"
+      ]
+    },
+    {
+      "reg_clause_id": "R11",
+      "contract_clause_id": "main_6.4",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Sub-Processor Authorization And Oversight"
+      ]
+    },
+    {
+      "reg_clause_id": "R11",
+      "contract_clause_id": "main_6.4_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Sub-Processor Authorization And Oversight"
+      ]
+    },
+    {
+      "reg_clause_id": "R11",
+      "contract_clause_id": "sub_b_1.1_main",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Sub-Processor Authorization And Oversight"
+      ]
+    },
+    {
+      "reg_clause_id": "R11",
+      "contract_clause_id": "sub_b_1.1_i",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Sub-Processor Authorization And Oversight"
+      ]
+    },
+    {
+      "reg_clause_id": "R11",
+      "contract_clause_id": "sub_b_1.1_ii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Sub-Processor Authorization And Oversight"
+      ]
+    },
+    {
+      "reg_clause_id": "R11",
+      "contract_clause_id": "sub_b_1.1_iii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Sub-Processor Authorization And Oversight"
+      ]
+    },
+    {
+      "reg_clause_id": "R11",
+      "contract_clause_id": "sub_b_2.1_main",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Sub-Processor Authorization And Oversight"
+      ]
+    },
+    {
+      "reg_clause_id": "R11",
+      "contract_clause_id": "sub_b_2.1_i",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Sub-Processor Authorization And Oversight"
+      ]
+    },
+    {
+      "reg_clause_id": "R12",
+      "contract_clause_id": "main_2.1_main",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R12",
+      "contract_clause_id": "main_2.1_i",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R12",
+      "contract_clause_id": "main_2.1_ii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R12",
+      "contract_clause_id": "main_3.2_1_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R12",
+      "contract_clause_id": "main_4.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R12",
+      "contract_clause_id": "main_4.1_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R12",
+      "contract_clause_id": "main_4.2",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R12",
+      "contract_clause_id": "main_4.3",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R12",
+      "contract_clause_id": "main_5.1.1_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R12",
+      "contract_clause_id": "main_5.1.1_ob_b",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R12",
+      "contract_clause_id": "main_5.1.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R12",
+      "contract_clause_id": "main_5.4",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R12",
+      "contract_clause_id": "main_5.8.1_i",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R12",
+      "contract_clause_id": "main_5.8.1_ii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R12",
+      "contract_clause_id": "main_7.2_main",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R12",
+      "contract_clause_id": "main_7.2_main_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R12",
+      "contract_clause_id": "main_7.2_i",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R12",
+      "contract_clause_id": "main_7.2_ii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R12",
+      "contract_clause_id": "main_7.2_iii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R12",
+      "contract_clause_id": "main_10.2",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R12",
+      "contract_clause_id": "main_10.2_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R12",
+      "contract_clause_id": "main_10.2_ob_b",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R12",
+      "contract_clause_id": "main_10.2_ob_c",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R13",
+      "contract_clause_id": "main_2.1_main",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R13",
+      "contract_clause_id": "main_2.1_i",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R13",
+      "contract_clause_id": "main_2.1_ii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R13",
+      "contract_clause_id": "main_3.2_1_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R13",
+      "contract_clause_id": "main_4.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R13",
+      "contract_clause_id": "main_4.1_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R13",
+      "contract_clause_id": "main_4.2",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R13",
+      "contract_clause_id": "main_4.3",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R13",
+      "contract_clause_id": "main_5.1.1_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R13",
+      "contract_clause_id": "main_5.1.1_ob_b",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R13",
+      "contract_clause_id": "main_5.1.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R13",
+      "contract_clause_id": "main_5.4",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R13",
+      "contract_clause_id": "main_5.8.1_i",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R13",
+      "contract_clause_id": "main_5.8.1_ii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R13",
+      "contract_clause_id": "main_7.2_main",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R13",
+      "contract_clause_id": "main_7.2_main_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R13",
+      "contract_clause_id": "main_7.2_i",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R13",
+      "contract_clause_id": "main_7.2_ii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R13",
+      "contract_clause_id": "main_7.2_iii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R13",
+      "contract_clause_id": "main_10.2",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R13",
+      "contract_clause_id": "main_10.2_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R13",
+      "contract_clause_id": "main_10.2_ob_b",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R13",
+      "contract_clause_id": "main_10.2_ob_c",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R14",
+      "contract_clause_id": "main_2.1_main",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R14",
+      "contract_clause_id": "main_2.1_i",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R14",
+      "contract_clause_id": "main_2.1_ii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R14",
+      "contract_clause_id": "main_3.2_1_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R14",
+      "contract_clause_id": "main_4.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R14",
+      "contract_clause_id": "main_4.1_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R14",
+      "contract_clause_id": "main_4.2",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R14",
+      "contract_clause_id": "main_4.3",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R14",
+      "contract_clause_id": "main_5.1.1_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R14",
+      "contract_clause_id": "main_5.1.1_ob_b",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R14",
+      "contract_clause_id": "main_5.1.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R14",
+      "contract_clause_id": "main_5.4",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R14",
+      "contract_clause_id": "main_5.8.1_i",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R14",
+      "contract_clause_id": "main_5.8.1_ii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R14",
+      "contract_clause_id": "main_7.2_main",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R14",
+      "contract_clause_id": "main_7.2_main_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R14",
+      "contract_clause_id": "main_7.2_i",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R14",
+      "contract_clause_id": "main_7.2_ii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R14",
+      "contract_clause_id": "main_7.2_iii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R14",
+      "contract_clause_id": "main_10.2",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R14",
+      "contract_clause_id": "main_10.2_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R14",
+      "contract_clause_id": "main_10.2_ob_b",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R14",
+      "contract_clause_id": "main_10.2_ob_c",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R15",
+      "contract_clause_id": "main_5.1.2",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Confidentiality Of Personnel"
+      ]
+    },
+    {
+      "reg_clause_id": "R15",
+      "contract_clause_id": "main_5.3",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Confidentiality Of Personnel"
+      ]
+    },
+    {
+      "reg_clause_id": "R15",
+      "contract_clause_id": "main_5.4",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Confidentiality Of Personnel"
+      ]
+    },
+    {
+      "reg_clause_id": "R16",
+      "contract_clause_id": "main_5.1.1_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Security Of Processing"
+      ]
+    },
+    {
+      "reg_clause_id": "R16",
+      "contract_clause_id": "main_5.1.1_ob_b",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Security Of Processing"
+      ]
+    },
+    {
+      "reg_clause_id": "R16",
+      "contract_clause_id": "main_5.1.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Security Of Processing"
+      ]
+    },
+    {
+      "reg_clause_id": "R16",
+      "contract_clause_id": "main_5.1.2",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Security Of Processing"
+      ]
+    },
+    {
+      "reg_clause_id": "R16",
+      "contract_clause_id": "main_5.2.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Security Of Processing"
+      ]
+    },
+    {
+      "reg_clause_id": "R16",
+      "contract_clause_id": "main_5.3",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Security Of Processing"
+      ]
+    },
+    {
+      "reg_clause_id": "R16",
+      "contract_clause_id": "main_5.4.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Security Of Processing"
+      ]
+    },
+    {
+      "reg_clause_id": "R16",
+      "contract_clause_id": "main_5.7.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Security Of Processing"
+      ]
+    },
+    {
+      "reg_clause_id": "R17",
+      "contract_clause_id": "main_5.5.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Assistance With Data Subject And Regulatory Rights"
+      ]
+    },
+    {
+      "reg_clause_id": "R17",
+      "contract_clause_id": "main_5.6",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Assistance With Data Subject And Regulatory Rights"
+      ]
+    },
+    {
+      "reg_clause_id": "R17",
+      "contract_clause_id": "main_5.6.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Assistance With Data Subject And Regulatory Rights"
+      ]
+    },
+    {
+      "reg_clause_id": "R17",
+      "contract_clause_id": "main_5.6.2",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Assistance With Data Subject And Regulatory Rights"
+      ]
+    },
+    {
+      "reg_clause_id": "R17",
+      "contract_clause_id": "main_5.6.2_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Assistance With Data Subject And Regulatory Rights"
+      ]
+    },
+    {
+      "reg_clause_id": "R17",
+      "contract_clause_id": "main_5.6.2_ob_b",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Assistance With Data Subject And Regulatory Rights"
+      ]
+    },
+    {
+      "reg_clause_id": "R17",
+      "contract_clause_id": "main_5.7.3",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Assistance With Data Subject And Regulatory Rights"
+      ]
+    },
+    {
+      "reg_clause_id": "R18",
+      "contract_clause_id": "main_5.1.1_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Security Of Processing"
+      ]
+    },
+    {
+      "reg_clause_id": "R18",
+      "contract_clause_id": "main_5.1.1_ob_b",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Security Of Processing"
+      ]
+    },
+    {
+      "reg_clause_id": "R18",
+      "contract_clause_id": "main_5.1.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Security Of Processing"
+      ]
+    },
+    {
+      "reg_clause_id": "R18",
+      "contract_clause_id": "main_5.1.2",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Security Of Processing"
+      ]
+    },
+    {
+      "reg_clause_id": "R18",
+      "contract_clause_id": "main_5.2.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Security Of Processing"
+      ]
+    },
+    {
+      "reg_clause_id": "R18",
+      "contract_clause_id": "main_5.3",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Security Of Processing"
+      ]
+    },
+    {
+      "reg_clause_id": "R18",
+      "contract_clause_id": "main_5.4.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Security Of Processing"
+      ]
+    },
+    {
+      "reg_clause_id": "R18",
+      "contract_clause_id": "main_5.5.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Assistance With Data Subject And Regulatory Rights"
+      ]
+    },
+    {
+      "reg_clause_id": "R18",
+      "contract_clause_id": "main_5.6",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Assistance With Data Subject And Regulatory Rights"
+      ]
+    },
+    {
+      "reg_clause_id": "R18",
+      "contract_clause_id": "main_5.6.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Assistance With Data Subject And Regulatory Rights"
+      ]
+    },
+    {
+      "reg_clause_id": "R18",
+      "contract_clause_id": "main_5.6.2",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Assistance With Data Subject And Regulatory Rights"
+      ]
+    },
+    {
+      "reg_clause_id": "R18",
+      "contract_clause_id": "main_5.6.2_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Assistance With Data Subject And Regulatory Rights"
+      ]
+    },
+    {
+      "reg_clause_id": "R18",
+      "contract_clause_id": "main_5.6.2_ob_b",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Assistance With Data Subject And Regulatory Rights"
+      ]
+    },
+    {
+      "reg_clause_id": "R18",
+      "contract_clause_id": "main_5.7.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Security Of Processing"
+      ]
+    },
+    {
+      "reg_clause_id": "R18",
+      "contract_clause_id": "main_5.7.3",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Assistance With Data Subject And Regulatory Rights"
+      ]
+    },
+    {
+      "reg_clause_id": "R19",
+      "contract_clause_id": "main_5.5",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Data Protection Impact Assessment"
+      ]
+    },
+    {
+      "reg_clause_id": "R19",
+      "contract_clause_id": "main_5.5.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Assistance With Data Subject And Regulatory Rights",
+        "Data Protection Impact Assessment"
+      ]
+    },
+    {
+      "reg_clause_id": "R19",
+      "contract_clause_id": "main_5.6",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Assistance With Data Subject And Regulatory Rights"
+      ]
+    },
+    {
+      "reg_clause_id": "R19",
+      "contract_clause_id": "main_5.6.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Assistance With Data Subject And Regulatory Rights"
+      ]
+    },
+    {
+      "reg_clause_id": "R19",
+      "contract_clause_id": "main_5.6.2",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Assistance With Data Subject And Regulatory Rights"
+      ]
+    },
+    {
+      "reg_clause_id": "R19",
+      "contract_clause_id": "main_5.6.2_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Assistance With Data Subject And Regulatory Rights"
+      ]
+    },
+    {
+      "reg_clause_id": "R19",
+      "contract_clause_id": "main_5.6.2_ob_b",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Assistance With Data Subject And Regulatory Rights"
+      ]
+    },
+    {
+      "reg_clause_id": "R19",
+      "contract_clause_id": "main_5.7.3",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Assistance With Data Subject And Regulatory Rights"
+      ]
+    },
+    {
+      "reg_clause_id": "R20",
+      "contract_clause_id": "main_5.5.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Assistance With Data Subject And Regulatory Rights"
+      ]
+    },
+    {
+      "reg_clause_id": "R20",
+      "contract_clause_id": "main_5.6",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Assistance With Data Subject And Regulatory Rights"
+      ]
+    },
+    {
+      "reg_clause_id": "R20",
+      "contract_clause_id": "main_5.6.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Assistance With Data Subject And Regulatory Rights"
+      ]
+    },
+    {
+      "reg_clause_id": "R20",
+      "contract_clause_id": "main_5.6.2",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Assistance With Data Subject And Regulatory Rights"
+      ]
+    },
+    {
+      "reg_clause_id": "R20",
+      "contract_clause_id": "main_5.6.2_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Assistance With Data Subject And Regulatory Rights"
+      ]
+    },
+    {
+      "reg_clause_id": "R20",
+      "contract_clause_id": "main_5.6.2_ob_b",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Assistance With Data Subject And Regulatory Rights"
+      ]
+    },
+    {
+      "reg_clause_id": "R20",
+      "contract_clause_id": "main_5.7",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Personal Data Breach Management"
+      ]
+    },
+    {
+      "reg_clause_id": "R20",
+      "contract_clause_id": "main_5.7.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Personal Data Breach Management"
+      ]
+    },
+    {
+      "reg_clause_id": "R20",
+      "contract_clause_id": "main_5.7.2_main",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Personal Data Breach Management"
+      ]
+    },
+    {
+      "reg_clause_id": "R20",
+      "contract_clause_id": "main_5.7.2_main_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Personal Data Breach Management"
+      ]
+    },
+    {
+      "reg_clause_id": "R20",
+      "contract_clause_id": "main_5.7.2_i",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Personal Data Breach Management"
+      ]
+    },
+    {
+      "reg_clause_id": "R20",
+      "contract_clause_id": "main_5.7.2_ii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Personal Data Breach Management"
+      ]
+    },
+    {
+      "reg_clause_id": "R20",
+      "contract_clause_id": "main_5.7.2_iii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Personal Data Breach Management"
+      ]
+    },
+    {
+      "reg_clause_id": "R20",
+      "contract_clause_id": "main_5.7.3",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Assistance With Data Subject And Regulatory Rights",
+        "Personal Data Breach Management"
+      ]
+    },
+    {
+      "reg_clause_id": "R21",
+      "contract_clause_id": "main_5.5.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Assistance With Data Subject And Regulatory Rights"
+      ]
+    },
+    {
+      "reg_clause_id": "R21",
+      "contract_clause_id": "main_5.6",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Assistance With Data Subject And Regulatory Rights"
+      ]
+    },
+    {
+      "reg_clause_id": "R21",
+      "contract_clause_id": "main_5.6.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Assistance With Data Subject And Regulatory Rights"
+      ]
+    },
+    {
+      "reg_clause_id": "R21",
+      "contract_clause_id": "main_5.6.2",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Assistance With Data Subject And Regulatory Rights"
+      ]
+    },
+    {
+      "reg_clause_id": "R21",
+      "contract_clause_id": "main_5.6.2_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Assistance With Data Subject And Regulatory Rights"
+      ]
+    },
+    {
+      "reg_clause_id": "R21",
+      "contract_clause_id": "main_5.6.2_ob_b",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Assistance With Data Subject And Regulatory Rights"
+      ]
+    },
+    {
+      "reg_clause_id": "R21",
+      "contract_clause_id": "main_5.7",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Personal Data Breach Management"
+      ]
+    },
+    {
+      "reg_clause_id": "R21",
+      "contract_clause_id": "main_5.7.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Personal Data Breach Management"
+      ]
+    },
+    {
+      "reg_clause_id": "R21",
+      "contract_clause_id": "main_5.7.2_main",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Personal Data Breach Management"
+      ]
+    },
+    {
+      "reg_clause_id": "R21",
+      "contract_clause_id": "main_5.7.2_main_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Personal Data Breach Management"
+      ]
+    },
+    {
+      "reg_clause_id": "R21",
+      "contract_clause_id": "main_5.7.2_i",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Personal Data Breach Management"
+      ]
+    },
+    {
+      "reg_clause_id": "R21",
+      "contract_clause_id": "main_5.7.2_ii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Personal Data Breach Management"
+      ]
+    },
+    {
+      "reg_clause_id": "R21",
+      "contract_clause_id": "main_5.7.2_iii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Personal Data Breach Management"
+      ]
+    },
+    {
+      "reg_clause_id": "R21",
+      "contract_clause_id": "main_5.7.3",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Assistance With Data Subject And Regulatory Rights",
+        "Personal Data Breach Management"
+      ]
+    },
+    {
+      "reg_clause_id": "R22",
+      "contract_clause_id": "main_5.5",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Data Protection Impact Assessment"
+      ]
+    },
+    {
+      "reg_clause_id": "R22",
+      "contract_clause_id": "main_5.5.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Assistance With Data Subject And Regulatory Rights",
+        "Data Protection Impact Assessment"
+      ]
+    },
+    {
+      "reg_clause_id": "R22",
+      "contract_clause_id": "main_5.6",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Assistance With Data Subject And Regulatory Rights"
+      ]
+    },
+    {
+      "reg_clause_id": "R22",
+      "contract_clause_id": "main_5.6.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Assistance With Data Subject And Regulatory Rights"
+      ]
+    },
+    {
+      "reg_clause_id": "R22",
+      "contract_clause_id": "main_5.6.2",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Assistance With Data Subject And Regulatory Rights"
+      ]
+    },
+    {
+      "reg_clause_id": "R22",
+      "contract_clause_id": "main_5.6.2_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Assistance With Data Subject And Regulatory Rights"
+      ]
+    },
+    {
+      "reg_clause_id": "R22",
+      "contract_clause_id": "main_5.6.2_ob_b",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Assistance With Data Subject And Regulatory Rights"
+      ]
+    },
+    {
+      "reg_clause_id": "R22",
+      "contract_clause_id": "main_5.7.3",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Assistance With Data Subject And Regulatory Rights"
+      ]
+    },
+    {
+      "reg_clause_id": "R23",
+      "contract_clause_id": "main_10.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Data Return Deletion And Post-Termination Handling"
+      ]
+    },
+    {
+      "reg_clause_id": "R23",
+      "contract_clause_id": "main_10.2",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Data Return Deletion And Post-Termination Handling"
+      ]
+    },
+    {
+      "reg_clause_id": "R23",
+      "contract_clause_id": "main_10.2_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Data Return Deletion And Post-Termination Handling"
+      ]
+    },
+    {
+      "reg_clause_id": "R23",
+      "contract_clause_id": "main_10.2_ob_b",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Data Return Deletion And Post-Termination Handling"
+      ]
+    },
+    {
+      "reg_clause_id": "R23",
+      "contract_clause_id": "main_10.2_ob_c",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Data Return Deletion And Post-Termination Handling"
+      ]
+    },
+    {
+      "reg_clause_id": "R23",
+      "contract_clause_id": "main_10.3_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Data Return Deletion And Post-Termination Handling"
+      ]
+    },
+    {
+      "reg_clause_id": "R23",
+      "contract_clause_id": "main_10.3_ob_b",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Data Return Deletion And Post-Termination Handling"
+      ]
+    },
+    {
+      "reg_clause_id": "R23",
+      "contract_clause_id": "main_10.3_ob_c",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Data Return Deletion And Post-Termination Handling"
+      ]
+    },
+    {
+      "reg_clause_id": "R23",
+      "contract_clause_id": "main_10.3",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Data Return Deletion And Post-Termination Handling"
+      ]
+    },
+    {
+      "reg_clause_id": "R24",
+      "contract_clause_id": "main_2.1_main",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R24",
+      "contract_clause_id": "main_2.1_i",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R24",
+      "contract_clause_id": "main_2.1_ii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R24",
+      "contract_clause_id": "main_3.2_1_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R24",
+      "contract_clause_id": "main_4.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R24",
+      "contract_clause_id": "main_4.1_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R24",
+      "contract_clause_id": "main_4.2",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R24",
+      "contract_clause_id": "main_4.3",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R24",
+      "contract_clause_id": "main_5.1.1_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R24",
+      "contract_clause_id": "main_5.1.1_ob_b",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R24",
+      "contract_clause_id": "main_5.1.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R24",
+      "contract_clause_id": "main_5.4",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R24",
+      "contract_clause_id": "main_5.8.1_i",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R24",
+      "contract_clause_id": "main_5.8.1_ii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R24",
+      "contract_clause_id": "main_7.2_main",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R24",
+      "contract_clause_id": "main_7.2_main_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R24",
+      "contract_clause_id": "main_7.2_i",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R24",
+      "contract_clause_id": "main_7.2_ii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R24",
+      "contract_clause_id": "main_7.2_iii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R24",
+      "contract_clause_id": "main_10.2",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R24",
+      "contract_clause_id": "main_10.2_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R24",
+      "contract_clause_id": "main_10.2_ob_b",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R24",
+      "contract_clause_id": "main_10.2_ob_c",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R25",
+      "contract_clause_id": "main_2.1_main",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Compliance Evidence Audit And Accountability"
+      ]
+    },
+    {
+      "reg_clause_id": "R25",
+      "contract_clause_id": "main_2.1_i",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Compliance Evidence Audit And Accountability"
+      ]
+    },
+    {
+      "reg_clause_id": "R25",
+      "contract_clause_id": "main_2.1_ii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Compliance Evidence Audit And Accountability"
+      ]
+    },
+    {
+      "reg_clause_id": "R25",
+      "contract_clause_id": "main_3.3",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Compliance Evidence Audit And Accountability"
+      ]
+    },
+    {
+      "reg_clause_id": "R25",
+      "contract_clause_id": "main_5.2.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Compliance Evidence Audit And Accountability"
+      ]
+    },
+    {
+      "reg_clause_id": "R25",
+      "contract_clause_id": "main_5.4.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Compliance Evidence Audit And Accountability"
+      ]
+    },
+    {
+      "reg_clause_id": "R25",
+      "contract_clause_id": "main_5.7.3",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Compliance Evidence Audit And Accountability"
+      ]
+    },
+    {
+      "reg_clause_id": "R25",
+      "contract_clause_id": "main_5.8",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Compliance Evidence Audit And Accountability"
+      ]
+    },
+    {
+      "reg_clause_id": "R25",
+      "contract_clause_id": "main_5.8.1_main",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Compliance Evidence Audit And Accountability"
+      ]
+    },
+    {
+      "reg_clause_id": "R25",
+      "contract_clause_id": "main_5.8.1_i",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Compliance Evidence Audit And Accountability"
+      ]
+    },
+    {
+      "reg_clause_id": "R25",
+      "contract_clause_id": "main_5.8.1_ii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Compliance Evidence Audit And Accountability"
+      ]
+    },
+    {
+      "reg_clause_id": "R25",
+      "contract_clause_id": "main_5.8.2",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Compliance Evidence Audit And Accountability"
+      ]
+    },
+    {
+      "reg_clause_id": "R25",
+      "contract_clause_id": "main_6.2_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Compliance Evidence Audit And Accountability"
+      ]
+    },
+    {
+      "reg_clause_id": "R25",
+      "contract_clause_id": "main_6.2_ob_b",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Compliance Evidence Audit And Accountability"
+      ]
+    },
+    {
+      "reg_clause_id": "R25",
+      "contract_clause_id": "main_6.2_ob_c",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Compliance Evidence Audit And Accountability"
+      ]
+    },
+    {
+      "reg_clause_id": "R25",
+      "contract_clause_id": "main_6.3",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Compliance Evidence Audit And Accountability"
+      ]
+    },
+    {
+      "reg_clause_id": "R25",
+      "contract_clause_id": "main_10.3_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Compliance Evidence Audit And Accountability"
+      ]
+    },
+    {
+      "reg_clause_id": "R25",
+      "contract_clause_id": "main_10.3_ob_b",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Compliance Evidence Audit And Accountability"
+      ]
+    },
+    {
+      "reg_clause_id": "R25",
+      "contract_clause_id": "main_10.3_ob_c",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Compliance Evidence Audit And Accountability"
+      ]
+    },
+    {
+      "reg_clause_id": "R25",
+      "contract_clause_id": "main_10.3",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Compliance Evidence Audit And Accountability"
+      ]
+    },
+    {
+      "reg_clause_id": "R26",
+      "contract_clause_id": "main_2.1_main",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Compliance Evidence Audit And Accountability"
+      ]
+    },
+    {
+      "reg_clause_id": "R26",
+      "contract_clause_id": "main_2.1_i",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Compliance Evidence Audit And Accountability"
+      ]
+    },
+    {
+      "reg_clause_id": "R26",
+      "contract_clause_id": "main_2.1_ii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Compliance Evidence Audit And Accountability"
+      ]
+    },
+    {
+      "reg_clause_id": "R26",
+      "contract_clause_id": "main_3.3",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Compliance Evidence Audit And Accountability"
+      ]
+    },
+    {
+      "reg_clause_id": "R26",
+      "contract_clause_id": "main_5.2.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Compliance Evidence Audit And Accountability"
+      ]
+    },
+    {
+      "reg_clause_id": "R26",
+      "contract_clause_id": "main_5.4.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Compliance Evidence Audit And Accountability"
+      ]
+    },
+    {
+      "reg_clause_id": "R26",
+      "contract_clause_id": "main_5.7.3",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Compliance Evidence Audit And Accountability"
+      ]
+    },
+    {
+      "reg_clause_id": "R26",
+      "contract_clause_id": "main_5.8",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Compliance Evidence Audit And Accountability"
+      ]
+    },
+    {
+      "reg_clause_id": "R26",
+      "contract_clause_id": "main_5.8.1_main",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Compliance Evidence Audit And Accountability"
+      ]
+    },
+    {
+      "reg_clause_id": "R26",
+      "contract_clause_id": "main_5.8.1_i",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Compliance Evidence Audit And Accountability"
+      ]
+    },
+    {
+      "reg_clause_id": "R26",
+      "contract_clause_id": "main_5.8.1_ii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Compliance Evidence Audit And Accountability"
+      ]
+    },
+    {
+      "reg_clause_id": "R26",
+      "contract_clause_id": "main_5.8.2",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Compliance Evidence Audit And Accountability"
+      ]
+    },
+    {
+      "reg_clause_id": "R26",
+      "contract_clause_id": "main_6.2_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Compliance Evidence Audit And Accountability"
+      ]
+    },
+    {
+      "reg_clause_id": "R26",
+      "contract_clause_id": "main_6.2_ob_b",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Compliance Evidence Audit And Accountability"
+      ]
+    },
+    {
+      "reg_clause_id": "R26",
+      "contract_clause_id": "main_6.2_ob_c",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Compliance Evidence Audit And Accountability"
+      ]
+    },
+    {
+      "reg_clause_id": "R26",
+      "contract_clause_id": "main_6.3",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Compliance Evidence Audit And Accountability"
+      ]
+    },
+    {
+      "reg_clause_id": "R26",
+      "contract_clause_id": "main_10.3_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Compliance Evidence Audit And Accountability"
+      ]
+    },
+    {
+      "reg_clause_id": "R26",
+      "contract_clause_id": "main_10.3_ob_b",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Compliance Evidence Audit And Accountability"
+      ]
+    },
+    {
+      "reg_clause_id": "R26",
+      "contract_clause_id": "main_10.3_ob_c",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Compliance Evidence Audit And Accountability"
+      ]
+    },
+    {
+      "reg_clause_id": "R26",
+      "contract_clause_id": "main_10.3",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Compliance Evidence Audit And Accountability"
+      ]
+    },
+    {
+      "reg_clause_id": "R27",
+      "contract_clause_id": "main_6.1_main",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Sub-Processor Authorization And Oversight"
+      ]
+    },
+    {
+      "reg_clause_id": "R27",
+      "contract_clause_id": "main_6.1_main_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Sub-Processor Authorization And Oversight"
+      ]
+    },
+    {
+      "reg_clause_id": "R27",
+      "contract_clause_id": "main_6.1_main_ob_b",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Sub-Processor Authorization And Oversight"
+      ]
+    },
+    {
+      "reg_clause_id": "R27",
+      "contract_clause_id": "main_6.1_7",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Sub-Processor Authorization And Oversight"
+      ]
+    },
+    {
+      "reg_clause_id": "R27",
+      "contract_clause_id": "main_6.2",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Sub-Processor Authorization And Oversight"
+      ]
+    },
+    {
+      "reg_clause_id": "R27",
+      "contract_clause_id": "main_6.2_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Sub-Processor Authorization And Oversight"
+      ]
+    },
+    {
+      "reg_clause_id": "R27",
+      "contract_clause_id": "main_6.2_ob_b",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Sub-Processor Authorization And Oversight"
+      ]
+    },
+    {
+      "reg_clause_id": "R27",
+      "contract_clause_id": "main_6.2_ob_c",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Sub-Processor Authorization And Oversight"
+      ]
+    },
+    {
+      "reg_clause_id": "R27",
+      "contract_clause_id": "main_6.3",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Sub-Processor Authorization And Oversight"
+      ]
+    },
+    {
+      "reg_clause_id": "R27",
+      "contract_clause_id": "main_6.4",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Sub-Processor Authorization And Oversight"
+      ]
+    },
+    {
+      "reg_clause_id": "R27",
+      "contract_clause_id": "main_6.4_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Sub-Processor Authorization And Oversight"
+      ]
+    },
+    {
+      "reg_clause_id": "R27",
+      "contract_clause_id": "sub_b_1.1_main",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Sub-Processor Authorization And Oversight"
+      ]
+    },
+    {
+      "reg_clause_id": "R27",
+      "contract_clause_id": "sub_b_1.1_i",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Sub-Processor Authorization And Oversight"
+      ]
+    },
+    {
+      "reg_clause_id": "R27",
+      "contract_clause_id": "sub_b_1.1_ii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Sub-Processor Authorization And Oversight"
+      ]
+    },
+    {
+      "reg_clause_id": "R27",
+      "contract_clause_id": "sub_b_1.1_iii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Sub-Processor Authorization And Oversight"
+      ]
+    },
+    {
+      "reg_clause_id": "R27",
+      "contract_clause_id": "sub_b_2.1_main",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Sub-Processor Authorization And Oversight"
+      ]
+    },
+    {
+      "reg_clause_id": "R27",
+      "contract_clause_id": "sub_b_2.1_i",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Sub-Processor Authorization And Oversight"
+      ]
+    },
+    {
+      "reg_clause_id": "R28",
+      "contract_clause_id": "main_6.1_main",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Sub-Processor Authorization And Oversight"
+      ]
+    },
+    {
+      "reg_clause_id": "R28",
+      "contract_clause_id": "main_6.1_main_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Sub-Processor Authorization And Oversight"
+      ]
+    },
+    {
+      "reg_clause_id": "R28",
+      "contract_clause_id": "main_6.1_main_ob_b",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Sub-Processor Authorization And Oversight"
+      ]
+    },
+    {
+      "reg_clause_id": "R28",
+      "contract_clause_id": "main_6.1_7",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Sub-Processor Authorization And Oversight"
+      ]
+    },
+    {
+      "reg_clause_id": "R28",
+      "contract_clause_id": "main_6.2",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Sub-Processor Authorization And Oversight"
+      ]
+    },
+    {
+      "reg_clause_id": "R28",
+      "contract_clause_id": "main_6.2_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Sub-Processor Authorization And Oversight"
+      ]
+    },
+    {
+      "reg_clause_id": "R28",
+      "contract_clause_id": "main_6.2_ob_b",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Sub-Processor Authorization And Oversight"
+      ]
+    },
+    {
+      "reg_clause_id": "R28",
+      "contract_clause_id": "main_6.2_ob_c",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Sub-Processor Authorization And Oversight"
+      ]
+    },
+    {
+      "reg_clause_id": "R28",
+      "contract_clause_id": "main_6.3",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Liability For Processing Damage",
+        "Sub-Processor Authorization And Oversight"
+      ]
+    },
+    {
+      "reg_clause_id": "R28",
+      "contract_clause_id": "main_6.4",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Sub-Processor Authorization And Oversight"
+      ]
+    },
+    {
+      "reg_clause_id": "R28",
+      "contract_clause_id": "main_6.4_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Sub-Processor Authorization And Oversight"
+      ]
+    },
+    {
+      "reg_clause_id": "R28",
+      "contract_clause_id": "main_7.2_main_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Liability For Processing Damage"
+      ]
+    },
+    {
+      "reg_clause_id": "R28",
+      "contract_clause_id": "main_7.3",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Liability For Processing Damage"
+      ]
+    },
+    {
+      "reg_clause_id": "R28",
+      "contract_clause_id": "main_8.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Liability For Processing Damage"
+      ]
+    },
+    {
+      "reg_clause_id": "R28",
+      "contract_clause_id": "main_8.2",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Liability For Processing Damage"
+      ]
+    },
+    {
+      "reg_clause_id": "R28",
+      "contract_clause_id": "main_8.2_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Liability For Processing Damage"
+      ]
+    },
+    {
+      "reg_clause_id": "R28",
+      "contract_clause_id": "main_8.3_main",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Liability For Processing Damage"
+      ]
+    },
+    {
+      "reg_clause_id": "R28",
+      "contract_clause_id": "main_8.3_i",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Liability For Processing Damage"
+      ]
+    },
+    {
+      "reg_clause_id": "R28",
+      "contract_clause_id": "main_8.3_ii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Liability For Processing Damage"
+      ]
+    },
+    {
+      "reg_clause_id": "R28",
+      "contract_clause_id": "sub_b_1.1_main",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Sub-Processor Authorization And Oversight"
+      ]
+    },
+    {
+      "reg_clause_id": "R28",
+      "contract_clause_id": "sub_b_1.1_i",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Sub-Processor Authorization And Oversight"
+      ]
+    },
+    {
+      "reg_clause_id": "R28",
+      "contract_clause_id": "sub_b_1.1_ii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Sub-Processor Authorization And Oversight"
+      ]
+    },
+    {
+      "reg_clause_id": "R28",
+      "contract_clause_id": "sub_b_1.1_iii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Sub-Processor Authorization And Oversight"
+      ]
+    },
+    {
+      "reg_clause_id": "R28",
+      "contract_clause_id": "sub_b_2.1_main",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Sub-Processor Authorization And Oversight"
+      ]
+    },
+    {
+      "reg_clause_id": "R28",
+      "contract_clause_id": "sub_b_2.1_i",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Sub-Processor Authorization And Oversight"
+      ]
+    },
+    {
+      "reg_clause_id": "R29",
+      "contract_clause_id": "main_5.1.1_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Security Of Processing"
+      ]
+    },
+    {
+      "reg_clause_id": "R29",
+      "contract_clause_id": "main_5.1.1_ob_b",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Security Of Processing"
+      ]
+    },
+    {
+      "reg_clause_id": "R29",
+      "contract_clause_id": "main_5.1.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Security Of Processing"
+      ]
+    },
+    {
+      "reg_clause_id": "R29",
+      "contract_clause_id": "main_5.1.2",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Security Of Processing"
+      ]
+    },
+    {
+      "reg_clause_id": "R29",
+      "contract_clause_id": "main_5.2.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Security Of Processing"
+      ]
+    },
+    {
+      "reg_clause_id": "R29",
+      "contract_clause_id": "main_5.3",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Security Of Processing"
+      ]
+    },
+    {
+      "reg_clause_id": "R29",
+      "contract_clause_id": "main_5.4.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Security Of Processing"
+      ]
+    },
+    {
+      "reg_clause_id": "R29",
+      "contract_clause_id": "main_5.7.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Security Of Processing"
+      ]
+    },
+    {
+      "reg_clause_id": "R30",
+      "contract_clause_id": "main_5.1.1_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "International Transfer Restrictions"
+      ]
+    },
+    {
+      "reg_clause_id": "R30",
+      "contract_clause_id": "main_5.1.1_ob_b",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "International Transfer Restrictions"
+      ]
+    },
+    {
+      "reg_clause_id": "R30",
+      "contract_clause_id": "main_5.1.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "International Transfer Restrictions"
+      ]
+    },
+    {
+      "reg_clause_id": "R30",
+      "contract_clause_id": "main_5.9.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "International Transfer Restrictions"
+      ]
+    },
+    {
+      "reg_clause_id": "R30",
+      "contract_clause_id": "main_5.9.2",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "International Transfer Restrictions"
+      ]
+    },
+    {
+      "reg_clause_id": "R32",
+      "contract_clause_id": "main_5.1.1_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Security Of Processing"
+      ]
+    },
+    {
+      "reg_clause_id": "R32",
+      "contract_clause_id": "main_5.1.1_ob_b",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Security Of Processing"
+      ]
+    },
+    {
+      "reg_clause_id": "R32",
+      "contract_clause_id": "main_5.1.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Security Of Processing"
+      ]
+    },
+    {
+      "reg_clause_id": "R32",
+      "contract_clause_id": "main_5.1.2",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Security Of Processing"
+      ]
+    },
+    {
+      "reg_clause_id": "R32",
+      "contract_clause_id": "main_5.2.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Security Of Processing"
+      ]
+    },
+    {
+      "reg_clause_id": "R32",
+      "contract_clause_id": "main_5.3",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Security Of Processing"
+      ]
+    },
+    {
+      "reg_clause_id": "R32",
+      "contract_clause_id": "main_5.4.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Security Of Processing"
+      ]
+    },
+    {
+      "reg_clause_id": "R32",
+      "contract_clause_id": "main_5.7.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Security Of Processing"
+      ]
+    },
+    {
+      "reg_clause_id": "R33",
+      "contract_clause_id": "main_2.1_main",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R33",
+      "contract_clause_id": "main_2.1_i",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R33",
+      "contract_clause_id": "main_2.1_ii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R33",
+      "contract_clause_id": "main_3.2_1_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R33",
+      "contract_clause_id": "main_4.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R33",
+      "contract_clause_id": "main_4.1_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R33",
+      "contract_clause_id": "main_4.2",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R33",
+      "contract_clause_id": "main_4.3",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R33",
+      "contract_clause_id": "main_5.1.1_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R33",
+      "contract_clause_id": "main_5.1.1_ob_b",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R33",
+      "contract_clause_id": "main_5.1.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R33",
+      "contract_clause_id": "main_5.4",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R33",
+      "contract_clause_id": "main_5.8.1_i",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R33",
+      "contract_clause_id": "main_5.8.1_ii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R33",
+      "contract_clause_id": "main_7.2_main",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R33",
+      "contract_clause_id": "main_7.2_main_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R33",
+      "contract_clause_id": "main_7.2_i",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R33",
+      "contract_clause_id": "main_7.2_ii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R33",
+      "contract_clause_id": "main_7.2_iii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R33",
+      "contract_clause_id": "main_10.2",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R33",
+      "contract_clause_id": "main_10.2_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R33",
+      "contract_clause_id": "main_10.2_ob_b",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R33",
+      "contract_clause_id": "main_10.2_ob_c",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Processing Instructions And Legal Basis"
+      ]
+    },
+    {
+      "reg_clause_id": "R34",
+      "contract_clause_id": "main_5.7",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Personal Data Breach Management"
+      ]
+    },
+    {
+      "reg_clause_id": "R34",
+      "contract_clause_id": "main_5.7.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Personal Data Breach Management"
+      ]
+    },
+    {
+      "reg_clause_id": "R34",
+      "contract_clause_id": "main_5.7.2_main",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Personal Data Breach Management"
+      ]
+    },
+    {
+      "reg_clause_id": "R34",
+      "contract_clause_id": "main_5.7.2_main_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Personal Data Breach Management"
+      ]
+    },
+    {
+      "reg_clause_id": "R34",
+      "contract_clause_id": "main_5.7.2_i",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Personal Data Breach Management"
+      ]
+    },
+    {
+      "reg_clause_id": "R34",
+      "contract_clause_id": "main_5.7.2_ii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Personal Data Breach Management"
+      ]
+    },
+    {
+      "reg_clause_id": "R34",
+      "contract_clause_id": "main_5.7.2_iii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Personal Data Breach Management"
+      ]
+    },
+    {
+      "reg_clause_id": "R34",
+      "contract_clause_id": "main_5.7.3",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Personal Data Breach Management"
+      ]
+    },
+    {
+      "reg_clause_id": "R35",
+      "contract_clause_id": "main_6.3",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Liability For Processing Damage"
+      ]
+    },
+    {
+      "reg_clause_id": "R35",
+      "contract_clause_id": "main_7.2_main_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Liability For Processing Damage"
+      ]
+    },
+    {
+      "reg_clause_id": "R35",
+      "contract_clause_id": "main_7.3",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Liability For Processing Damage"
+      ]
+    },
+    {
+      "reg_clause_id": "R35",
+      "contract_clause_id": "main_8.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Liability For Processing Damage"
+      ]
+    },
+    {
+      "reg_clause_id": "R35",
+      "contract_clause_id": "main_8.2",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Liability For Processing Damage"
+      ]
+    },
+    {
+      "reg_clause_id": "R35",
+      "contract_clause_id": "main_8.2_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Liability For Processing Damage"
+      ]
+    },
+    {
+      "reg_clause_id": "R35",
+      "contract_clause_id": "main_8.3_main",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Liability For Processing Damage"
+      ]
+    },
+    {
+      "reg_clause_id": "R35",
+      "contract_clause_id": "main_8.3_i",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Liability For Processing Damage"
+      ]
+    },
+    {
+      "reg_clause_id": "R35",
+      "contract_clause_id": "main_8.3_ii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Liability For Processing Damage"
+      ]
+    },
+    {
+      "reg_clause_id": "R36",
+      "contract_clause_id": "main_6.1_main",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Controller Oversight And Remedial Rights",
+        "Sub-Processor Authorization And Oversight"
+      ]
+    },
+    {
+      "reg_clause_id": "R36",
+      "contract_clause_id": "main_6.1_main_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Controller Oversight And Remedial Rights",
+        "Sub-Processor Authorization And Oversight"
+      ]
+    },
+    {
+      "reg_clause_id": "R36",
+      "contract_clause_id": "main_6.1_main_ob_b",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Controller Oversight And Remedial Rights",
+        "Sub-Processor Authorization And Oversight"
+      ]
+    },
+    {
+      "reg_clause_id": "R36",
+      "contract_clause_id": "main_6.1_7",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Controller Oversight And Remedial Rights",
+        "Sub-Processor Authorization And Oversight"
+      ]
+    },
+    {
+      "reg_clause_id": "R36",
+      "contract_clause_id": "main_6.2",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Sub-Processor Authorization And Oversight"
+      ]
+    },
+    {
+      "reg_clause_id": "R36",
+      "contract_clause_id": "main_6.2_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Sub-Processor Authorization And Oversight"
+      ]
+    },
+    {
+      "reg_clause_id": "R36",
+      "contract_clause_id": "main_6.2_ob_b",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Sub-Processor Authorization And Oversight"
+      ]
+    },
+    {
+      "reg_clause_id": "R36",
+      "contract_clause_id": "main_6.2_ob_c",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Sub-Processor Authorization And Oversight"
+      ]
+    },
+    {
+      "reg_clause_id": "R36",
+      "contract_clause_id": "main_6.3",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Sub-Processor Authorization And Oversight"
+      ]
+    },
+    {
+      "reg_clause_id": "R36",
+      "contract_clause_id": "main_6.4",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Sub-Processor Authorization And Oversight"
+      ]
+    },
+    {
+      "reg_clause_id": "R36",
+      "contract_clause_id": "main_6.4_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Sub-Processor Authorization And Oversight"
+      ]
+    },
+    {
+      "reg_clause_id": "R36",
+      "contract_clause_id": "main_7.2_ii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Controller Oversight And Remedial Rights"
+      ]
+    },
+    {
+      "reg_clause_id": "R36",
+      "contract_clause_id": "sub_b_1.1_main",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Sub-Processor Authorization And Oversight"
+      ]
+    },
+    {
+      "reg_clause_id": "R36",
+      "contract_clause_id": "sub_b_1.1_i",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Sub-Processor Authorization And Oversight"
+      ]
+    },
+    {
+      "reg_clause_id": "R36",
+      "contract_clause_id": "sub_b_1.1_ii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Sub-Processor Authorization And Oversight"
+      ]
+    },
+    {
+      "reg_clause_id": "R36",
+      "contract_clause_id": "sub_b_1.1_iii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Sub-Processor Authorization And Oversight"
+      ]
+    },
+    {
+      "reg_clause_id": "R36",
+      "contract_clause_id": "sub_b_2.1_main",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Sub-Processor Authorization And Oversight"
+      ]
+    },
+    {
+      "reg_clause_id": "R36",
+      "contract_clause_id": "sub_b_2.1_i",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Sub-Processor Authorization And Oversight"
+      ]
+    },
+    {
+      "reg_clause_id": "R37",
+      "contract_clause_id": "main_6.1_main",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Controller Oversight And Remedial Rights"
+      ]
+    },
+    {
+      "reg_clause_id": "R37",
+      "contract_clause_id": "main_6.1_main_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Controller Oversight And Remedial Rights"
+      ]
+    },
+    {
+      "reg_clause_id": "R37",
+      "contract_clause_id": "main_6.1_main_ob_b",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Controller Oversight And Remedial Rights"
+      ]
+    },
+    {
+      "reg_clause_id": "R37",
+      "contract_clause_id": "main_6.1_7",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Controller Oversight And Remedial Rights"
+      ]
+    },
+    {
+      "reg_clause_id": "R37",
+      "contract_clause_id": "main_7.2_ii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Controller Oversight And Remedial Rights"
+      ]
+    },
+    {
+      "reg_clause_id": "R38",
+      "contract_clause_id": "main_6.1_main",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Controller Oversight And Remedial Rights"
+      ]
+    },
+    {
+      "reg_clause_id": "R38",
+      "contract_clause_id": "main_6.1_main_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Controller Oversight And Remedial Rights"
+      ]
+    },
+    {
+      "reg_clause_id": "R38",
+      "contract_clause_id": "main_6.1_main_ob_b",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Controller Oversight And Remedial Rights"
+      ]
+    },
+    {
+      "reg_clause_id": "R38",
+      "contract_clause_id": "main_6.1_7",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Controller Oversight And Remedial Rights"
+      ]
+    },
+    {
+      "reg_clause_id": "R38",
+      "contract_clause_id": "main_7.2_ii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Controller Oversight And Remedial Rights"
+      ]
+    },
+    {
+      "reg_clause_id": "R46",
+      "contract_clause_id": "main_6.3",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Liability For Processing Damage"
+      ]
+    },
+    {
+      "reg_clause_id": "R46",
+      "contract_clause_id": "main_7.2_main_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Liability For Processing Damage"
+      ]
+    },
+    {
+      "reg_clause_id": "R46",
+      "contract_clause_id": "main_7.3",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Liability For Processing Damage"
+      ]
+    },
+    {
+      "reg_clause_id": "R46",
+      "contract_clause_id": "main_8.1",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Liability For Processing Damage"
+      ]
+    },
+    {
+      "reg_clause_id": "R46",
+      "contract_clause_id": "main_8.2",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Liability For Processing Damage"
+      ]
+    },
+    {
+      "reg_clause_id": "R46",
+      "contract_clause_id": "main_8.2_ob_a",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Liability For Processing Damage"
+      ]
+    },
+    {
+      "reg_clause_id": "R46",
+      "contract_clause_id": "main_8.3_main",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Liability For Processing Damage"
+      ]
+    },
+    {
+      "reg_clause_id": "R46",
+      "contract_clause_id": "main_8.3_i",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Liability For Processing Damage"
+      ]
+    },
+    {
+      "reg_clause_id": "R46",
+      "contract_clause_id": "main_8.3_ii",
+      "reg_belongs_to": null,
+      "shared_groups": [
+        "Liability For Processing Damage"
+      ]
+    }
+  ]
+}

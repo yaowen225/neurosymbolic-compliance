@@ -1,0 +1,29 @@
+﻿rule_id,best_cosine,note,gt_sentence
+R3,0.5865,ok,the data processor agreement shall remain in force until the main agreement is terminated.
+R5,0.5651,ok,ordinary contact information on relevant employees from the data controller.
+R5,0.5085,ok,"users of the main services: names, telephone numbers, e-mails and user type."
+R5,0.4937,ok,personal data provided by the users in connection with their use of the main services (these personal data are not seen or accessed by the data processor unless the data processor after the request hereof from the data controller assists with support and bug fixing).
+R6,0.6161,ok,the data processor processes personal data about the following categories of data subjects on behalf of the data controller:
+R6,0.6287,ok,customers
+R6,0.6131,ok,end-users
+R8,0.6571,ok,"a description of the nature of the personal data breach, including, if possible, the categories and the approximate number of affected data subjects and the categories and the approximate number of affected registrations of personal data."
+R8,0.6931,ok,a description of the likely as well as actually occurred consequences of the personal data breach.
+R8,0.7241,ok,"a description of the measures that the data processor has taken or proposes to take to address the personal data breach, including, where appropriate, measures taken to mitigate its adverse effects."
+R8,0.5937,ok,the register of personal data breaches shall be provided to the data controller in copy if so requested in writing by the data controller or the relevant data protection agency.
+R12,0.7183,ok,"the data processor may only act and process the personal data in accordance with the documented instruction from the data controller (the ""instruction"")."
+R12,0.6425,ok,"the personal data may not be copied, transferred or otherwise processed in conflict with the instruction, unless the data controller in writing has agreed hereto."
+R15,0.6227,ok,the data processor shall treat all the personal data as strictly confidential information.
+R15,0.7055,ok,the data processor's employees shall be subject to an obligation of confidentiality that ensures that the employees shall treat all the personal data under this data processor agreement with strict confidentiality.
+R16,0.7131,ok,"the data processor shall implement the appropriate technical and organizational measures as set out in this agreement and in the applicable law, including in accordance with gdpr, article 32."
+R17,0.6970,ok,"if the data controller receives a request from a data subject for the exercise of the data subject's rights under the applicable law and the correct and legitimate reply to such a request necessitates the data processor's assistance, the data processor shall assist the data controller by providing the necessary information and documentation."
+R22,0.7844,ok,"if the data processor's assistance is necessary and relevant, the data processor shall assist the data controller in preparing data protection impact assessments in accordance with gdpr, article 35, along with any prior consultation in accordance with gdpr, article 36."
+R23,0.7064,ok,"at the termination of this data processor agreement, the data processor and its sub- processors shall return the personal data processed under this data processor agreement to the data controller, provided that the data controller is not already in possession of the personal data."
+R23,0.7064,ok,the data processor is hereafter obliged to delete all the personal data and provide documentation for such deletion to the data controller.
+R24,0.6719,ok,the data processor shall give notice without undue delay if the data processor considers the at the time being instruction to be in conflict with the applicable law.
+R25,0.5180,ok,the data processor complies with its obligations under this data processor agreement and the instruction; and
+R25,0.5506,ok,the data processor complies with the applicable law in respect of the processing of the data controller's personal data.
+R27,0.6418,ok,"such an agreement shall at minimum provide the same data protection obligations as the ones applicable to the data processor, including the obligations under this data processor agreement."
+R28,0.6547,ok,the data processor is accountable to the data controller for any sub-processor in the same way as for its own actions and omissions.
+R30,0.7939,ok,the data processor does not transfer the personal data to third countries or international organizations.
+R33,0.7379,ok,the data processor shall also ensure that the data processor's employees working processing the personal data only processes the personal data in accordance with the instruction.
+R34,0.6501,ok,"the data processor shall give immediate notice to the data controller if a breach of the data security occurs, that can lead to the accidental or unlawful destruction, loss, alteration, unauthorized disclosure of or access to, personal data transmitted, stored or otherwise processed re the personal data processed on behalf of the data controller (a ""personal data breach"")."

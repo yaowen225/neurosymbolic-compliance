@@ -1,0 +1,33 @@
+# release/ 專用 .gitignore(整包複製出去時自帶,不依賴外層)
+
+# ---- 機密 / 本機設定(保留 example,忽略實際檔)----
+.env
+config.yaml
+
+# ---- 封存 / 舊 runtime 產物(不進版控)----
+#   canonical 結果在 results/,「不」忽略 —— 它是論文/GitHub 的唯一案例,需入版控。
+#   故這裡刻意不放任何會匹配到 results/ 底下的 **/compliance_results/、**/norms/ 等 pattern。
+_archive/
+output/
+results_gemma/
+
+# ---- 雜項 scratch ----
+*.log
+PROGRESS.log
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# ---- 虛擬環境 ----
+.venv/
+venv/
+env/
+ENV/
+
+# ---- 編輯器 / OS ----
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

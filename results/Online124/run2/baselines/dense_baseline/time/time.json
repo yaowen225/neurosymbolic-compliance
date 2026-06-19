@@ -1,0 +1,13 @@
+{
+  "steps": [
+    {
+      "label": "bl_dense_pred",
+      "seconds": 3.876
+    },
+    {
+      "label": "bl_dense_eval",
+      "seconds": 0.096
+    }
+  ],
+  "total_s": 3.972
+}

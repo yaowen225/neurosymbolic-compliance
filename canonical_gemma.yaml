@@ -1,0 +1,27 @@
+# canonical_gemma.yaml — 實驗室 gemma 版設定(ollama 本地生成)。
+# 用法(從 /release 根目錄):
+#   python run_canonical.py --config canonical_gemma.yaml
+#   # KG db 名稱每台電腦不同 -> 用設定檔改 kg_dbs,或用 CLI 覆寫(優先):
+#   python run_canonical.py --config canonical_gemma.yaml --kg-dbs db1,db2,db3,db4,db5,db6
+#
+# 注意:
+# - embedding 仍走 OpenAI text-embedding-3-large(需 .env 的 OPENAI_API_KEY);只有「生成 LLM」換成 gemma。
+#   若實驗室要完全離線,需另接 local embedding(本腳本未含)。
+# - gemma 模型名稱請依 ollama 實際 tag 改(例:gemma2:27b / gemma3:27b)。
+
+gen_backend: ollama
+gen_model: gemma3:27b                      # ← 改成你 ollama 上的實際 tag
+embedding_model: text-embedding-3-large
+temperature: 0
+threshold: "0.40"
+stage_c_workers: 4                         # local 模型並行度視機器調整(ollama 併發較吃資源)
+
+contracts: [Online124, Online39]
+n_runs: 3
+
+# ← 不同電腦的 Neo4j database 名稱不同,務必改成你機器上的(空 db,會 --clear);
+#    需要 contracts×n_runs = 6 個唯一名稱。也可用 --kg-dbs 在命令列覆寫。
+kg_dbs: [kgrun1, kgrun2, kgrun3, kgrun4, kgrun5, kgrun6]
+
+results_dir: results_gemma                 # 與 mini 結果分開,避免覆蓋
+config_yaml: config.yaml

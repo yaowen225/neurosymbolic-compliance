@@ -1,0 +1,17 @@
+{
+  "dense_embed": {
+    "chat": {
+      "uncached_input": 0,
+      "cached_input": 0,
+      "output": 0,
+      "n_calls": 0
+    },
+    "embedding": {
+      "input": 7261,
+      "n_calls": 3
+    },
+    "elapsed_s": 0.0,
+    "model": null,
+    "backend": null
+  }
+}

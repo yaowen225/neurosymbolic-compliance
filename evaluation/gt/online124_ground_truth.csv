@@ -1,0 +1,69 @@
+﻿rule_id,corresponding_sentences,matching_degrees
+R1,,
+R2,,
+R3,The Data processor Agreement shall remain in force until the Main Agreement is terminated.,Full
+R4,,
+R5,"Ordinary contact information on relevant employees from the Data Controller.
+
+Users of the Main Services: names, telephone numbers, e-mails and user type.
+
+Personal data provided by the users in connection with their use of the Main Services (these personal data are not seen or accessed by the Data Processor unless the Data Processor after the request hereof from the Data Controller assists with support and bug fixing).","Full,Full,Full"
+R6,"The Data Processor processes Personal Data about the following categories of data subjects on behalf of the Data Controller:
+
+Customers
+
+End-users","Full,Full,Full"
+R7,,
+R8,"A description of the nature of the Personal Data Breach, including, if possible, the categories and the approximate number of affected Data Subjects and the categories and the approximate number of affected registrations of personal data.
+
+A description of the likely as well as actually occurred consequences of the Personal Data Breach.
+
+A description of the measures that the Data Processor has taken or proposes to take to address the Personal Data Breach, including, where appropriate, measures taken to mitigate its adverse effects.
+
+The register of Personal Data Breaches shall be provided to the Data Controller in copy if so requested in writing by the Data Controller or the relevant Data Protection Agency.","Full,Full,Full,Full"
+R9,,
+R10,,
+R11,The parties shall update sub-appendix A whenever changes occur that necessitates an update.,Partial
+R12,"The Data Processor may only act and process the Personal Data in accordance with the documented instruction from the Data Controller (the ”Instruction”).
+
+The Personal Data may not be copied, transferred or otherwise processed in conflict with the Instruction, unless the Data Controller in writing has agreed hereto.","Full,Full"
+R13,,
+R14,,
+R15,"The Data Processor shall treat all the Personal Data as strictly confidential information.
+
+The Data Processor’s employees shall be subject to an obligation of confidentiality that ensures that the employees shall treat all the Personal Data under this Data Processor Agreement with strict confidentiality.","Full,Full"
+R16,"5.2.1 The Data Processor shall implement the appropriate technical and organizational measures as set out in this Agreement and in the Applicable Law, including in accordance with GDPR, article 32.",Full
+R17,"If the Data Controller receives a request from a data subject for the exercise of the data subject’s rights under the Applicable Law and the correct and legitimate reply to such a request necessitates the Data Processor’s assistance, the Data Processor shall assist the Data Controller by providing the necessary information and documentation.",Full
+R18,,
+R19,,
+R20,,
+R21,,
+R22,"5.5.1 If the Data Processor’s assistance is necessary and relevant, the Data Processor shall assist the Data Controller in preparing data protection impact assessments in accordance with GDPR, article 35, along with any prior consultation in accordance with GDPR, article 36.",Full
+R23,"At the termination of this Data Processor Agreement, the Data Processor and its Sub- Processors shall return the Personal Data processed under this Data Processor Agreement to the Data Controller, provided that the Data Controller is not already in possession of the Personal Data.
+
+The Data Processor is hereafter obliged to delete all the Personal Data and provide documentation for such deletion to the Data Controller.","Full,Full"
+R24,The Data Processor shall give notice without undue delay if the Data Processor considers the at the time being Instruction to be in conflict with the Applicable Law.,Full
+R25,"the Data Processor complies with its obligations under this Data Processor Agreement and the Instruction; and
+
+the Data Processor complies with the Applicable Law in respect of the processing of the Data Controller’s Personal Data.","Full,Full"
+R26,,
+R27,"Such an agreement shall at minimum provide the same data protection obligations as the ones applicable to the Data Processor, including the obligations under this Data Processor Agreement.",Full
+R28,The Data Processor is accountable to the Data Controller for any Sub-Processor in the same way as for its own actions and omissions.,Full
+R29,,
+R30,The Data Processor does not transfer the Personal Data to third countries or international organizations.,Full
+R31,,
+R32,,
+R33,The Data Processor shall also ensure that the Data Processor’s employees working processing the Personal Data only processes the Personal Data in accordance with the Instruction.,Full
+R34,"The Data Processor shall give immediate notice to the Data Controller if a breach of the data security occurs, that can lead to the accidental or unlawful destruction, loss, alteration, unauthorized disclosure of or access to, personal data transmitted, stored or otherwise processed re the Personal Data processed on behalf of the Data Controller (a “Personal Data Breach”).",Full
+R35,,
+R36,,
+R37,,
+R38,,
+R39,,
+R40,,
+R41,,
+R42,,
+R43,,
+R44,,
+R45,,
+R46,,

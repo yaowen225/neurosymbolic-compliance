@@ -1,0 +1,288 @@
+{
+  "mode": "OFF",
+  "n_rules_recalled": 25,
+  "n_rules_emitted": 25,
+  "summary": {
+    "R30": {
+      "status": "recalled",
+      "n_compliant_pairs": 1,
+      "satisfied_norms": [
+        "R30"
+      ],
+      "contract_matches": [
+        "main_5.9.1"
+      ]
+    },
+    "R22": {
+      "status": "recalled",
+      "n_compliant_pairs": 1,
+      "satisfied_norms": [
+        "R22"
+      ],
+      "contract_matches": [
+        "main_5.5.1"
+      ]
+    },
+    "R33": {
+      "status": "recalled",
+      "n_compliant_pairs": 4,
+      "satisfied_norms": [
+        "R33"
+      ],
+      "contract_matches": [
+        "main_4.1",
+        "main_5.1.1",
+        "main_5.4"
+      ]
+    },
+    "R8": {
+      "status": "recalled",
+      "n_compliant_pairs": 6,
+      "satisfied_norms": [
+        "R8_a",
+        "R8_c",
+        "R8_d"
+      ],
+      "contract_matches": [
+        "main_5.7",
+        "main_5.7.1",
+        "main_5.7.2_i",
+        "main_5.7.2_ii",
+        "main_5.7.2_iii",
+        "main_5.7.2_main"
+      ]
+    },
+    "R12": {
+      "status": "recalled",
+      "n_compliant_pairs": 9,
+      "satisfied_norms": [
+        "R12"
+      ],
+      "contract_matches": [
+        "main_10.2",
+        "main_3.1",
+        "main_4.1",
+        "main_5.1.1",
+        "main_5.4"
+      ]
+    },
+    "R23": {
+      "status": "recalled",
+      "n_compliant_pairs": 3,
+      "satisfied_norms": [
+        "R23"
+      ],
+      "contract_matches": [
+        "main_10.3"
+      ]
+    },
+    "R11": {
+      "status": "recalled",
+      "n_compliant_pairs": 1,
+      "satisfied_norms": [
+        "R11"
+      ],
+      "contract_matches": [
+        "main_6.1_main"
+      ]
+    },
+    "R16": {
+      "status": "recalled",
+      "n_compliant_pairs": 1,
+      "satisfied_norms": [
+        "R16"
+      ],
+      "contract_matches": [
+        "main_5.2.1"
+      ]
+    },
+    "R32": {
+      "status": "recalled",
+      "n_compliant_pairs": 1,
+      "satisfied_norms": [
+        "R32"
+      ],
+      "contract_matches": [
+        "main_5.2.1"
+      ]
+    },
+    "R15": {
+      "status": "recalled",
+      "n_compliant_pairs": 1,
+      "satisfied_norms": [
+        "R15"
+      ],
+      "contract_matches": [
+        "main_5.1.2"
+      ]
+    },
+    "R19": {
+      "status": "recalled",
+      "n_compliant_pairs": 1,
+      "satisfied_norms": [
+        "R19"
+      ],
+      "contract_matches": [
+        "main_5.5.1"
+      ]
+    },
+    "R28": {
+      "status": "recalled",
+      "n_compliant_pairs": 1,
+      "satisfied_norms": [
+        "R28"
+      ],
+      "contract_matches": [
+        "main_6.3"
+      ]
+    },
+    "R34": {
+      "status": "recalled",
+      "n_compliant_pairs": 1,
+      "satisfied_norms": [
+        "R34"
+      ],
+      "contract_matches": [
+        "main_5.7.1"
+      ]
+    },
+    "R17": {
+      "status": "recalled",
+      "n_compliant_pairs": 2,
+      "satisfied_norms": [
+        "R17"
+      ],
+      "contract_matches": [
+        "main_5.6.1",
+        "main_5.6.2"
+      ]
+    },
+    "R27": {
+      "status": "recalled",
+      "n_compliant_pairs": 1,
+      "satisfied_norms": [
+        "R27"
+      ],
+      "contract_matches": [
+        "main_6.2"
+      ]
+    },
+    "R6": {
+      "status": "recalled",
+      "n_compliant_pairs": 3,
+      "satisfied_norms": [
+        "R6"
+      ],
+      "contract_matches": [
+        "sub_a_2.1_i",
+        "sub_a_2.1_ii",
+        "sub_a_2.1_main"
+      ]
+    },
+    "R13": {
+      "status": "recalled",
+      "n_compliant_pairs": 1,
+      "satisfied_norms": [
+        "R13"
+      ],
+      "contract_matches": [
+        "main_10.2"
+      ]
+    },
+    "R24": {
+      "status": "recalled",
+      "n_compliant_pairs": 1,
+      "satisfied_norms": [
+        "R24"
+      ],
+      "contract_matches": [
+        "main_4.3"
+      ]
+    },
+    "R29": {
+      "status": "recalled",
+      "n_compliant_pairs": 1,
+      "satisfied_norms": [
+        "R29"
+      ],
+      "contract_matches": [
+        "main_5.2.1"
+      ]
+    },
+    "R25": {
+      "status": "recalled",
+      "n_compliant_pairs": 4,
+      "satisfied_norms": [
+        "R25"
+      ],
+      "contract_matches": [
+        "main_5.8.1_i",
+        "main_5.8.1_ii",
+        "main_5.8.1_main",
+        "main_6.2"
+      ]
+    },
+    "R7": {
+      "status": "recalled",
+      "n_compliant_pairs": 4,
+      "satisfied_norms": [
+        "R7",
+        "R7_a",
+        "R7_b"
+      ],
+      "contract_matches": [
+        "main_5.2",
+        "main_5.2.1"
+      ]
+    },
+    "R5": {
+      "status": "recalled",
+      "n_compliant_pairs": 5,
+      "satisfied_norms": [
+        "R5"
+      ],
+      "contract_matches": [
+        "main_3.1",
+        "sub_a_1.1_i",
+        "sub_a_1.1_ii",
+        "sub_a_1.1_iii",
+        "sub_a_1.1_main"
+      ]
+    },
+    "R10": {
+      "status": "recalled",
+      "n_compliant_pairs": 7,
+      "satisfied_norms": [
+        "R10"
+      ],
+      "contract_matches": [
+        "main_6.1_7",
+        "main_6.1_main",
+        "main_6.3",
+        "main_6.4",
+        "sub_b_1.1_iii",
+        "sub_b_2.1_main"
+      ]
+    },
+    "R31": {
+      "status": "recalled",
+      "n_compliant_pairs": 1,
+      "satisfied_norms": [
+        "R31"
+      ],
+      "contract_matches": [
+        "main_5.8.1_main"
+      ]
+    },
+    "R36": {
+      "status": "recalled",
+      "n_compliant_pairs": 1,
+      "satisfied_norms": [
+        "R36"
+      ],
+      "contract_matches": [
+        "main_6.1_main"
+      ]
+    }
+  }
+}

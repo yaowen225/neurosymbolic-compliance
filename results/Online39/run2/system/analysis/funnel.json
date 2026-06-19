@@ -1,0 +1,22 @@
+{
+  "6a_group_filter": {
+    "n_pairs": 1758,
+    "n_reg_norms": 58,
+    "n_contract_norms": 192
+  },
+  "6b_semantic": {
+    "threshold": 0.4,
+    "n_input": 1758,
+    "n_survivors": 934,
+    "filtered_out": 824
+  },
+  "6c_reasoning": {
+    "n_judged": 934,
+    "verdict_counts": {
+      "Compliant": 116,
+      "Gap": 808,
+      "Violation": 10
+    }
+  },
+  "aggregated_predictions": 70
+}
