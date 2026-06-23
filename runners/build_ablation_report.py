@@ -110,42 +110,46 @@ def main():
         r = tp / (tp + fn) if (tp + fn) else 0.0
         f1 = 2 * p * r / (p + r) if (p + r) else 0.0
         return p, r, f1
-    comb = {v[0]: {k: [] for k in ["macroP", "macroR", "macroF1", "microP", "microR", "microF1", "TP", "FP", "FN"]} for v in VARIANTS}
+    comb = {v[0]: {k: [] for k in ["macroP", "macroR", "macroF1", "microP", "microR", "microF1",
+                                   "TPm", "FPm", "FNm", "TPs", "FPs", "FNs"]} for v in VARIANTS}
     for name, _ in VARIANTS:
         for r in RUNS:
             es = [evd[name][c].get(r) for c in CONTRACTS]
             if any(e is None for e in es):
                 continue
+            n = len(es)
             tp = sum(e["TP"] for e in es); fp = sum(e["FP"] for e in es); fn = sum(e["FN"] for e in es)
             mp, mr, mf = prf(tp, fp, fn)
             comb[name]["microP"].append(mp); comb[name]["microR"].append(mr); comb[name]["microF1"].append(mf)
             comb[name]["macroP"].append(statistics.mean([e["P"] for e in es]))
             comb[name]["macroR"].append(statistics.mean([e["R"] for e in es]))
             comb[name]["macroF1"].append(statistics.mean([e["F1"] for e in es]))
-            comb[name]["TP"].append(tp); comb[name]["FP"].append(fp); comb[name]["FN"].append(fn)
+            comb[name]["TPs"].append(tp); comb[name]["FPs"].append(fp); comb[name]["FNs"].append(fn)
+            comb[name]["TPm"].append(tp / n); comb[name]["FPm"].append(fp / n); comb[name]["FNm"].append(fn / n)
 
     w("## 兩份合算(Online124 + Online39;n=3)")
     w("")
-    w("每個 run i 把兩份同 index 配一組(共 3 組)。**micro** = 兩份 TP/FP/FN 合計後算 P=TP/(TP+FP)、"
-      "R=TP/(TP+FN)、F1;**macro** = 兩份各自 P/R/F1 再平均。TP/FP/FN 為兩份合計。每格 **mean** ±std [min–max]。")
+    w("每個 run i 把兩份同 index 配一組(共 3 組)。**Macro 表**=每欄皆「每份平均」(P/R/F1 各自算再平均;"
+      "TP/FP/FN 取兩份平均)。**Micro 表**=每欄皆「兩份併池」(TP/FP/FN 合計後算 P=TP/(TP+FP)、R=TP/(TP+FN)、F1)。"
+      "故 Macro 的 TP/FP/FN 約為 Micro 的一半。每格 **mean** ±std [min–max]。")
     w("")
-    w("### Macro 平均(兩份各自算 P/R/F1 再平均)")
+    w("### Macro 平均(每欄皆「每份平均」)")
     w("")
     w("| 變體 | macro P | macro R | macro F1 | TP | FP | FN |")
     w("|---|---|---|---|---|---|---|")
     for name, _ in VARIANTS:
         d = comb[name]
         w(f"| {name} | {cell(agg(d['macroP']))} | {cell(agg(d['macroR']))} | {cell(agg(d['macroF1']))} | "
-          f"{cell(agg(d['TP']),1)} | {cell(agg(d['FP']),1)} | {cell(agg(d['FN']),1)} |")
+          f"{cell(agg(d['TPm']),1)} | {cell(agg(d['FPm']),1)} | {cell(agg(d['FNm']),1)} |")
     w("")
-    w("### Micro 合計(兩份 TP/FP/FN 合計後再算 P/R/F1)")
+    w("### Micro 合計(每欄皆「兩份併池」)")
     w("")
     w("| 變體 | micro P | micro R | micro F1 | TP | FP | FN |")
     w("|---|---|---|---|---|---|---|")
     for name, _ in VARIANTS:
         d = comb[name]
         w(f"| {name} | {cell(agg(d['microP']))} | {cell(agg(d['microR']))} | {cell(agg(d['microF1']))} | "
-          f"{cell(agg(d['TP']),1)} | {cell(agg(d['FP']),1)} | {cell(agg(d['FN']),1)} |")
+          f"{cell(agg(d['TPs']),1)} | {cell(agg(d['FPs']),1)} | {cell(agg(d['FNs']),1)} |")
     w("")
 
     w("## 來源")

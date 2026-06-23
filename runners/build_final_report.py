@@ -168,48 +168,58 @@ def main():
     w("")
 
     # ============ §1 結論總表(兩份合算)============
-    # 每個 run i:把兩份同 index 配一組。micro=TP/FP/FN 合計後算 P/R/F1;macro=兩份 P/R/F1 平均;$/time 合計。
+    # 每個 run i:把兩份同 index 配一組。
+    # Macro 表 = 每欄都「每份平均」(rate 各自算再平均;count/$/time 兩份平均)。
+    # Micro 表 = 每欄都「兩份併池」(count/$/time 合計;P/R/F1 由合計 TP/FP/FN 算)。
     comb = {m: {"macroP": [], "macroR": [], "macroF1": [], "microP": [], "microR": [], "microF1": [],
-                "TP": [], "FP": [], "FN": [], "usd": [], "time": []} for m in METHODS}
+                "TPm": [], "FPm": [], "FNm": [], "usdm": [], "timem": [],
+                "TPs": [], "FPs": [], "FNs": [], "usds": [], "times": []} for m in METHODS}
     for m in METHODS:
         for r in runs:
             recs = [data[c][m][r] for c in contracts]
             if any(x.get("TP") is None for x in recs):
                 continue
+            nrec = len(recs)
             tp = sum(x["TP"] for x in recs); fpp = sum(x["FP"] for x in recs); fn = sum(x["FN"] for x in recs)
             mp, mr, mf = prf(tp, fpp, fn)
             comb[m]["microP"].append(mp); comb[m]["microR"].append(mr); comb[m]["microF1"].append(mf)
             comb[m]["macroP"].append(statistics.mean([x["P"] for x in recs]))
             comb[m]["macroR"].append(statistics.mean([x["R"] for x in recs]))
             comb[m]["macroF1"].append(statistics.mean([x["F1"] for x in recs]))
-            comb[m]["TP"].append(tp); comb[m]["FP"].append(fpp); comb[m]["FN"].append(fn)
+            # Micro = 合計;Macro = 每份平均
+            comb[m]["TPs"].append(tp); comb[m]["FPs"].append(fpp); comb[m]["FNs"].append(fn)
+            comb[m]["TPm"].append(tp / nrec); comb[m]["FPm"].append(fpp / nrec); comb[m]["FNm"].append(fn / nrec)
             us = [x["usd"] for x in recs]; tm = [x["time"] for x in recs]
-            comb[m]["usd"].append(sum(us) if all(u is not None for u in us) else None)
-            comb[m]["time"].append(sum(tm) if all(t is not None for t in tm) else None)
+            usd_s = sum(us) if all(u is not None for u in us) else None
+            time_s = sum(tm) if all(t is not None for t in tm) else None
+            comb[m]["usds"].append(usd_s); comb[m]["times"].append(time_s)
+            comb[m]["usdm"].append(usd_s / nrec if usd_s is not None else None)
+            comb[m]["timem"].append(time_s / nrec if time_s is not None else None)
 
     w(f"## §1 結論總表(兩份合算,Online124 + Online39;n={n_runs})")
     w("")
-    w("### §1a Macro 平均(兩份各自算 P/R/F1 再平均)")
+    w("### §1a Macro 平均(每欄皆「每份平均」:兩份各自值再平均)")
     w("")
     w("| 方法 | macro P | macro R | macro F1 | TP | FP | FN | 成本($) | 時間(s) |")
     w("|---|---|---|---|---|---|---|---|---|")
     for m in METHODS:
         d = comb[m]
         w(f"| {m} | {cell(agg(d['macroP']))} | {cell(agg(d['macroR']))} | {cell(agg(d['macroF1']))} | "
-          f"{cell(agg(d['TP']))} | {cell(agg(d['FP']))} | {cell(agg(d['FN']))} | "
-          f"{cell(agg(d['usd']))} | {cell(agg(d['time']))} |")
+          f"{cell(agg(d['TPm']))} | {cell(agg(d['FPm']))} | {cell(agg(d['FNm']))} | "
+          f"{cell(agg(d['usdm']))} | {cell(agg(d['timem']))} |")
     w("")
-    w("### §1b Micro 合計(兩份 TP/FP/FN 合計後再算 P/R/F1)")
+    w("### §1b Micro 合計(每欄皆「兩份併池」:合計後再算 P/R/F1)")
     w("")
     w("| 方法 | micro P | micro R | micro F1 | TP | FP | FN | 成本($) | 時間(s) |")
     w("|---|---|---|---|---|---|---|---|---|")
     for m in METHODS:
         d = comb[m]
         w(f"| {m} | {cell(agg(d['microP']))} | {cell(agg(d['microR']))} | {cell(agg(d['microF1']))} | "
-          f"{cell(agg(d['TP']))} | {cell(agg(d['FP']))} | {cell(agg(d['FN']))} | "
-          f"{cell(agg(d['usd']))} | {cell(agg(d['time']))} |")
+          f"{cell(agg(d['TPs']))} | {cell(agg(d['FPs']))} | {cell(agg(d['FNs']))} | "
+          f"{cell(agg(d['usds']))} | {cell(agg(d['times']))} |")
     w("")
-    w("> TP/FP/FN、成本、時間為兩份合計(micro 口徑);macro/micro 僅差在 P/R/F1 的彙整方式。")
+    w("> Macro 表所有欄(含 TP/FP/FN、成本、時間)皆為**每份平均**;Micro 表所有欄皆為**兩份合計**。"
+      "故同一方法的 Macro 計數/成本/時間約為 Micro 的一半,P/R/F1 則因口徑不同略有差異。")
     w("")
 
     # ============ §2 兩份分開的效能表 ============
@@ -314,9 +324,9 @@ def main():
     w(f"- **效能(§2/§5)**:系統 `{a.results}/<contract>/run{{1..{n_runs}}}/system/eval/evaluation_results_system.csv`;"
       f"baseline `.../baselines/<method>_baseline/eval/evaluation_results.csv`。")
     w("- **macro / micro / combined(§1)**:對每個 run i,把 Online124-run_i 與 Online39-run_i 配成一組(共 "
-      f"{n_runs} 組)。**micro** = 兩份 TP/FP/FN 合計後算 P=TP/(TP+FP)、R=TP/(TP+FN)、F1;**macro** = 兩份各自 "
-      "P/R/F1 再取平均。表中 TP/FP/FN/成本/時間皆為兩份合計。最後對 "
-      f"{n_runs} 組取 mean±std[min–max]。")
+      f"{n_runs} 組)。**micro 表**=兩份併池:TP/FP/FN/成本/時間皆兩份合計,P=TP/(TP+FP)、R=TP/(TP+FN)、F1 由"
+      "合計計數算。**macro 表**=每份平均:P/R/F1 兩份各自算再平均,TP/FP/FN/成本/時間亦取兩份平均(故約為 micro 的一半)。"
+      f"最後對 {n_runs} 組取 mean±std[min–max]。")
     w(f"- **Funnel(§3/§4/§6)**:`{a.results}/<contract>/run{{1..{n_runs}}}/system/analysis/funnel.json`。"
       "6a 輸入 = n_reg_norms × n_contract_norms,通過 = 交集非空配對數;6b 輸入 = 6a 通過,通過 = cosine≥thr "
       "survivors;6c 輸入 = 6b 通過,通過 = Compliant,篩除 = Violation+Gap。§3 為兩份逐 run 合計後取 mean[min–max]。")
